@@ -903,6 +903,17 @@
         .vc_parallax.secondary-skin-bg.transparent:before {
             background-color: rgb(12 45 46 / 70%) !important;
         }
+
+        .dt-sc-procedure-item .details {
+            display: flex !important;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 23rem;
+        }
+
+        .dt-sc-procedure-item .details p {
+            margin: 0 auto auto auto !important;
+        }
     </style>
     <link rel='stylesheet' id='wc-block-vendors-style-css'
         href='https://dtpsychiatrist.wpengine.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=3.8.1'
@@ -1610,11 +1621,8 @@
                         <div class="main-title-section">
                             <h1>Panchakarma Therapies</h1>
                         </div>
-                        <div class="breadcrumb"><a href="index.html">Home</a><span class="fa default"></span><a
-                                href="treatment.html" rel="tag">Treatment</a>
-                            <!-- <span class="fa default"></span><a
-                        href="https://dtpsychiatrist.wpengine.com/dt_portfolios/duis-fermentum-felis/">Duis fermentum
-                        felis</a> -->
+                        <div class="breadcrumb"><a href="index.html">Home</a><span class="fa default"></span>
+                            <span class="current" style="cursor: default;">Treatment</span>
                         </div>
                     </div>
                 </section>
@@ -1628,23 +1636,19 @@
                                     <!-- Slider -->
                                     <ul class="dt-portfolio-single-slider">
                                         <li>
-                                            <img width="1170" height="902" src="img/panchakarma/rakthamoksham.jpg"
+                                            <img width="100%" height="auto" src="img/panchakarma/rakthamoksham.jpg"
                                                 class="attachment-full size-full wp-post-image" alt="" />
                                         </li>
                                         <li>
-                                            <img width="400" height="281" src="img/panchakarma/virechana-therapy.png"
+                                            <img width="100%" height="auto" src="img/panchakarma/virechana-therapy.png"
                                                 class="attachment-full size-full" alt="" loading="lazy" />
                                         </li>
                                         <li>
-                                            <img width="1170" height="902" src="img/panchakarma/vasti_therapy.jpg"
+                                            <img width="100%" height="auto" src="img/panchakarma/vasti_therapy.jpg"
                                                 class="attachment-full size-full" alt="" loading="lazy" />
                                         </li>
                                         <li>
-                                            <img width="1170" height="902" src="img/panchakarma/panchakarma-nasya.jpg"
-                                                class="attachment-full size-full" alt="" loading="lazy" />
-                                        </li>
-                                        <li>
-                                            <img width="1170" height="902" src="img/panchakarma/panchakarma-vamana.jpg"
+                                            <img width="100%" height="auto" src="img/panchakarma/panchakarma-nasya.jpg"
                                                 class="attachment-full size-full" alt="" loading="lazy" />
                                         </li>
                                     </ul>
@@ -1652,30 +1656,21 @@
                                     <!-- Pager -->
                                     <div id="bx-pager">
                                         <a data-slide-index="0" href="">
-                                            <img width="150" height="150" src="img/gallery/gallery-1.png"
+                                            <img width="150" height="150" src="img/panchakarma/rakthamoksham.jpg"
                                                 class="attachment-thumbnail size-thumbnail wp-post-image" alt=""
-                                                loading="lazy"
-                                                srcset="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio8-150x150.jpg 150w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio8-180x180.jpg 180w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio8-300x300.jpg 300w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio8-600x600.jpg 600w"
-                                                sizes="(max-width: 150px) 100vw, 150px" />
+                                                loading="lazy" />
                                         </a>
                                         <a data-slide-index='1' href=''>
-                                            <img width="150" height="150"
-                                                src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/service7-150x150.jpg"
+                                            <img width="150" height="150" src="img/panchakarma/virechana-therapy.png"
                                                 class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />
                                         </a>
                                         <a data-slide-index='2' href=''>
-                                            <img width="150" height="150"
-                                                src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio7-150x150.jpg"
-                                                class="attachment-thumbnail size-thumbnail" alt="" loading="lazy"
-                                                srcset="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio7-150x150.jpg 150w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio7-180x180.jpg 180w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio7-300x300.jpg 300w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio7-600x600.jpg 600w"
-                                                sizes="(max-width: 150px) 100vw, 150px" />
+                                            <img width="150" height="150" src="img/panchakarma/vasti_therapy.jpg"
+                                                class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />
                                         </a>
                                         <a data-slide-index='3' href=''>
-                                            <img width="150" height="150"
-                                                src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio9-150x150.jpg"
-                                                class="attachment-thumbnail size-thumbnail" alt="" loading="lazy"
-                                                srcset="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio9-150x150.jpg 150w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio9-180x180.jpg 180w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio9-300x300.jpg 300w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2014/01/psychiatristportfolio9-600x600.jpg 600w"
-                                                sizes="(max-width: 150px) 100vw, 150px" />
+                                            <img width="150" height="150" src="img/panchakarma/panchakarma-nasya.jpg"
+                                                class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />
                                         </a>
                                     </div>
                                     <!-- Pager Ends -->
@@ -1719,18 +1714,6 @@
                         <!-- **Post Nav - End** -->
                         <div class="dt-sc-hr-invisible"></div>
                         <div class="dt-sc-clear"></div>
-                        <!-- <div class="vc_row wpb_row vc_row-fluid">
-                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div class="ult-spacer spacer-63770170e2817" data-id="63770170e2817"
-                                            data-height="60" data-height-mobile="60" data-height-tab="60"
-                                            data-height-tab-portrait="" data-height-mobile-landscape=""
-                                            style="clear:both;display:block;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="container">
                             <div class="vc_row wpb_row vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -1778,17 +1761,16 @@
                                                                 <div class="vc_column-inner ">
                                                                     <div class="wpb_wrapper">
                                                                         <div class="dt-sc-procedure-item">
-                                                                            <div class="image"><img width="445"
-                                                                                    height="445"
-                                                                                    src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure4.jpg"
+                                                                            <div class="image">
+                                                                                <img width="445" height="445"
+                                                                                    src="img/panchakarma/pizhichil.jpg"
                                                                                     class="attachment-full size-full wp-post-image"
                                                                                     alt="Procedure &#8211; 1"
-                                                                                    title="Procedure &#8211; 1"
-                                                                                    srcset="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure4.jpg 445w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure4-150x150.jpg 150w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure4-300x300.jpg 300w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure4-180x180.jpg 180w"
-                                                                                    sizes="(max-width: 445px) 100vw, 445px" />
+                                                                                    title="Procedure &#8211; 1" />
                                                                             </div>
                                                                             <div class="details">
-                                                                                <h3><a href="https://dtpsychiatrist.wpengine.com/dt_procedure/procedure-1/"
+                                                                                <h3>
+                                                                                    <a href="#!"
                                                                                         title="Procedure &#8211; 1">PIZHICHIL</a>
                                                                                 </h3>
                                                                                 <p>
@@ -1802,7 +1784,8 @@
                                                                                 </p>
                                                                                 <a class="view" href="#!"
                                                                                     title="Procedure &#8211; 1">
-                                                                                    View Procedure</a>
+                                                                                    View Procedure
+                                                                                </a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -1814,12 +1797,11 @@
                                                                         <div class="dt-sc-procedure-item">
                                                                             <div class="image">
                                                                                 <img width="445" height="445"
-                                                                                    src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure2.jpg"
+                                                                                    src="img/panchakarma/njavarakizhi-img.jpg"
                                                                                     class="attachment-full size-full wp-post-image"
                                                                                     alt="Procedure &#8211; 2"
                                                                                     loading="lazy"
                                                                                     title="Procedure &#8211; 2"
-                                                                                    srcset="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure2.jpg 445w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure2-150x150.jpg 150w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure2-300x300.jpg 300w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure2-180x180.jpg 180w"
                                                                                     sizes="(max-width: 445px) 100vw, 445px" />
                                                                             </div>
                                                                             <div class="details">
@@ -1851,13 +1833,11 @@
                                                                         <div class="dt-sc-procedure-item">
                                                                             <div class="image"><img width="445"
                                                                                     height="445"
-                                                                                    src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure1.jpg"
+                                                                                    src="img/panchakarma/ela-kizhi.jpg"
                                                                                     class="attachment-full size-full wp-post-image"
                                                                                     alt="Procedure &#8211; 3"
                                                                                     loading="lazy"
-                                                                                    title="Procedure &#8211; 3"
-                                                                                    srcset="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure1.jpg 445w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure1-150x150.jpg 150w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure1-300x300.jpg 300w, https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure1-180x180.jpg 180w"
-                                                                                    sizes="(max-width: 445px) 100vw, 445px" />
+                                                                                    title="Procedure &#8211; 3" />
                                                                             </div>
                                                                             <div class="details">
                                                                                 <h3><a href="#!"
@@ -1908,20 +1888,14 @@
                             style="display: flex; justify-content: flex-start; gap: 1rem;"
                             class="vc_row wpb_row vc_row-fluid vcr_float_right wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
                             <div class="no-margin wpb_column vc_column_container vc_col-sm-5">
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_right  vc_custom_1496217694135">
-                                            <figure class="wpb_wrapper vc_figure">
-                                                <div class="vc_single_image-wrapper vc_box_border_grey">
-                                                    <img width="80%" height="auto"
-                                                        src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatristprocedure1.jpg"
-                                                        class="vc_single_image-img attachment-full" alt="img"
-                                                        loading="lazy" />
-                                                </div>
-                                            </figure>
+                                <div
+                                    class="wpb_single_image wpb_content_element vc_align_right  vc_custom_1496217694135">
+                                    <figure class="wpb_wrapper vc_figure">
+                                        <div class="vc_single_image-wrapper vc_box_border_grey">
+                                            <img width="80%" height="auto" src="img/panchakarma/thakradhara.jpg"
+                                                class="vc_single_image-img attachment-full" alt="img" loading="lazy" />
                                         </div>
-                                    </div>
+                                    </figure>
                                 </div>
                             </div>
                             <div class="no-margin wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
@@ -1983,20 +1957,14 @@
                                 </div>
                             </div>
                             <div class="no-margin wpb_column vc_column_container vc_col-sm-5">
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1496217843448">
-                                            <figure class="wpb_wrapper vc_figure">
-                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                    <img width="80%" height="auto"
-                                                        src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatrsitservices3.jpg"
-                                                        class="vc_single_image-img attachment-full" alt=""
-                                                        loading="lazy" />
-                                                </div>
-                                            </figure>
+                                <div
+                                    class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1496217843448">
+                                    <figure class="wpb_wrapper vc_figure">
+                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                            <img width="80%" height="auto" src="img/panchakarma/dhanyamla-min.jpg"
+                                                class="vc_single_image-img attachment-full" alt="" loading="lazy" />
                                         </div>
-                                    </div>
+                                    </figure>
                                 </div>
                             </div>
                         </div>
@@ -2005,20 +1973,14 @@
                             style="display: flex; justify-content: flex-start; gap: 1rem;"
                             class="vc_row wpb_row vc_row-fluid vcr_float_right wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
                             <div class="no-margin wpb_column vc_column_container vc_col-sm-5">
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div
-                                            class="wpb_single_image wpb_content_element vc_align_right  vc_custom_1496217889407">
-                                            <figure class="wpb_wrapper vc_figure">
-                                                <div class="vc_single_image-wrapper   vc_box_border_grey">
-                                                    <img width="80%" height="auto"
-                                                        src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/psychiatrsitservices2.jpg"
-                                                        class="vc_single_image-img attachment-full" alt=""
-                                                        loading="lazy" />
-                                                </div>
-                                            </figure>
+                                <div
+                                    class="wpb_single_image wpb_content_element vc_align_right  vc_custom_1496217889407">
+                                    <figure class="wpb_wrapper vc_figure">
+                                        <div class="vc_single_image-wrapper   vc_box_border_grey">
+                                            <img width="80%" height="auto" src="img/panchakarma/nasyam-min.jpg"
+                                                class="vc_single_image-img attachment-full" alt="" loading="lazy" />
                                         </div>
-                                    </div>
+                                    </figure>
                                 </div>
                             </div>
                             <div class="no-margin wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
@@ -2385,106 +2347,91 @@
     <!-- **Footer** -->
     <footer id="footer">
         <div class="footer-widgets ">
-            <div class="container">
-                <div class='column dt-sc-one-fourth first'>
-                    <aside id="text-3" class="widget widget_text">
-                        <div class="textwidget">
-                            <div class="vc_empty_space" style="height: 8px"><span class="vc_empty_space_inner"></span>
-                            </div>
-                            <img src="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/footer-logo.png"
-                                alt="" title="">
-                            <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span>
-                            </div>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id est sed
-                                lacus
-                                volutpat lobortis. Lorem ipsum dolor sit amet. </p>
-                            <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span>
-                            </div>
-                            <h6> <strong> Phone - </strong> +91 9736 780 5805 </h6>
-                            <h6> <strong> Mail ID - </strong> test@psychomail.com </h6>
-                        </div>
-                    </aside>
-                </div>
-                <div class='column dt-sc-one-fourth '>
-                    <aside id="text-4" class="widget widget_text">
-                        <h3 class="widgettitle">Our Services</h3>
-                        <div class="textwidget">
-                            <ul>
-                                <li><a href="#">Depression Treatment</a></li>
-                                <li><a href="#">Relationship Problems</a></li>
-                                <li><a href="#">Sexual Counselling </a></li>
-                                <li><a href="#">Personal Development</a></li>
-                                <li><a href="#">Couples Counselling</a></li>
-                                <li><a href="#">Anxiety Counselling</a></li>
-                            </ul>
-                        </div>
-                    </aside>
-                </div>
-                <div class='column dt-sc-one-fourth '>
-                    <aside id="text-5" class="widget widget_text">
-                        <h3 class="widgettitle">Our Time Schedule</h3>
-                        <div class="textwidget">
-                            <p><strong>Monday - Friday </strong></p>
-                            <p class="secondary-skin-color">8am to 6pm</p>
-                            <div class="ult-spacer spacer-6376fdc1d6418" data-id="6376fdc1d6418" data-height="10"
-                                data-height-mobile="10" data-height-tab="10" data-height-tab-portrait=""
-                                data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-                            <p><strong>Saturday - Sunday</strong></p>
-                            <p class="secondary-skin-color">9am to 4pm</p>
-                        </div>
-                    </aside>
-                </div>
-                <div class='column dt-sc-one-fourth '>
-                    <aside id="text-6" class="widget widget_text">
-                        <h3 class="widgettitle">Newsletter</h3>
-                        <div class="textwidget">
-                            <div class='dt-sc-newsletter-section type6 '>
-                                <form class="dt-sc-subscribe-frm" name="frmsubscribe" action="#" method="post">
-                                    <input type='email' name='dt_mc_emailid' required='required'
-                                        placeholder='Your Email ID'><input type='hidden' name='dt_mc_apikey'
-                                        value='' /><input type='hidden' name='dt_mc_listid' value='' /><input
-                                        type='submit' name='mc_submit' value='Subscribe Now'>
-                                </form>
-                                <div class="dt_ajax_subscribe_msg"></div>
-                            </div>
-                        </div>
-                    </aside>
-                    <aside id="text-7" class="widget widget_text">
-                        <h3 class="widgettitle">Follow Us</h3>
-                        <div class="textwidget">
-                            <ul class="dt-sc-sociable alignleft">
-                                <li> <a class="fa fa-facebook" title="Facebook" href="#"> </a> </li>
-                                <li> <a class="fa fa-twitter" title="Twitter" href="#"> </a> </li>
-                                <li> <a class="fa fa-google-plus" title="Google-plus" href="#"> </a> </li>
-                                <li> <a class="fa fa-rss" title="Rss" href="#"> </a> </li>
-                                <li> <a class="fa fa-instagram" title="Instagram" href="#"> </a> </li>
-                                <li> <a class="fa fa-linkedin" title="LinkedIn" href="#"> </a> </li>
-                            </ul>
-                        </div>
-                    </aside>
-                </div>
-            </div>
+           <div class="container">
+              <div class='column dt-sc-one-fourth first'>
+                 <aside id="text-3" class="widget widget_text">
+                    <div class="textwidget">
+                       <div class="vc_empty_space" style="height: 8px"><span class="vc_empty_space_inner"></span>
+                       </div>
+                       <img src="img/Dr.smrithiayurakshaclinic.png" width="25%" alt="" title="">
+                       <br />
+                       <!-- <p>  </p> -->
+                       <!-- <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span>
+                       </div> -->
+                       <h6> <strong> Phone - </strong> +91 956 7760 405 </h6>
+                       <h6> <strong> Mail ID - </strong> test@gmail.com </h6>
+                    </div>
+                 </aside>
+              </div>
+              <div class='column dt-sc-one-fourth '>
+                 <aside id="text-4" class="widget widget_text">
+                    <h3 class="widgettitle">Treatments</h3>
+                    <div class="textwidget">
+                       <ul>
+                          <li>
+                             <a href="treatment.html">WOUND HEALING THERAPY</a>
+                             <!-- <ul class="footer-li_sub-ul">
+                                <li>DIABETIC WOUND</li>
+                                <li>BEDSORE</li>
+                                <li>FISSURE IN ANO</li>
+                                <li>GENRAL WOUND</li>
+                             </ul> -->
+                          </li>
+                          <li><a href="panchakarma.html">PANCHAKARMA</a></li>
+                          <li><a href="treatment.html">VANITHA CLINIC </a></li>
+                       </ul>
+                    </div>
+                 </aside>
+              </div>
+              <div class='column dt-sc-one-fourth '>
+                 <aside id="text-5" class="widget widget_text">
+                    <h3 class="widgettitle">Our Time Schedule</h3>
+                    <div class="textwidget">
+                       <p><strong>Monday - Friday </strong></p>
+                       <p class="secondary-skin-color">8am to 6pm</p>
+                       <div class="ult-spacer spacer-636b5c98f2054" data-id="636b5c98f2054" data-height="10"
+                          data-height-mobile="10" data-height-tab="10" data-height-tab-portrait=""
+                          data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                       <p><strong>Saturday - Sunday</strong></p>
+                       <p class="secondary-skin-color">9am to 4pm</p>
+                    </div>
+                 </aside>
+              </div>
+              <div class='column dt-sc-one-fourth '>
+                 <aside id="text-7" class="widget widget_text">
+                    <h3 class="widgettitle">Follow Us</h3>
+                    <div class="textwidget">
+                       <ul class="dt-sc-sociable alignleft">
+                          <li> <a class="fa fa-facebook" title="Facebook" href="#"> </a> </li>
+                          <li> <a class="fa fa-twitter" title="Twitter" href="#"> </a> </li>
+                          <li> <a class="fa fa-instagram" title="Instagram" href="#"> </a> </li>
+                          <li> <a class="fa fa-linkedin" title="LinkedIn" href="#"> </a> </li>
+                       </ul>
+                    </div>
+                 </aside>
+              </div>
+           </div>
         </div>
         <div class="footer-copyright dt-sc-dark-bg">
-            <div class="container">
-                <div class="column dt-sc-one-half first ">&copy; 2017 Psychiatrist. All rights reserved. Design
-                    by <a title="" href="http://themeforest.net/user/designthemes">DesignThemes</a> </div>
-                <div class="column dt-sc-one-half footer-menu">
-                    <ul id="menu-footer-menu" class="menu-links">
-                        <li id="menu-item-380"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380"><a
-                                href="http://google.com">Privacy Policy</a></li>
-                        <li id="menu-item-381"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a
-                                href="http://google.com">Terms of Use</a></li>
-                        <li id="menu-item-382"
-                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382"><a
-                                href="http://google.com">Site Map</a></li>
-                    </ul>
-                </div>
-            </div>
+           <div class="container">
+              <div class="column dt-sc-one-half first ">&copy; 2022 Sanesquare Private Ltd. All rights reserved.
+              </div>
+              <div class="column dt-sc-one-half footer-menu">
+                 <ul id="menu-footer-menu" class="menu-links">
+                    <li id="menu-item-380"
+                       class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380"><a
+                          href="http://google.com/">Privacy Policy</a></li>
+                    <li id="menu-item-381"
+                       class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a
+                          href="http://google.com/">Terms of Use</a></li>
+                    <li id="menu-item-382"
+                       class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382"><a
+                          href="http://google.com/">Site Map</a></li>
+                 </ul>
+              </div>
+           </div>
         </div>
-    </footer>
+     </footer>
     <!-- **Footer - End** -->
     </div>
     <!-- **Inner Wrapper - End** -->

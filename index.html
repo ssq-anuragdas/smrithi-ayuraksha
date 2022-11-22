@@ -54,500 +54,46 @@
          font-size: 14px !important;
       }
    </style>
-   <link rel='stylesheet' id='wp-block-library-css' href='css/style.min.css?ver=6.0.3' type='text/css' media='all' />
-   <style id='wp-block-library-theme-inline-css' type='text/css'>
-      .wp-block-audio figcaption {
-         color: #555;
-         font-size: 13px;
-         text-align: center
-      }
 
-      .is-dark-theme .wp-block-audio figcaption {
-         color: hsla(0, 0%, 100%, .65)
-      }
-
-      .wp-block-code {
-         border: 1px solid #ccc;
-         border-radius: 4px;
-         font-family: Menlo, Consolas, monaco, monospace;
-         padding: .8em 1em
-      }
-
-      .wp-block-embed figcaption {
-         color: #555;
-         font-size: 13px;
-         text-align: center
-      }
-
-      .is-dark-theme .wp-block-embed figcaption {
-         color: hsla(0, 0%, 100%, .65)
-      }
-
-      .blocks-gallery-caption {
-         color: #555;
-         font-size: 13px;
-         text-align: center
-      }
-
-      .is-dark-theme .blocks-gallery-caption {
-         color: hsla(0, 0%, 100%, .65)
-      }
-
-      .wp-block-image figcaption {
-         color: #555;
-         font-size: 13px;
-         text-align: center
-      }
-
-      .is-dark-theme .wp-block-image figcaption {
-         color: hsla(0, 0%, 100%, .65)
-      }
-
-      .wp-block-pullquote {
-         border-top: 4px solid;
-         border-bottom: 4px solid;
-         margin-bottom: 1.75em;
-         color: currentColor
-      }
-
-      .wp-block-pullquote__citation,
-      .wp-block-pullquote cite,
-      .wp-block-pullquote footer {
-         color: currentColor;
-         text-transform: uppercase;
-         font-size: .8125em;
-         font-style: normal
-      }
-
-      .wp-block-quote {
-         border-left: .25em solid;
-         margin: 0 0 1.75em;
-         padding-left: 1em
-      }
-
-      .wp-block-quote cite,
-      .wp-block-quote footer {
-         color: currentColor;
-         font-size: .8125em;
-         position: relative;
-         font-style: normal
-      }
-
-      .wp-block-quote.has-text-align-right {
-         border-left: none;
-         border-right: .25em solid;
-         padding-left: 0;
-         padding-right: 1em
-      }
-
-      .wp-block-quote.has-text-align-center {
-         border: none;
-         padding-left: 0
-      }
-
-      .wp-block-quote.is-large,
-      .wp-block-quote.is-style-large,
-      .wp-block-quote.is-style-plain {
-         border: none
-      }
-
-      .wp-block-search .wp-block-search__label {
-         font-weight: 700
-      }
-
-      :where(.wp-block-group.has-background) {
-         padding: 1.25em 2.375em
-      }
-
-      .wp-block-separator.has-css-opacity {
-         opacity: .4
-      }
-
-      .wp-block-separator {
-         border: none;
-         border-bottom: 2px solid;
-         margin-left: auto;
-         margin-right: auto
-      }
-
-      .wp-block-separator.has-alpha-channel-opacity {
-         opacity: 1
-      }
-
-      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
-         width: 100px
-      }
-
-      .wp-block-separator.has-background:not(.is-style-dots) {
-         border-bottom: none;
-         height: 1px
-      }
-
-      .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
-         height: 2px
-      }
-
-      .wp-block-table thead {
-         border-bottom: 3px solid
-      }
-
-      .wp-block-table tfoot {
-         border-top: 3px solid
-      }
-
-      .wp-block-table td,
-      .wp-block-table th {
-         padding: .5em;
-         border: 1px solid;
-         word-break: normal
-      }
-
-      .wp-block-table figcaption {
-         color: #555;
-         font-size: 13px;
-         text-align: center
-      }
-
-      .is-dark-theme .wp-block-table figcaption {
-         color: hsla(0, 0%, 100%, .65)
-      }
-
-      .wp-block-video figcaption {
-         color: #555;
-         font-size: 13px;
-         text-align: center
-      }
-
-      .is-dark-theme .wp-block-video figcaption {
-         color: hsla(0, 0%, 100%, .65)
-      }
-
-      .wp-block-template-part.has-background {
-         padding: 1.25em 2.375em;
-         margin-top: 0;
-         margin-bottom: 0
-      }
-   </style>
-   <link rel='stylesheet' id='wc-block-vendors-style-css' href='css/vendors-style.css?ver=3.8.1' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='wc-block-style-css' href='css/style.css?ver=3.8.1' type='text/css' media='all' />
-   <link rel='stylesheet' id='jquery-selectBox-css' href='css/jquery.selectBox.css?ver=1.2.0' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='css/font-awesome.css?ver=4.7.0' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='yith-wcwl-main-css' href='css/style-2.css?ver=3.0.17' type='text/css' media='all' />
-   <style id='global-styles-inline-css' type='text/css'>
-      body {
-         --wp--preset--color--black: #000000;
-         --wp--preset--color--cyan-bluish-gray: #abb8c3;
-         --wp--preset--color--white: #ffffff;
-         --wp--preset--color--pale-pink: #f78da7;
-         --wp--preset--color--vivid-red: #cf2e2e;
-         --wp--preset--color--luminous-vivid-orange: #ff6900;
-         --wp--preset--color--luminous-vivid-amber: #fcb900;
-         --wp--preset--color--light-green-cyan: #7bdcb5;
-         --wp--preset--color--vivid-green-cyan: #00d084;
-         --wp--preset--color--pale-cyan-blue: #8ed1fc;
-         --wp--preset--color--vivid-cyan-blue: #0693e3;
-         --wp--preset--color--vivid-purple: #9b51e0;
-         --wp--preset--color--primary: #e3ca94;
-         --wp--preset--color--secondary: #0fb8cd;
-         --wp--preset--color--tertiary: #ccb88c;
-         --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
-         --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-         --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-         --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
-         --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-         --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-         --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-         --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-         --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-         --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
-         --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-         --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
-         --wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');
-         --wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');
-         --wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');
-         --wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');
-         --wp--preset--duotone--midnight: url('#wp-duotone-midnight');
-         --wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');
-         --wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');
-         --wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');
-         --wp--preset--font-size--small: 13px;
-         --wp--preset--font-size--medium: 20px;
-         --wp--preset--font-size--large: 36px;
-         --wp--preset--font-size--x-large: 42px;
-      }
-
-      .has-black-color {
-         color: var(--wp--preset--color--black) !important;
-      }
-
-      .has-cyan-bluish-gray-color {
-         color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
-
-      .has-white-color {
-         color: var(--wp--preset--color--white) !important;
-      }
-
-      .has-pale-pink-color {
-         color: var(--wp--preset--color--pale-pink) !important;
-      }
-
-      .has-vivid-red-color {
-         color: var(--wp--preset--color--vivid-red) !important;
-      }
-
-      .has-luminous-vivid-orange-color {
-         color: var(--wp--preset--color--luminous-vivid-orange) !important;
-      }
-
-      .has-luminous-vivid-amber-color {
-         color: var(--wp--preset--color--luminous-vivid-amber) !important;
-      }
-
-      .has-light-green-cyan-color {
-         color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-
-      .has-vivid-green-cyan-color {
-         color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-
-      .has-pale-cyan-blue-color {
-         color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-
-      .has-vivid-cyan-blue-color {
-         color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-
-      .has-vivid-purple-color {
-         color: var(--wp--preset--color--vivid-purple) !important;
-      }
-
-      .has-black-background-color {
-         background-color: var(--wp--preset--color--black) !important;
-      }
-
-      .has-cyan-bluish-gray-background-color {
-         background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
-
-      .has-white-background-color {
-         background-color: var(--wp--preset--color--white) !important;
-      }
-
-      .has-pale-pink-background-color {
-         background-color: var(--wp--preset--color--pale-pink) !important;
-      }
-
-      .has-vivid-red-background-color {
-         background-color: var(--wp--preset--color--vivid-red) !important;
-      }
-
-      .has-luminous-vivid-orange-background-color {
-         background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-      }
-
-      .has-luminous-vivid-amber-background-color {
-         background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-      }
-
-      .has-light-green-cyan-background-color {
-         background-color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-
-      .has-vivid-green-cyan-background-color {
-         background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-
-      .has-pale-cyan-blue-background-color {
-         background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-
-      .has-vivid-cyan-blue-background-color {
-         background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-
-      .has-vivid-purple-background-color {
-         background-color: var(--wp--preset--color--vivid-purple) !important;
-      }
-
-      .has-black-border-color {
-         border-color: var(--wp--preset--color--black) !important;
-      }
-
-      .has-cyan-bluish-gray-border-color {
-         border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
-
-      .has-white-border-color {
-         border-color: var(--wp--preset--color--white) !important;
-      }
-
-      .has-pale-pink-border-color {
-         border-color: var(--wp--preset--color--pale-pink) !important;
-      }
-
-      .has-vivid-red-border-color {
-         border-color: var(--wp--preset--color--vivid-red) !important;
-      }
-
-      .has-luminous-vivid-orange-border-color {
-         border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-      }
-
-      .has-luminous-vivid-amber-border-color {
-         border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-      }
-
-      .has-light-green-cyan-border-color {
-         border-color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-
-      .has-vivid-green-cyan-border-color {
-         border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-
-      .has-pale-cyan-blue-border-color {
-         border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-
-      .has-vivid-cyan-blue-border-color {
-         border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-
-      .has-vivid-purple-border-color {
-         border-color: var(--wp--preset--color--vivid-purple) !important;
-      }
-
-      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-         background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-      }
-
-      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-         background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-      }
-
-      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-         background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-      }
-
-      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-         background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-      }
-
-      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-         background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-      }
-
-      .has-cool-to-warm-spectrum-gradient-background {
-         background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-      }
-
-      .has-blush-light-purple-gradient-background {
-         background: var(--wp--preset--gradient--blush-light-purple) !important;
-      }
-
-      .has-blush-bordeaux-gradient-background {
-         background: var(--wp--preset--gradient--blush-bordeaux) !important;
-      }
-
-      .has-luminous-dusk-gradient-background {
-         background: var(--wp--preset--gradient--luminous-dusk) !important;
-      }
-
-      .has-pale-ocean-gradient-background {
-         background: var(--wp--preset--gradient--pale-ocean) !important;
-      }
-
-      .has-electric-grass-gradient-background {
-         background: var(--wp--preset--gradient--electric-grass) !important;
-      }
-
-      .has-midnight-gradient-background {
-         background: var(--wp--preset--gradient--midnight) !important;
-      }
-
-      .has-small-font-size {
-         font-size: var(--wp--preset--font-size--small) !important;
-      }
-
-      .has-medium-font-size {
-         font-size: var(--wp--preset--font-size--medium) !important;
-      }
-
-      .has-large-font-size {
-         font-size: var(--wp--preset--font-size--large) !important;
-      }
-
-      .has-x-large-font-size {
-         font-size: var(--wp--preset--font-size--x-large) !important;
-      }
-   </style>
-   <link rel='stylesheet' id='dt-animation-css-css' href='css/animations.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' id='dt-slick-css-css' href='css/slick.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' id='dt-sc-css-css' href='css/shortcodes.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' id='rs-plugin-settings-css' href='css/rs6.css?ver=6.3.3' type='text/css' media='all' />
-   <style id='woocommerce-inline-inline-css' type='text/css'>
-      .woocommerce form .form-row .required {
-         visibility: visible;
-      }
-   </style>
-   <link rel='stylesheet' id='wpsl-styles-css' href='css/store-lt-smrithi.css?ver=2.2.233' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='js_composer_front-css' href='css/js_composer.min.css?ver=6.5.0' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='bsf-Defaults-css' href='css/Defaults.css?ver=3.19.8' type='text/css' media='all' />
-   <link rel='stylesheet' id='ultimate-style-min-css' href='css/ultimate.min.css?ver=3.19.8' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='ult-icons-css' href='css/icons.css?ver=3.19.8' type='text/css' media='all' />
-   <link rel='stylesheet' id='psychiatrist-base-css' href='css/base.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' id='psychiatrist-grid-css' href='css/grid.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' id='psychiatrist-widget-css' href='css/widget.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/layout.css?ver=2.4' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/contact-new.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' id='psychiatrist-custom-class-css' href='css/custom-class.css?ver=2.2' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='prettyphoto-css' href='css/prettyPhoto.min.css?ver=6.5.0' type='text/css' media='all' />
-   <link rel='stylesheet' id='pe-icon-7-stroke-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/css/pe-icon-7-stroke.css?ver=6.0.3'
-      type='text/css' media='all' />
-   <link rel='stylesheet' id='stroke-gap-icons-style-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/css/stroke-gap-icons-style.css?ver=6.0.3'
-      type='text/css' media='all' />
-   <link rel='stylesheet' id='icon-moon-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/css/icon-moon.css?ver=6.0.3'
-      type='text/css' media='all' />
-   <link rel='stylesheet' id='material-design-iconic-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/css/material-design-iconic-font.min.css?ver=6.0.3'
-      type='text/css' media='all' />
-   <link rel='stylesheet' id='psychiatrist-loader-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/css/loaders.css?ver=2.2' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='psychiatrist-woo-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/css/woocommerce.css?ver=2.2'
-      type='text/css' media='all' />
-   <link rel='stylesheet' id='psychiatrist-skin-css' href='css/bg-banner-sec.css?ver=6.0.3' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='psychiatrist-customevent-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/tribe-events/custom.css?ver=2.2'
-      type='text/css' media='all' />
-   <link rel='stylesheet' id='psychiatrist-popup-css-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/magnific/magnific-popup.css?ver=2.2'
-      type='text/css' media='all' />
-   <link rel='stylesheet' id='psychiatrist-custom-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/css/custom.css?ver=2.2' type='text/css'
-      media='all' />
-   <link rel='stylesheet' id='accu-gutenberg-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/css/gutenberg.css?ver=2.2'
-      type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/vendors-style.css'                   type='text/css'  media='all' />
+   <link rel='stylesheet'   href='css/jquery.selectBox.css'                type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/font-awesome.css'                    type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/material-design-iconic-font.min.css' type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/bg-banner-sec.css?ver=6.0.3'         type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/magnific-popup.css?ver=2.2'          type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/custom-home.css?ver=2.2'             type='text/css'  media='all' />
+   <link rel='stylesheet'   href='css/gutenberg.css?ver=2.2'               type='text/css' media='all' />
+
+   <link rel='stylesheet'   href='css/style.min.css?ver=6.0.3'             type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/vendors-style.css?ver=3.8.1'         type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/style.css?ver=3.8.1'                 type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/jquery.selectBox.css?ver=1.2.0'      type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/font-awesome.css?ver=4.7.0'          type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/style-2.css?ver=3.0.17'              type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/animations.css?ver=6.0.3'            type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/slick.css?ver=6.0.3'                 type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/shortcodes.css?ver=6.0.3'            type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/rs6.css?ver=6.3.3'                   type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/store-lt-smrithi.css?ver=2.2'        type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/js_composer.min.css?ver=6.5.0'       type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/Defaults.css?ver=3.19.8'             type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/ultimate.min.css?ver=3.19.8'         type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/icons.css?ver=3.19.8'                type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/base.css?ver=2.2'                    type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/grid.css?ver=2.2'                    type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/widget.css?ver=2.2'                  type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/layout.css?ver=2.4'                  type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/custom-class.css?ver=2.2'            type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/prettyPhoto.min.css?ver=6.5.0'       type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/styles-wp.min.css?ver=2.2.233'       type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/prettyPhoto.css?ver=6.0.3'           type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/pe-icon-7-stroke.css?ver=6.0.3'      type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/stroke-gap-icons-style.css'          type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/loaders.css?ver=2.2'                 type='text/css' media='all' />
+   <link rel='stylesheet'   href='css/custom.css?ver=2.2'                  type='text/css' media='all' />
 
 
    <!-- script -->
-
    <script type='text/javascript' src='js/jquery/jquery.min.js?ver=3.6.0'     id='jquery-core-js'></script>
    <script type='text/javascript' src='js/jquery/jquery-migrate.min.js?ver=3' id='jquery-migrate-js'></script>
    <script type='text/javascript' src='js/jquery/core.min.js?ver=1.13.1'      id='jquery-ui-core-js'></script>
@@ -558,14 +104,7 @@
    <script type='text/javascript' src='js/ultimate.min.js?ver=3.19.8'         id='ultimate-script-js'></script>
    <script type='text/javascript' src='js/ultimate_bg.min.js?ver=3.19.8'      id='ultimate-row-bg-js'></script>
    <script type='text/javascript' src='js/modernizr.custom.js?ver=6.0.3'      id='modernizr-custom-js'></script>
-   
-   <noscript>
-      <style>
-         .woocommerce-product-gallery {
-            opacity: 1 !important;
-         }
-      </style>
-   </noscript>
+
    <link rel="icon" href="img/Dr.smrithiayurakshaclinic.png" sizes="32x32" />
    <link rel="icon" href="img/Dr.smrithiayurakshaclinic.png" sizes="192x192" />
    <link rel="apple-touch-icon" href="img/Dr.smrithiayurakshaclinic.png" />
@@ -619,13 +158,6 @@
       .vc_custom_1505131774670 {
          background-image: url(img/banner-2.png) !important;
          background-position: center;
-         background-repeat: no-repeat !important;
-         background-size: cover !important;
-      }
-
-      .vc_custom_1505133655450 {
-         background-image: url(https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/parallax-4.jpg?id=293) !important;
-         background-position: center !important;
          background-repeat: no-repeat !important;
          background-size: cover !important;
       }
@@ -773,14 +305,11 @@
    </noscript>
 </head>
 
-<body
-   class="home page-template-default page page-id-12 wp-embed-responsive theme-smrithi woocommerce-js fullwidth-header semi-transparent-header sticky-header header-on-slider woo-type6 page-with-slider no-breadcrumb wpb-js-composer js-comp-ver-6.5.0 vc_responsive  layout-boxed">
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+<body class="home page-template-default page page-id-12 wp-embed-responsive theme-smrithi fullwidth-header semi-transparent-header sticky-header header-on-slider woo-type6 page-with-slider no-breadcrumb wpb-js-composer js-comp-ver-6.5.0 vc_responsive  layout-boxed">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
       <defs>
          <filter id="wp-duotone-dark-grayscale">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
             <feComponentTransfer color-interpolation-filters="sRGB">
                <feFuncR type="table" tableValues="0 0.498039215686" />
                <feFuncG type="table" tableValues="0 0.498039215686" />
@@ -791,12 +320,10 @@
          </filter>
       </defs>
    </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
       <defs>
          <filter id="wp-duotone-grayscale">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"  values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
             <feComponentTransfer color-interpolation-filters="sRGB">
                <feFuncR type="table" tableValues="0 1" />
                <feFuncG type="table" tableValues="0 1" />
@@ -807,12 +334,10 @@
          </filter>
       </defs>
    </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
       <defs>
          <filter id="wp-duotone-purple-yellow">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
             <feComponentTransfer color-interpolation-filters="sRGB">
                <feFuncR type="table" tableValues="0.549019607843 0.988235294118" />
                <feFuncG type="table" tableValues="0 1" />
@@ -823,12 +348,10 @@
          </filter>
       </defs>
    </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
       <defs>
          <filter id="wp-duotone-blue-red">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
             <feComponentTransfer color-interpolation-filters="sRGB">
                <feFuncR type="table" tableValues="0 1" />
                <feFuncG type="table" tableValues="0 0.278431372549" />
@@ -839,12 +362,10 @@
          </filter>
       </defs>
    </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
       <defs>
          <filter id="wp-duotone-midnight">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
             <feComponentTransfer color-interpolation-filters="sRGB">
                <feFuncR type="table" tableValues="0 0" />
                <feFuncG type="table" tableValues="0 0.647058823529" />
@@ -855,12 +376,10 @@
          </filter>
       </defs>
    </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
       <defs>
          <filter id="wp-duotone-magenta-yellow">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
             <feComponentTransfer color-interpolation-filters="sRGB">
                <feFuncR type="table" tableValues="0.780392156863 1" />
                <feFuncG type="table" tableValues="0 0.949019607843" />
@@ -871,12 +390,10 @@
          </filter>
       </defs>
    </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"  style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
       <defs>
          <filter id="wp-duotone-purple-green">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
             <feComponentTransfer color-interpolation-filters="sRGB">
                <feFuncR type="table" tableValues="0.650980392157 0.403921568627" />
                <feFuncG type="table" tableValues="0 1" />
@@ -887,12 +404,10 @@
          </filter>
       </defs>
    </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
       <defs>
          <filter id="wp-duotone-blue-orange">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
+            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
             <feComponentTransfer color-interpolation-filters="sRGB">
                <feFuncR type="table" tableValues="0.0980392156863 1" />
                <feFuncG type="table" tableValues="0 0.662745098039" />
@@ -904,8 +419,13 @@
       </defs>
    </svg>
    <div class="loader">
-      <div class="loader-inner"><span class="dot"></span><span class="dot dot1"></span><span
-            class="dot dot2"></span><span class="dot dot3"></span><span class="dot dot4"></span></div>
+      <div class="loader-inner">
+         <span class="dot"></span>
+         <span class="dot dot1"></span>
+         <span class="dot dot2"></span>
+         <span class="dot dot3"></span>
+         <span class="dot dot4"></span>
+      </div>
    </div>
    <!-- **Wrapper** -->
    <div class="wrapper">
@@ -960,7 +480,7 @@
                                  <div class="overlay overlay-search">
                                     <div class="overlay-close"></div>
                                     <!-- **Searchform** -->
-                                    <form method="get" id="searchform" action="https://dtpsychiatrist.wpengine.com/">
+                                    <form method="get" id="searchform" action="">
                                        <input id="s" name="s" type="text" value="Enter Keyword" class="text_input"
                                           onblur="if(this.value==''){this.value='Enter Keyword';}"
                                           onfocus="if(this.value =='Enter Keyword') {this.value=''; }" />
@@ -983,14 +503,10 @@
                      <p class="rs-p-wp-fix"></p>
                      <rs-module-wrap id="rev_slider_3_1_wrapper" data-source="gallery"
                         style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;max-width:;">
-                        <rs-module id="rev_slider_3_1" style="" data-version="6.3.3">
+                        <rs-module id="rev_slider_3_1" data-version="6.3.3">
                            <rs-slides>
-                              <rs-slide data-key="rs-8" data-title="Slide"
-                                 data-thumb="//dtpsychiatrist.wpengine.com/wp-content/uploads/2017/06/slider2-100x50.jpg"
-                                 data-anim="ei:d;eo:d;s:600;t:fade;sl:d;">
-                                 <img src="img/slider-2.png" title="Home" class="rev-slidebg" data-no-retina>
-                                 <!--
-                                       -->
+                              <rs-slide data-key="rs-8" data-title="Slide" data-thumb="img/slider-2.png" data-anim="ei:d;eo:d;s:600;t:fade;sl:d;">
+                                 <img src="img/slider-2.png" title="Home" class="rev-slidebg" alt="" data-no-retina>
                                  <rs-layer id="slider-3-slide-8-layer-2" data-type="text" data-color="#2b2b2b"
                                     data-rsp_ch="on" data-xy="x:c;y:430px;" data-text="s:56;l:80;fw:700;a:inherit;"
                                     data-frame_0="x:175%;o:1;tp:600;" data-frame_0_mask="u:t;x:-100%;"
@@ -998,8 +514,7 @@
                                     data-frame_999="o:0;tp:600;st:w;sR:4000;" style="z-index:5;font-family:Open Sans;">
                                     With Ancient Proven Health Solutions
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-8-layer-3" data-type="text" data-color="#2b2b2b"
                                     data-rsp_ch="on" data-xy="x:c;y:397px;" data-text="s:24;l:35;fw:300;a:inherit;"
                                     data-frame_0="y:100%;tp:600;"
@@ -1007,8 +522,7 @@
                                     data-frame_999="o:0;tp:600;st:w;sR:6000;" style="z-index:6;font-family:Open Sans;">
                                     India's Best Ayurvedic Clinic for <strong>Wound Healing </strong>
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-8-layer-4" data-type="text" data-color="#2b2b2b"
                                     data-rsp_ch="on" data-xy="x:c;y:521px;" data-text="s:24;l:35;fw:300;a:inherit;"
                                     data-frame_0="y:100%;tp:600;"
@@ -1016,17 +530,15 @@
                                     data-frame_999="o:0;tp:600;st:w;sR:3500;" style="z-index:7;font-family:Open Sans;">
                                     Smrithi Ayuraksha - A Complete Ayurvedic Care
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-8-layer-9" data-type="image" data-rsp_ch="on"
                                     data-xy="x:c;y:276px;" data-text="l:22;a:inherit;" data-dim="w:100px;h:auto;"
                                     data-frame_0="y:-100%;o:1;tp:600;" data-frame_0_mask="u:t;"
                                     data-frame_1="tp:600;st:500;sp:1500;sR:500;" data-frame_1_mask="u:t;"
-                                    data-frame_999="o:0;tp:600;st:w;sR:7000;" style="z-index:8;"><img
-                                       src="img/Dr.smrithiayurakshaclinic.png" width="100" height="auto" data-no-retina>
+                                    data-frame_999="o:0;tp:600;st:w;sR:7000;" style="z-index:8;">
+                                    <img src="img/Dr.smrithiayurakshaclinic.png" width="100" height="auto" alt="" data-no-retina>
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <a href="about-us.html">
                                     <rs-layer id="slider-3-slide-8-layer-5" class="rev-btn rev-withicon"
                                        data-type="button" data-color="rgba(255,255,255,1)" data-rsp_ch="on"
@@ -1040,16 +552,14 @@
                                        Read More
                                     </rs-layer>
                                  </a>
-                                 <!--
-                                       -->
+
                               </rs-slide>
+
                               <rs-slide data-key="rs-7" data-title="Slide"
-                                 data-thumb="//dtpsychiatrist.wpengine.com/wp-content/uploads/2017/06/slider1-100x50.jpg"
+                                 data-thumb="img/slider-01.png"
                                  data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
-                                 <img src="img/slider-01.png" title="slider1" width="1920" height="894"
-                                    class="rev-slidebg" data-no-retina>
-                                 <!--
-                                       -->
+                                 <img src="img/slider-01.png" title="slider1" width="1920" height="894" class="rev-slidebg" alt="" data-no-retina>
+
                                  <rs-group id="slider-3-slide-7-layer-7" data-type="group"
                                     data-xy="x:c;xo:261px;y:571px;" data-text="l:22;a:inherit;"
                                     data-dim="w:578px;h:81px;" data-frame_1="st:4000;sR:4000;"
@@ -1081,16 +591,14 @@
                                        </rs-layer>
                                     </a>
                                  </rs-group>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-7-layer-1" data-type="text" data-color="rgb(158 198 69)"
                                     data-rsp_ch="on" data-xy="x:c;xo:262px;y:434px;"
                                     data-text="s:330;l:22;fw:700;a:inherit;" data-frame_0="y:100%;"
                                     data-frame_1="e:power4.inOut;st:500;sp:2000;sR:500;"
                                     data-frame_999="o:0;st:w;sR:6500;" style="z-index:5;font-family:Josefin Sans;">“
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-7-layer-2" data-type="text" data-color="#2b2b2b"
                                     data-rsp_ch="on" data-xy="x:c;xo:262px;y:379px;"
                                     data-text="s:56;l:80;fw:700;a:inherit;" data-frame_0="x:175%;o:1;"
@@ -1099,8 +607,7 @@
                                     data-frame_999="o:0;st:w;sR:6000;" style="z-index:6;font-family:Open Sans;">There is
                                     Always a Better Way
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-7-layer-3" data-type="text" data-color="#2b2b2b"
                                     data-rsp_ch="on" data-xy="x:c;xo:262px;y:481px;"
                                     data-text="s:24;l:35;fw:300;a:inherit;" data-frame_0="y:100%;"
@@ -1108,8 +615,7 @@
                                     data-frame_999="o:0;st:w;sR:5000;" style="z-index:7;font-family:Open Sans;">The
                                     <strong> wound healing therapy</strong> at Ayuraksha has
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-7-layer-4" data-type="text" data-color="#2b2b2b"
                                     data-rsp_ch="on" data-xy="x:c;xo:262px;y:516px;"
                                     data-text="s:24;l:35;fw:300;a:inherit;" data-frame_0="y:100%;"
@@ -1117,20 +623,19 @@
                                     data-frame_999="o:0;st:w;sR:4500;" style="z-index:8;font-family:Open Sans;">given
                                     <strong>new life</strong> to countless people over the years
                                  </rs-layer>
-                                 <!---->
+
                               </rs-slide>
+
                               <rs-slide data-key="rs-9" data-title="Slide"
-                                 data-thumb="//dtpsychiatrist.wpengine.com/wp-content/uploads/2017/06/slider3-100x50.jpg"
+                                 data-thumb="img/slider-4.png"
                                  data-anim="ei:d;eo:d;s:600;t:fade;sl:d;">
-                                 <img src="img/slider-4.png" title="Home" class="rev-slidebg" data-no-retina>
-                                 <!--
-                                       -->
+                                 <img src="img/slider-4.png" title="Home" class="rev-slidebg" alt="" data-no-retina>
+                 
                                  <rs-group id="slider-3-slide-9-layer-7" data-type="group" data-xy="x:c;y:600px;"
                                     data-text="l:22;a:inherit;" data-dim="w:437px;h:80px;" data-frame_0="tp:600;"
                                     data-frame_1="tp:600;st:5000;sR:5000;"
                                     data-frame_999="o:0;tp:600;st:w;sR:3700;sA:9000;" style="z-index:7;">
-                                    <!--
-                                          -->
+                                    
                                     <a href="treatments.html">
                                        <rs-layer id="slider-3-slide-9-layer-5" class="rev-btn rev-withicon"
                                           data-type="button" data-color="rgba(255,255,255,1)" data-rsp_ch="on"
@@ -1157,11 +662,8 @@
                                           Read More
                                        </rs-layer>
                                     </a>
-                                    <!--
-                                          -->
                                  </rs-group>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-9-layer-2" data-type="text" data-color="#ffffff"
                                     data-rsp_ch="on" data-xy="x:c;y:498px;" data-text="s:56;l:80;fw:700;a:inherit;"
                                     data-frame_0="x:175%;o:1;tp:600;" data-frame_0_mask="u:t;x:-100%;"
@@ -1170,8 +672,7 @@
                                     style="z-index:5;font-family:Open Sans;text-shadow:rgb(0 0 0 / 44%) 0px 0px 10px;">
                                     PANCHKARMA DETOXIFICATION
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-9-layer-3" data-type="text" data-color="rgb(233 255 233)"
                                     data-rsp_ch="on" data-xy="x:c;y:470px;" data-text="s:24;l:35;fw:300;a:inherit;"
                                     data-frame_0="y:100%;tp:600;"
@@ -1180,17 +681,14 @@
                                     style="z-index:6;font-family:Open Sans;text-shadow:rgb(0 0 0 / 44%) 0px 0px 10px">
                                     Practicing The Divine Science Of <strong> Healing To Perfection </strong>
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-9-layer-9" data-type="image" data-rsp_ch="on"
                                     data-xy="x:c;y:269px;" data-text="l:22;a:inherit;" data-dim="w:72px;h:auto;"
                                     data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:500;sp:1500;sR:500;"
                                     data-frame_999="o:0;tp:600;st:w;sR:7000;" style="z-index:10;filter: contrast(2);">
-                                    <img src="img/Dr.smrithiayurakshaclinic.png" width="72" height="auto"
-                                       data-no-retina>
+                                    <img src="img/Dr.smrithiayurakshaclinic.png" width="72" height="auto" alt="" data-no-retina>
                                  </rs-layer>
-                                 <!--
-                                       -->
+                           
                                  <rs-layer id="slider-3-slide-9-layer-10" data-type="text" data-color="rgb(255 243 199)"
                                     data-rsp_ch="on" data-xy="x:c;xo:-110px;y:406px;" data-text="l:22;a:inherit;"
                                     data-frame_0="x:175%;o:1;tp:600;" data-frame_0_mask="u:t;x:-100%;"
@@ -1198,8 +696,7 @@
                                     data-frame_999="o:0;tp:600;st:w;sR:7000;"
                                     style="z-index:11;font-family:Open Sans;text-transform:uppercase;">Over
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-9-layer-11" data-type="text" data-color="rgb(255 243 199)"
                                     data-rsp_ch="on" data-xy="x:c;y:371px;" data-text="s:56;l:60;fw:800;a:inherit;"
                                     data-frame_0="y:100%;tp:600;"
@@ -1207,8 +704,7 @@
                                     data-frame_999="o:0;tp:600;st:w;sR:6000;"
                                     style="z-index:12;font-family:Open Sans;text-transform:uppercase;">97%
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                                  <rs-layer id="slider-3-slide-9-layer-12" data-type="text" data-color="rgb(255 243 199)"
                                     data-rsp_ch="on" data-xy="x:c;xo:120px;y:406px;"
                                     data-text="s:12;l:22;fw:600;a:inherit;" data-frame_0="x:-175%;o:1;tp:600;"
@@ -1217,8 +713,7 @@
                                     data-frame_999="o:0;tp:600;st:w;sR:5500;"
                                     style="z-index:13;font-family:Open Sans;text-transform:uppercase;">Cases Solved
                                  </rs-layer>
-                                 <!--
-                                       -->
+
                               </rs-slide>
                            </rs-slides>
                         </rs-module>
@@ -1800,19 +1295,16 @@
                                     data-animate="fadeInUp" data-animation-delay="1.1" data-animation-duration="1"
                                     data-animation-iteration="1" style="opacity:0;" data-opacity_start_effect="">
                                     <div class='dt-sc-image-caption type4 '>
-                                       <div class='dt-sc-image-wrapper'><img width="1200" height="800"
-                                             src="img/to-cure/bedsore-wound.png"
-                                             srcset="img/to-cure/bedsore-wound.png 1200w, img/to-cure/bedsore-wound.png 300w, img/to-cure/bedsore-wound.png 768w, img/to-cure/bedsore-wound.png 1024w"
-                                             sizes="(max-width: 1200px) 100vw, 1200px" /></div>
+                                       <div class='dt-sc-image-wrapper'>
+                                       <img width="1200" height="800" src="img/to-cure/bedsore-wound.png" alt="" srcset="img/to-cure/bedsore-wound.png 1200w, img/to-cure/bedsore-wound.png 300w, img/to-cure/bedsore-wound.png 768w, img/to-cure/bedsore-wound.png 1024w"  sizes="(max-width: 1200px) 100vw, 1200px" /></div>
                                        <div class='dt-sc-image-content'>
                                           <div class='dt-sc-image-title'>
                                              <h3>BEDSORE</h3>
                                           </div>
-                                          <p>Pellentesque ac lectus nec leo euismod ultrices. Lorem ipsum dolor sit
-                                             amet, consectetur adipiscing elit amet risus.</p>
-                                          <p><a href='treatment.html' target='_self' title=''
-                                                class='dt-sc-button   medium icon-right with-icon    transparent'> Read
-                                                More <span class='zmdi zmdi-arrow-right zmdi-hc-fw'> </span></a></p>
+                                          <p>Pellentesque ac lectus nec leo euismod ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit amet risus.</p>
+                                          <p>
+                                             <a href='treatment.html' target='_self' title='' class='dt-sc-button   medium icon-right with-icon transparent'> Read More <span class='zmdi zmdi-arrow-right zmdi-hc-fw'> </span></a>
+                                          </p>
                                        </div>
                                     </div>
                                  </div>
@@ -1831,8 +1323,7 @@
                         </div>
                      </div>
                      <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-parallax="1.5"
-                        data-vc-parallax-image=""
-                        class="vc_row wpb_row vc_row-fluid secondary-skin-bg transparent aligncenter dt-sc-dark-bg wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_row-has-fill vc_row-o-content-middle vc_row-flex vc_general vc_parallax vc_parallax-content-moving px-0">
+                        data-vc-parallax-image="" class="vc_row wpb_row vc_row-fluid secondary-skin-bg transparent aligncenter dt-sc-dark-bg wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_row-has-fill vc_row-o-content-middle vc_row-flex vc_general vc_parallax vc_parallax-content-moving px-0">
                         <div class="wpb_column vc_column_container vc_col-sm-12">
                            <div class="vc_column-inner ">
                               <div class="wpb_wrapper">
@@ -1970,9 +1461,9 @@
                                              data-icon-show-size="" data-highlight-style="info-circle-highlight-style"
                                              data-focus-on="hover">
                                              <div class="icon-circle-list">
-                                                <div class="info-circle-icons "
-                                                   style="background:#43c9c6;color:#ffffff;"><i
-                                                      class=" info-circle-icon"></i></div>
+                                                <div class="info-circle-icons" style="background:#43c9c6;color:#ffffff;">
+                                                   <i class=" info-circle-icon"></i>
+                                                </div>
                                                 <div class="info-details" data-icon-class="ult-info-circle-icon">
                                                    <div class="info-circle-def">
                                                       <div class="info-circle-sub-def">
@@ -2439,160 +1930,78 @@
       <!-- **Inner Wrapper - End** -->
    </div>
    <!-- **Wrapper - End** -->
-   <script type="text/html" id="wpb-modifications"></script>
-   <!-- <link rel="stylesheet" property="stylesheet" id="rs-icon-set-fa-icon-css" href="https://dtpsychiatrist.wpengine.com/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all" /> -->
-   <link
-      href="https://fonts.googleapis.com/css?family=Josefin+Sans:700%7COpen+Sans:700%2C300%2C600%2C400%2C800%7CRoboto:400"
-      rel="stylesheet" property="stylesheet" media="all" type="text/css">
-   <script type="text/javascript">
-      (function () {
-         var c = document.body.className;
-         c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
-         document.body.className = c;
-      })()
-   </script>
-   <script type="text/javascript">
-      if (typeof revslider_showDoubleJqueryError === "undefined") {
-         function revslider_showDoubleJqueryError(sliderID) {
-            var err = "<div class='rs_error_message_box'>";
-            err += "<div class='rs_error_message_oops'>Oops...</div>";
-            err += "<div class='rs_error_message_content'>";
-            err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
-            err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
-            err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
-            err += "</div>";
-            err += "</div>";
-            var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700%7COpen+Sans:700%2C300%2C600%2C400%2C800%7CRoboto:400" rel="stylesheet" property="stylesheet" media="all" type="text/css">
+
+      <script type="text/javascript">
+         if (typeof revslider_showDoubleJqueryError === "undefined") {
+            function revslider_showDoubleJqueryError(sliderID) {
+               var err = "<div class='rs_error_message_box'>";
+               err += "<div class='rs_error_message_oops'>Oops...</div>";
+               err += "<div class='rs_error_message_content'>";
+               err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+               err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+               err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+               err += "</div>";
+               err += "</div>";
+               var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+            }
          }
-      }
-   </script>
-   <link rel='stylesheet' id='vc_animate-css-css'
-      href='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=6.5.0'
-      type='text/css' media='all' />
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0'
-      id='jquery-selectBox-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.2'
-      id='contact-form-7-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.tabs.min.js?ver=6.0.3'
-      id='dt-sc-tabs-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.tipTip.minified.js?ver=6.0.3'
-      id='dt-sc-tiptip-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.inview.js?ver=6.0.3'
-      id='dt-sc-inview-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.animateNumber.min.js?ver=6.0.3'
-      id='dt-sc-animatenum-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.donutchart.js?ver=6.0.3'
-      id='dt-sc-donutchart-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/slick.min.js?ver=6.0.3'
-      id='dt-sc-slick-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.toggle.click.js?ver=6.0.3'
-      id='dt-sc-toggle-click-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/shortcodes.js?ver=6.0.3'
-      id='dt-sc-script-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.1'
-      id='jquery-ui-datepicker-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.ui.totop.min.js?ver=6.0.3'
-      id='jquery-ui-totop-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.caroufredsel.js?ver=6.0.3'
-      id='jquery-caroufredsel-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.easing.js?ver=6.0.3'
-      id='jquery-easing-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.debouncedresize.js?ver=6.0.3'
-      id='jquery-debouncedresize-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.prettyphoto.js?ver=6.0.3'
-      id='jquery-prettyphoto-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.touchswipe.js?ver=6.0.3'
-      id='jquery-touchswipe-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.parallax.js?ver=6.0.3'
-      id='jquery-parallax-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.downcount.js?ver=6.0.3'
-      id='jquery-downcount-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.nicescroll.js?ver=6.0.3'
-      id='jquery-nicescroll-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.bxslider.js?ver=6.0.3'
-      id='jquery-bxslider-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.fitvids.js?ver=6.0.3'
-      id='jquery-fitvids-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.sticky.js?ver=6.0.3'
-      id='jquery-sticky-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.simple-sidebar.js?ver=6.0.3'
-      id='jquery-simple-sidebar-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.classie.js?ver=6.0.3'
-      id='jquery-classie-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.placeholder.js?ver=6.0.3'
-      id='jquery-placeholder-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.visualNav.min.js?ver=6.0.3'
-      id='jquery-visualNav-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=6.5.0'
-      id='isotope-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/magnific/jquery.magnific-popup.min.js?ver=6.0.3'
-      id='psychiatrist-popup-js-js'></script>
-   <script type='text/javascript' id='pace-js-extra'>
-      /* <![CDATA[ */
-      var paceOptions = { "restartOnRequestAfter": "false", "restartOnPushState": "false" };
-         /* ]]> */
-   </script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/pace.min.js?ver=6.0.3'
-      id='pace-js'></script>
-   <script type='text/javascript' id='psychiatrist-jqcustom-js-extra'>
-      /* <![CDATA[ */
-      var dttheme_urls = { "theme_base_url": "", "framework_base_url": "", "ajaxurl": "", "url": "", "stickynav": "enable", "stickyele": ".main-header-wrapper", "isRTL": "", "loadingbar": "enable", "advOptions": "Show Advanced Options" };
-         /* ]]> */
-   </script>
-   <script type='text/javascript' id='jquery-yith-wcwl-js-extra'>
-      /* <![CDATA[ */
-      var yith_wcwl_l10n = { "ajax_url": "", "redirect_to_cart": "no", "multi_wishlist": "", "hide_add_button": "1", "enable_ajax_loading": "", "ajax_loader_url": "", "remove_from_wishlist_after_add_to_cart": "1", "is_wishlist_responsive": "1", "time_to_close_prettyphoto": "3000", "fragments_index_glue": ".", "reload_on_found_variation": "1", "labels": { "cookie_disabled": "We are sorry, but this feature is available only if cookies on your browser are enabled.", "added_to_cart_message": "<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>" }, "actions": { "add_to_wishlist_action": "add_to_wishlist", "remove_from_wishlist_action": "remove_from_wishlist", "reload_wishlist_and_adding_elem_action": "reload_wishlist_and_adding_elem", "load_mobile_action": "load_mobile", "delete_item_action": "delete_item", "save_title_action": "save_title", "save_privacy_action": "save_privacy", "load_fragments": "load_fragments" } };
-		/* ]]> */
-   </script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/custom.js?ver=6.0.3'
-      id='psychiatrist-jqcustom-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'
-      id='jquery-cookie-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.5.0'
-      id='wpb_composer_front_js-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js?ver=6.5.0'
-      id='vc_waypoints-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min.js?ver=6.5.0'
-      id='vc_jquery_skrollr_js-js'></script>
-   <script type='text/javascript'
-      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/vhparallax.min.js?ver=3.19.8'
-      id='jquery.vhparallax-js'></script>
-   <script type='text/javascript' src='js/jquery.prettyPhoto.min005e.js?ver=3.1.6' id='prettyPhoto-js'></script>
+      </script>
+      <link rel='stylesheet' id='vc_animate-css-css' href='css/animate.min.css' type='text/css' media='all' />
+ 
+      <script type='text/javascript' src='js/vhparallax.min.js?ver=3.19.8'         id='jquery.vhparallax-js'></script>
+      <script type='text/javascript' src='js/jquery.selectBox.min.js?ver=1.2.0'      id='jquery-selectBox-js'></script>
+      <script type='text/javascript' src='js/skrollr.min.js?ver=6.5.0'               id='vc_jquery_skrollr_js-js'></script>
+      <script type='text/javascript' src='js/jquery.prettyPhoto.min005e.js'          id='prettyPhoto-js'></script>
+
+      <!-- shortcodes starts-->
+      <script type='text/javascript' src="js/shortcodes/jquery.tabs.min.js"          id='dt-sc-tabs-js'></script>
+      <script type='text/javascript' src='js/shortcodes/jquery.tipTip.minified.js'   id='dt-sc-tiptip-js'></script>
+      <script type='text/javascript' src='js/shortcodes/jquery.inview.js?ver=6.0.3'  id='dt-sc-inview-js'></script>
+      <script type='text/javascript' src='js/shortcodes/jquery.animateNumber.min.js' id='dt-sc-animatenum-js'></script>
+      <script type='text/javascript' src='js/shortcodes/jquery.donutchart.js'        id='dt-sc-donutchart-js'></script>
+      <script type='text/javascript' src='js/shortcodes/slick.min.js'                id='dt-sc-slick-js'></script>
+      <script type='text/javascript' src='js/shortcodes/jquery.toggle.click.js'      id='dt-sc-toggle-click-js'></script>
+      <script type='text/javascript' src='js/shortcodes/shortcodes.js?ver=6.0.3'     id='dt-sc-script-js'></script>
+      <script type='text/javascript' src='js/shortcodes/datepicker.min.js?'          id='jquery-ui-datepicker-js'></script>
+      <!-- shortcodes ends // -->
+    
+      <!-- jquery set -->
+      <script type='text/javascript' src='js/reservation.js?ver=6.0.3'               id='jq-reservation-js'></script>
+      <script type='text/javascript' src='js/doctors.js?ver=6.0.3'                   id='dt-doctor-addon-js'></script>
+      <script type='text/javascript' src='js/script.js?ver=6.0.3'                    id='dt-fbpixel-script-js'></script>
+      <script type='text/javascript' src='js/js-cookie/js.cookie.min.js'             id='js-cookie-js'></script>
+      <script type='text/javascript' src='js/jquery.prettyPhoto.min.js?ver=3.1.6'    id='prettyPhoto-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.ui.totop.min.js'          id='jquery-ui-totop-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.caroufredsel.js'          id='jquery-caroufredsel-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.easing.js'                id='jquery-easing-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.debouncedresize.js'       id='jquery-debouncedresize-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.prettyphoto.js'           id='jquery-prettyphoto-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.touchswipe.js'            id='jquery-touchswipe-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.parallax.js'              id='jquery-parallax-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.downcount.js'             id='jquery-downcount-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.nicescroll.js'            id='jquery-nicescroll-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.bxslider.js'              id='jquery-bxslider-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.fitvids.js'               id='jquery-fitvids-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.sticky.js'                id='jquery-sticky-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.simple-sidebar.js'        id='jquery-simple-sidebar-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.classie.js'               id='jquery-classie-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.placeholder.js'           id='jquery-placeholder-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.visualNav.min.js'         id='jquery-visualNav-js'></script>
+      <script type='text/javascript' src='js/jquery/jquery.magnific-popup.min.js'    id='smrithi-popup-js-js'></script>
+   
+      <script type='text/javascript' src='js/isotope.pkgd.min.js'                    id='isotope-js'></script>
+   
+      <script type='text/javascript' src='js/pace.min.js'                            id='pace-js'></script>
+      <script type='text/javascript'>
+         /* <![CDATA[ */
+         var dttheme_urls = { "theme_base_url": "", "framework_base_url": "", "ajaxurl": "", "url": "", "stickynav": "enable", "stickyele": ".main-header-wrapper", "isRTL": "", "loadingbar": "enable", "advOptions": "Show Advanced Options" };
+            /* ]]> */
+      </script>
+      <script type='text/javascript' src='js/custom.js'                              id='smrithi-jqcustom-js'></script>
+      <script type='text/javascript' src='js/jquery.cookie.min.js'                   id='jquery-cookie-js'></script>
+      <script type='text/javascript' src='js/js_composer_front.min.js?ver=6.5.0'     id='wpb_composer_front_js-js'></script>
+      <script type='text/javascript' src='js/vc-waypoints.min.js'                    id='vc_waypoints-js'></script>
 
    <!-- Whatp chat plugin  -->
    <script type='text/javascript'>

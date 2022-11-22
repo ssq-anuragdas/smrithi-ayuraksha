@@ -457,7 +457,7 @@
          font-size: var(--wp--preset--font-size--x-large) !important;
       }
    </style>
-   <link rel='stylesheet' id='contact-form-7-css' href='css/contact.css?ver=5.3.2' type='text/css' media='all' />
+   <!-- <link rel='stylesheet' id='contact-form-7-css' href='css/contact.css?ver=5.3.2' type='text/css' media='all' /> -->
    <link rel='stylesheet' id='dt-animation-css-css' href='css/animations.css?ver=6.0.3' type='text/css' media='all' />
    <link rel='stylesheet' id='dt-slick-css-css' href='css/slick.css?ver=6.0.3' type='text/css' media='all' />
    <link rel='stylesheet' id='dt-sc-css-css' href='css/shortcodes.css?ver=6.0.3' type='text/css' media='all' />
@@ -718,6 +718,53 @@
          padding-bottom: 0px !important;
          padding-left: 0px !important;
       }
+
+      .dt-sc-contact-info.type7 {
+         margin-bottom: 0 !important;
+         padding-left: 70px !important;
+      }
+
+      .dt-sc-contact-info.type7 h6 {
+         margin-bottom: 0 !important;
+      }
+
+      .dt-sc-contact-info.type7 a {
+         color: #666 !important;
+      }
+
+      .column {
+         margin-left: 0 !important;
+      }
+
+      table.time-slot__table {
+         border-collapse: collapse;
+         border: none !important;
+         margin: 0 !important;
+      }
+
+      table.time-slot__table tr {
+         border: none;
+         padding: 0;
+         margin: 0;
+         background-color: white;
+      }
+
+      table.time-slot__table tr>th,
+      table.time-slot__table tr>td       {
+         padding: 5px !important;
+         padding-bottom: 15px !important;
+         background-color: #fff;
+         color: #111;
+         font-size: small !important;
+         text-align: left;
+         border: none;
+      }
+
+      table.time-slot__table tr>td {
+         color: #666 !important;
+      }
+
+
    </style>
    <noscript>
       <style>
@@ -867,7 +914,9 @@
                            </div>
                            <nav id="main-menu" class="menu-main_menu-container">
                               <ul class="menu">
-                                 <li id="menu-item-830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-12 menu-item-depth-0 menu-item-simple-parent "><a href="index.html">Home</a></li>
+                                 <li id="menu-item-830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-12 menu-item-depth-0 menu-item-simple-parent ">
+                                    <a href="index.html">Home</a>
+                                 </li>
                                  <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent ">
                                     <a href="treatment.html">Treatments</a>
                                  </li>
@@ -881,13 +930,15 @@
                            </nav>
                            <div class="menu-icons-wrapper">
                               <div class="search">
-                                 <a href="javascript:void(0)" id="overlay-search-type2" class="dt-search-icon type2"> <span class="fa fa-search"> </span> </a>
+                                 <a href="javascript:void(0)" id="overlay-search-type2" class="dt-search-icon type2">
+                                    <span class="fa fa-search"> </span> </a>
                                  <div class="overlay overlay-search">
                                     <div class="overlay-close"></div>
                                     <!-- **Searchform** -->
                                     <form method="get" id="searchform" action="https://dtpsychiatrist.wpengine.com/">
                                        <input id="s" name="s" type="text" value="Enter Keyword" class="text_input" onblur="if(this.value==''){this.value='Enter Keyword';}" onfocus="if(this.value =='Enter Keyword') {this.value=''; }" />
-                                       <a href="javascript:void(0)" class="dt-search-icon"> <span class="fa fa-close"> </span> </a>
+                                       <a href="javascript:void(0)" class="dt-search-icon"> <span class="fa fa-close">
+                                          </span> </a>
                                        <input name="submit" type="submit" value="Go" />
                                     </form>
                                     <!-- **Searchform - End** -->
@@ -937,34 +988,27 @@
                      <div class="vc_row-full-width vc_clearfix"></div>
                      <div class="vc_row wpb_row vc_row-fluid university-contact-info">
                         <div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-3">
-                           <div class="vc_column-inner ">
+                           <div class="vc_column-inner">
                               <div class="wpb_wrapper">
                                  <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="0.5" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 0.5s; -moz-transition-delay: 0.5s; transition-delay: 0.5s;" data-opacity_start_effect="">
                                     <div class="dt-sc-contact-info type7 animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.5s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:0.5s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:0.5s;animation-duration:1s;animation-iteration-count:1;test">
                                        <span class="icon icon-phone2"> </span>
                                        <h6>Talk to us</h6>
-                                       <a href="tel: +91 9567760405">+91 9567 760 405</a>
+                                       <a class="contact-link__a" href="tel: +91 9567760405">+91 9567 760 405</a>
                                        <!-- <strong>Fax:</strong> 1224 2235 225 -->
                                     </div>
                                  </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-3">
-                           <div class="vc_column-inner ">
-                              <div class="wpb_wrapper">
                                  <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="0.8" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 0.8s; -moz-transition-delay: 0.8s; transition-delay: 0.8s;" data-opacity_start_effect="">
                                     <div class="dt-sc-contact-info type7 animated fadeInUp" style="opacity:1;-webkit-animation-delay:0.8s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:0.8s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:0.8s;animation-duration:1s;animation-iteration-count:1;test">
                                        <span class="icon icon-imbox"> </span>
                                        <h6>Mail us @</h6>
-                                       <a href="mailto: dr.smrithi22@gmail.com">dr.smrithi22@gmail.com</a>
-                                       <!-- <br> <a href="http://support@thelaw.com">support@thelaw.com</a> -->
+                                       <a class="contact-link__a" href="mailto: dr.smrithi22@gmail.com">dr.smrithi22@gmail.com</a>
                                     </div>
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-3">
+                        <div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-5">
                            <div class="vc_column-inner ">
                               <div class="wpb_wrapper">
                                  <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="1.1" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 1.1s; -moz-transition-delay: 1.1s; transition-delay: 1.1s;" data-opacity_start_effect="">
@@ -972,23 +1016,38 @@
                                        <span class="icon icon-pointer"> </span>
                                        <h6>Our Location</h6>
                                        Dr Smrithi's Ayur Raksha Clinic,
-                                       Kunnathara, Atholi - Ulliyeri Main Road,
-                                       Calicut, Kerala-pin()
+                                       Kunnathara, <br />
+                                       Atholi - Ulliyeri Main Road, Calicut, Kerala <br />
+                                       Pin: 673515
                                     </div>
                                  </div>
                               </div>
                            </div>
                         </div>
-                        <div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-3">
+                        <div class="rs_col-sm-6 wpb_column vc_column_container vc_col-sm-4">
                            <div class="vc_column-inner ">
                               <div class="wpb_wrapper">
                                  <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInUp" data-animation-delay="1.4" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 1.4s; -moz-transition-delay: 1.4s; transition-delay: 1.4s;" data-opacity_start_effect="">
                                     <div class="dt-sc-contact-info type7 animated fadeInUp" style="opacity:1;-webkit-animation-delay:1.4s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.4s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.4s;animation-duration:1s;animation-iteration-count:1;test">
                                        <span class="icon icon-timer"> </span>
                                        <h6>Opening Hours</h6>
-                                       Mon – Sat 9 am to 8 pm
+                                       <!-- Mon – Sat 9 am to 7 pm
                                        <div class="dt-sc-clear "> </div>
-                                       Sun – 10 am to 3 pm
+                                       Sun – Closed -->
+                                       <table class="time-slot__table">
+                                          <tr>
+                                             <th>Mon - Sat</th>
+                                             <td>9am to 7pm</td>
+                                          </tr>
+                                          <tr>
+                                             <th>
+                                                Sunday
+                                             </th>
+                                             <td>
+                                                Closed
+                                             </td>
+                                          </tr>
+                                       </table>
                                     </div>
                                  </div>
                               </div>
@@ -1003,186 +1062,82 @@
                            </div>
                         </div>
                      </div>
-                     <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-parallax="1.5" class="vc_row wpb_row vc_row-fluid wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp vc_custom_1505211096933 vc_row-has-fill vc_general vc_parallax vc_parallax-content-moving wpb_start_animation animated" style="position: relative; left: -141px; box-sizing: border-box; width: 1512px; padding-left: 141px; padding-right: 141px;">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                           <div class="vc_column-inner ">
-                              <div class="wpb_wrapper">
-                                 <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInDown" data-animation-delay="1.0" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 1.0s; -moz-transition-delay: 1.0s; transition-delay: 1.0s;" data-opacity_start_effect="">
-                                    <div class="dt-sc-title with-right-border-decor animated fadeInDown" style="opacity:1;-webkit-animation-delay:1.0s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.0s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.0s;animation-duration:1s;animation-iteration-count:1;test">
-                                       <h2>Enquire Now</h2>
-                                    </div>
+
+                     <div class="enquire-now__form-sec">
+                        <h2>Enquire Now</h2>
+                        <div class="title-underline"></div>
+                        <div class="content-wrapper">
+                           <div class="enquire-form-wrapper">
+                              <h3>Enter Details</h3>
+                              <form method="post" name="Enquiry" enctype='multipart/form-data' class="appointment-form" id="gform_7" action="mail/sendMail.php">
+
+                                 <input type="text" name="name" id="name" placeholder="Full Name" required autocomplete="none" />
+                                 <input type="email" name="email" id="email" placeholder="Email" required autocomplete="none" />
+
+                                 <div class="form-group-contactus">
+                                    <input type="tel" name="mobile" id="mobile" class="input form-control" value="" placeholder="1234567890" maxlength="10" />
                                  </div>
-                                 <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="flipInX" data-animation-delay="1.3" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 1.3s; -moz-transition-delay: 1.3s; transition-delay: 1.3s;" data-opacity_start_effect="">
-                                    <form class="dt-sc-reservation-form dt-appointment-form animated flipInX" name="reservation-schedule-form" method="post" action="https://dtpsychiatrist.wpengine.com/appointment-form/" style="opacity:1;-webkit-animation-delay:1.3s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.3s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.3s;animation-duration:1s;animation-iteration-count:1;test">
-                                       <div class="vc_row wpb_row vc_row-fluid">
-                                          <div class="wpb_column vc_column_container vc_col-sm-6">
-                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                   <p><label for="cli-name">Name</label><input type="text" id="cli-name" name="cli-name" placeholder="Your Name"></p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="wpb_column vc_column_container vc_col-sm-6">
-                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                   <p><label for="cli-email">Email Address</label><input type="text" id="cli-email" name="cli-email" placeholder="Your Email"></p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="wpb_column vc_column_container vc_col-sm-6">
-                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                   <p><label for="cli-phone">Phone</label><input type="text" id="cli-phone" name="cli-phone" placeholder="Your Phone"></p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="wpb_column vc_column_container vc_col-sm-6">
-                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                   <p><label for="services">Type of Service</label>
-                                                   <div class="selection-box">
-                                                      <select name="services" id="services" class="dt-select-service">
-                                                         <option value="">Any Service</option>
-                                                         <option value="8270">Acute Treatment Unit</option>
-                                                         <option value="8269">Medication Management</option>
-                                                         <option value="8268">Outpatient Counseling</option>
-                                                      </select>
-                                                   </div>
-                                                   </p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="wpb_column vc_column_container vc_col-sm-6">
-                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                   <p><label for="staff">Staff</label>
-                                                   <div class="selection-box">
-                                                      <select name="staff" id="staff" class="dt-select-staff">
-                                                         <option value="">Any Staff</option>
-                                                         <option value="8272">John Kennedy</option>
-                                                         <option value="8271">Carl Hooper</option>
-                                                         <option value="8267">Dwayne Smith</option>
-                                                      </select>
-                                                   </div>
-                                                   </p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="wpb_column vc_column_container vc_col-sm-6">
-                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                   <p><label for="datepicker">Date</label></p>
-                                                   <div class="selection-box form-calender-icon"><input type="text" id="datepicker" name="date" placeholder="Select Date" class="hasDatepicker"></div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="wpb_column vc_column_container vc_col-sm-12">
-                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper">
-                                                   <p><label for="cli-msg">Message</label><textarea name="cli-msg" id="cli-msg" rows="5" cols="25" placeholder="Your Message"></textarea></p>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <div class="wpb_column vc_column_container vc_col-sm-12">
-                                             <div class="vc_column-inner ">
-                                                <div class="wpb_wrapper aligncenter">
-                                                   <button class="dt-sc-button filled medium show-time-shortcode" value="Show Time" type="submit">Submit</button>
-                                                </div>
-                                             </div>
-                                          </div>
-                                          <input type="hidden" id="staffids" name="staffids" value="8267, 8271, 8272">
-                                          <input type="hidden" id="serviceids" name="serviceids" value="8268, 8269, 8270">
-                                       </div>
-                                    </form>
+                                 <textarea class="form-control" name="message" id="message" placeholder="Your Message" required autocomplete="none"></textarea>
+
+                                 <div class="btn-wrapper">
+                                    <button type="button" onclick="sendMail()" id="submit-btn" name="submit-btn" class="submit-button">Submit</button>
+                                    <!-- <button type="button" onclick="this.form.reset();" id="cancel-btn" name="cancel-btn"
+                                    class="request-quote__form-btn btn-cancel" style="display: none;">Cancel</button> -->
                                  </div>
-                                 <div class="ult-spacer spacer-6370f65fba33b" data-id="6370f65fba33b" data-height="50" data-height-mobile="50" data-height-tab="50" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+
+                                 <input type='hidden' name='gform_field_values' value='' />
+                              </form>
+                           </div>
+
+                           <div class="checkbox-wrapper">
+                              <h3>Select Required Service</h3>
+                              <div class="checkbox-container">
+                                 <ul class="checkbox-ul">
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="Diabetic Wound Treatment">
+                                       <label>Diabetic Wound Treatment</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="Bedsore Treatments">
+                                       <label>Bedsore Treatments</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="Fissure in ano Treatment">
+                                       <label>Fissure in ano Treatment</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="General Wounds">
+                                       <label>General Wounds</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="General Wounds">
+                                       <label>Panchakarma</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="General Wounds">
+                                       <label>Vanitha Clinic</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="General Wounds">
+                                       <label>Allergic Treatments</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="General Wounds">
+                                       <label>Fertility Treatments</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="General Wounds">
+                                       <label>Skincare Treatments</label>
+                                    </li>
+                                    <li class="checkbox">
+                                       <input type="checkbox" name="treatment" id="treatment" value="General Wounds">
+                                       <label>Treatment for Beauty</label>
+                                    </li>
+                                 </ul>
                               </div>
                            </div>
                         </div>
-                        <div class="vc_parallax-inner skrollable skrollable-before" data-bottom-top="top: -50%;" data-top-bottom="top: 0%;" style="height: 150%; top: -50%;"></div>
                      </div>
-                     <div class="vc_row-full-width vc_clearfix"></div>
-                     <!-- <div class="vc_row wpb_row vc_row-fluid">
-                           <div class="wpb_column vc_column_container vc_col-sm-12">
-                              <div class="vc_column-inner ">
-                                 <div class="wpb_wrapper">
-                                    <div class="dt-sc-hr-invisible-large "> </div>
-                                    <div class="dt-sc-clear "> </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="aligncenter wpb_column vc_column_container vc_col-sm-6">
-                              <div class="vc_column-inner ">
-                                 <div class="wpb_wrapper">
-                                    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInDown" data-animation-delay="0.5" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 0.5s; -moz-transition-delay: 0.5s; transition-delay: 0.5s;" data-opacity_start_effect="">
-                                       <span class="pe-icon pe-study animated fadeInDown" style="opacity:1;-webkit-animation-delay:0.5s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:0.5s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:0.5s;animation-duration:1s;animation-iteration-count:1;color:#798792; font-size:100px;"> </span>
-                                       <div class="dt-sc-title with-right-border-decor aligncenter animated fadeInDown" style="opacity:1;-webkit-animation-delay:0.5s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:0.5s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:0.5s;animation-duration:1s;animation-iteration-count:1;test">
-                                          <h2>Apply for Jobs</h2>
-                                          LOREM IPSUM DOLOR SIT AMET, CONSEC
-                                       </div>
-                                       <div class="wpb_text_column wpb_content_element vc_custom_1494332136553 animated fadeInDown" style="opacity:1;-webkit-animation-delay:0.5s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:0.5s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:0.5s;animation-duration:1s;animation-iteration-count:1;test">
-                                          <div class="wpb_wrapper">
-                                             <p style="font-size: 14px;">Ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ea commodo onsequat. Duis aute irure dolor in reprehenderit Duis aute irure dolor in reprehenderit in voluptat</p>
-                                          </div>
-                                       </div>
-                                       <div class="dt-sc-hr-invisible-xsmall animated fadeInDown" style="opacity:1;-webkit-animation-delay:0.5s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:0.5s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:0.5s;animation-duration:1s;animation-iteration-count:1;test"> </div>
-                                    </div>
-                                    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="bounceIn" data-animation-delay="0.8" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 0.8s; -moz-transition-delay: 0.8s; transition-delay: 0.8s;" data-opacity_start_effect=""><a href="#" target="_self" title="" class="dt-sc-button medium icon-right with-icon filled type3 animated bounceIn" style="opacity:1;-webkit-animation-delay:0.8s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:0.8s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:0.8s;animation-duration:1s;animation-iteration-count:1;test"> Apply Now <span class="fa fa-user"> </span></a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="aligncenter wpb_column vc_column_container vc_col-sm-6">
-                              <div class="vc_column-inner ">
-                                 <div class="wpb_wrapper">
-                                    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInDown" data-animation-delay="1.1" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 1.1s; -moz-transition-delay: 1.1s; transition-delay: 1.1s;" data-opacity_start_effect="">
-                                       <span class="pe-icon pe-notebook animated fadeInDown" style="opacity:1;-webkit-animation-delay:1.1s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.1s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.1s;animation-duration:1s;animation-iteration-count:1;color:#798792; font-size:100px;"> </span>
-                                       <div class="dt-sc-title with-right-border-decor aligncenter animated fadeInDown" style="opacity:1;-webkit-animation-delay:1.1s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.1s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.1s;animation-duration:1s;animation-iteration-count:1;test">
-                                          <h2>Apply for Course</h2>
-                                          LOREM IPSUM DOLOR SIT AMET, CONSEC
-                                       </div>
-                                       <div class="wpb_text_column wpb_content_element vc_custom_1494332232521 animated fadeInDown" style="opacity:1;-webkit-animation-delay:1.1s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.1s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.1s;animation-duration:1s;animation-iteration-count:1;test">
-                                          <div class="wpb_wrapper">
-                                             <p style="font-size: 14px;">Ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit ea commodo onsequat. Duis aute irure dolor in reprehenderit Duis aute irure dolor in reprehenderit in voluptat</p>
-                                          </div>
-                                       </div>
-                                       <div class="dt-sc-hr-invisible-xsmall animated fadeInDown" style="opacity:1;-webkit-animation-delay:1.1s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.1s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.1s;animation-duration:1s;animation-iteration-count:1;test"> </div>
-                                    </div>
-                                    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="bounceIn" data-animation-delay="1.4" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 1.4s; -moz-transition-delay: 1.4s; transition-delay: 1.4s;" data-opacity_start_effect=""><a href="#" target="_self" title="" class="dt-sc-button medium icon-right with-icon filled type3 animated bounceIn" style="opacity:1;-webkit-animation-delay:1.4s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.4s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.4s;animation-duration:1s;animation-iteration-count:1;test"> Apply Now <span class="fa fa-graduation-cap"> </span></a></div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="wpb_column vc_column_container vc_col-sm-12">
-                              <div class="vc_column-inner ">
-                                 <div class="wpb_wrapper">
-                                    <div class="dt-sc-hr-invisible-large "> </div>
-                                    <div class="dt-sc-clear "> </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div> -->
-                     <!-- <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid secondary-skin-bg transparent wpb_animate_when_almost_visible wpb_fadeInUp fadeInUp wpb_start_animation animated" style="position: relative; left: -141px; box-sizing: border-box; width: 1512px; padding-left: 141px; padding-right: 141px;">
-                           <div class="wpb_column vc_column_container vc_col-sm-12">
-                              <div class="vc_column-inner ">
-                                 <div class="wpb_wrapper">
-                                    <div class="ult-spacer spacer-6370f65fbb17c" data-id="6370f65fbb17c" data-height="50" data-height-mobile="50" data-height-tab="50" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-                                    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="fadeInDown" data-animation-delay="1.0" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 1.0s; -moz-transition-delay: 1.0s; transition-delay: 1.0s;" data-opacity_start_effect="">
-                                       <div class="dt-sc-title with-right-border-decor aligncenter animated fadeInDown" style="opacity:1;-webkit-animation-delay:1.0s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.0s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.0s;animation-duration:1s;animation-iteration-count:1;test">
-                                          <h2>Newsletter Subscription</h2>
-                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-                                       </div>
-                                    </div>
-                                    <div class="ult-animation  ult-animate-viewport  ult-no-mobile " data-animate="flipInX" data-animation-delay="1.3" data-animation-duration="1" data-animation-iteration="1" style="opacity:1;-webkit-transition-delay: 1.3s; -moz-transition-delay: 1.3s; transition-delay: 1.3s;" data-opacity_start_effect="">
-                                       <div class="dt-sc-newsletter-section type7 animated flipInX" style="opacity:1;-webkit-animation-delay:1.3s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.3s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.3s;animation-duration:1s;animation-iteration-count:1;test">
-                                          <form class="dt-sc-subscribe-frm" name="frmsubscribe" action="#" method="post"><input type="email" name="dt_mc_emailid" required="required" placeholder="Enter Email"><input type="hidden" name="dt_mc_apikey" value=""><input type="hidden" name="dt_mc_listid" value=""><input type="submit" name="mc_submit" value="Subscribe to Newsletter"></form>
-                                          <div class="newsletter-tooltip">Join 132,546 who are already getting the benefits</div>
-                                          <div class="dt_ajax_subscribe_msg"></div>
-                                       </div>
-                                    </div>
-                                    <div class="ult-spacer spacer-6370f65fbb2c1" data-id="6370f65fbb2c1" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div> -->
                      <div class="vc_row-full-width vc_clearfix"></div>
                   </div>
                   <!-- #post-778 -->
@@ -1203,88 +1158,216 @@
                            </div>
                            <img src="img/Dr.smrithiayurakshaclinic.png" width="25%" alt="" title="">
                            <br />
-                           <!-- <p>  </p> -->
-                           <!-- <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span>
-                           </div> -->
-                           <h6> <strong> Phone - </strong> +91 956 7760 405 </h6>
-                           <h6> <strong> Mail ID - </strong> test@gmail.com </h6>
+                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem.</p>
+                           <!-- <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span> -->
                         </div>
-                     </aside>
+                        <h6> <strong> Phone - </strong> +91 956 7760 405 </h6>
+                        <h6> <strong> Mail ID - </strong> test@gmail.com </h6>
                   </div>
-                  <div class='column dt-sc-one-fourth '>
-                     <aside id="text-4" class="widget widget_text">
-                        <h3 class="widgettitle">Treatments</h3>
-                        <div class="textwidget">
-                           <ul>
-                              <li>
-                                 <a href="treatment.html">WOUND HEALING THERAPY</a>
-                                 <!-- <ul class="footer-li_sub-ul">
-                                    <li>DIABETIC WOUND</li>
-                                    <li>BEDSORE</li>
-                                    <li>FISSURE IN ANO</li>
-                                    <li>GENRAL WOUND</li>
-                                 </ul> -->
-                              </li>
-                              <li><a href="panchakarma.html">PANCHAKARMA</a></li>
-                              <li><a href="treatment.html">VANITHA CLINIC </a></li>
-                           </ul>
-                        </div>
-                     </aside>
-                  </div>
-                  <div class='column dt-sc-one-fourth '>
-                     <aside id="text-5" class="widget widget_text">
-                        <h3 class="widgettitle">Our Time Schedule</h3>
-                        <div class="textwidget">
-                           <p><strong>Monday - Friday </strong></p>
-                           <p class="secondary-skin-color">8am to 6pm</p>
-                           <div class="ult-spacer spacer-636b5c98f2054" data-id="636b5c98f2054" data-height="10"
-                              data-height-mobile="10" data-height-tab="10" data-height-tab-portrait=""
-                              data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-                           <p><strong>Saturday - Sunday</strong></p>
-                           <p class="secondary-skin-color">9am to 4pm</p>
-                        </div>
-                     </aside>
-                  </div>
-                  <div class='column dt-sc-one-fourth '>
-                     <aside id="text-7" class="widget widget_text">
-                        <h3 class="widgettitle">Follow Us</h3>
-                        <div class="textwidget">
-                           <ul class="dt-sc-sociable alignleft">
-                              <li> <a class="fa fa-facebook" title="Facebook" href="#"> </a> </li>
-                              <li> <a class="fa fa-twitter" title="Twitter" href="#"> </a> </li>
-                              <li> <a class="fa fa-instagram" title="Instagram" href="#"> </a> </li>
-                              <li> <a class="fa fa-linkedin" title="LinkedIn" href="#"> </a> </li>
-                           </ul>
-                        </div>
-                     </aside>
-                  </div>
+                  </aside>
+               </div>
+               <div class='column dt-sc-one-fourth '>
+                  <aside id="text-4" class="widget widget_text">
+                     <h3 class="widgettitle">Treatments</h3>
+                     <div class="textwidget">
+                        <ul>
+                           <li class="checkbox">
+                              <a href="treatment.html">WOUND HEALING THERAPY</a>
+                           </li>
+                           <li class="checkbox"><a href="panchakarma.html">PANCHAKARMA</a></li>
+                           <li class="checkbox"><a href="treatment.html">VANITHA CLINIC </a></li>
+                        </ul>
+                     </div>
+                  </aside>
+               </div>
+               <div class='column dt-sc-one-fourth '>
+                  <aside id="text-5" class="widget widget_text">
+                     <h3 class="widgettitle">Our Time Schedule</h3>
+                     <div class="textwidget">
+                        <p><strong>Monday - Friday </strong></p>
+                        <p class="secondary-skin-color">8am to 6pm</p>
+                        <div class="ult-spacer spacer-636b5c98f2054" data-id="636b5c98f2054" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                        <p><strong>Saturday - Sunday</strong></p>
+                        <p class="secondary-skin-color">9am to 4pm</p>
+                     </div>
+                  </aside>
+               </div>
+               <div class='column dt-sc-one-fourth '>
+                  <aside id="text-7" class="widget widget_text">
+                     <h3 class="widgettitle">Follow Us</h3>
+                     <div class="textwidget">
+                        <ul class="dt-sc-sociable alignleft">
+                           <li class="checkbox"> <a class="fa fa-facebook" title="Facebook" href="#"> </a> </li>
+                           <li class="checkbox"> <a class="fa fa-twitter" title="Twitter" href="#"> </a> </li>
+                           <li class="checkbox"> <a class="fa fa-instagram" title="Instagram" href="#"> </a> </li>
+                           <li class="checkbox"> <a class="fa fa-linkedin" title="LinkedIn" href="#"> </a> </li>
+                        </ul>
+                     </div>
+                  </aside>
                </div>
             </div>
-            <div class="footer-copyright dt-sc-dark-bg">
-               <div class="container">
-                  <div class="column dt-sc-one-half first ">&copy; 2022 Sanesquare Private Ltd. All rights reserved.
-                  </div>
-                  <div class="column dt-sc-one-half footer-menu">
-                     <ul id="menu-footer-menu" class="menu-links">
-                        <li id="menu-item-380"
-                           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380"><a
-                              href="http://google.com/">Privacy Policy</a></li>
-                        <li id="menu-item-381"
-                           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a
-                              href="http://google.com/">Terms of Use</a></li>
-                        <li id="menu-item-382"
-                           class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382"><a
-                              href="http://google.com/">Site Map</a></li>
-                     </ul>
-                  </div>
-               </div>
-            </div>
-         </footer>
-         <!-- **Footer - End** -->
       </div>
-      <!-- **Inner Wrapper - End** -->
+      <div class="footer-copyright dt-sc-dark-bg">
+         <div class="container">
+            <div class="column dt-sc-one-half first ">&copy; 2022 Sanesquare Private Ltd. All rights reserved.
+            </div>
+            <div class="column dt-sc-one-half footer-menu">
+               <ul id="menu-footer-menu" class="menu-links">
+                  <li id="menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380">
+                     <a href="http://google.com/">Privacy Policy</a>
+                  </li>
+                  <li id="menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381">
+                     <a href="http://google.com/">Terms of Use</a>
+                  </li>
+                  <li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382">
+                     <a href="http://google.com/">Site Map</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      </footer>
+      <!-- **Footer - End** -->
+
+      <!--? Call Function -->
+      <div class="call-wrapper">
+         <div class="call-icon-wrap">
+            <a href="tel:+919567760405">
+               <i class="fa fa-phone" aria-hidden="true"></i>
+            </a>
+         </div>
+      </div>
+
+   </div>
+   <!-- **Inner Wrapper - End** -->
    </div>
    <!-- **Wrapper - End** -->
+
+
+
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.14/css/intlTelInput.css" rel="stylesheet" />
+   <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
+
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
+   <script type="text/javascript" src="js/input_tel_utils.js"></script>
+   <script type="text/javascript" src="js/intlTelInput.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+   <script type="text/javascript">
+      jQuery("#mobile").intlTelInput({
+         initialCountry: "in",
+         separateDialCode: true,
+         preferredCountries: ["ca", "in", "ch", "au", "ae", "nz"],
+         placeholderNumberType: "MOBILE",
+         formatOnDisplay: true,
+         geoIpLookup: function(callback) {
+            jQuery.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+               var countryCode = (resp && resp.country) ? resp.country : "";
+               callback(countryCode);
+            });
+         },
+         utilsScript: "js/input_tel_utils.js"
+      });
+      jQuery(document).ready(function() {
+         jQuery('#mobile').on('focus', function() {
+            var jQuerythis = jQuery(this),
+               activePlaceholder = jQuerythis.attr('placeholder'),
+               newMask = activePlaceholder.replace(/[1-9]/g, "0");
+            jQuerythis.mask(newMask);
+         });
+         jQuery(".tabcontent").hide();
+         jQuery('#tab_kerala').show();
+         jQuery('.contact-tab-link').on("click", function() {
+            jQuery('.contact-tab-link').removeClass('active');
+            jQuery(this).addClass('active');
+            jQuery(".tabcontent").hide();
+            jQuery('#tab_' + jQuery(this).attr('id')).show();
+         })
+
+      });
+      jQuery("#mobile").change(function() {
+         var telInput = jQuery("#mobile");
+         if (jQuery.trim(telInput.val())) {
+            if (telInput.intlTelInput("isValidNumber")) {} else {
+               alert("Please enter valid mobile number.");
+            }
+         }
+      });
+   </script>
+   <!-- <script type="module" src="header/header.js?ver=1"></script> -->
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+   <script type="text/javascript">
+      function sendMail() {
+         // print("as");
+         var reg = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
+         var name = document.forms["Enquiry"]["name"];
+         var number = document.forms["Enquiry"]["mobile"];
+         var email = document.forms["Enquiry"]["email"];
+         var message = document.forms["Enquiry"]["message"];
+         let checkBoxValue = document.querySelectorAll("input[type='checkbox']:checked");
+         let checkBoxArray = [];
+         for (let i = 0; i < checkBoxValue.length; i++) {
+            checkBoxArray.push(checkBoxValue[i].value)
+         }
+
+         if (name.value == "") {
+            alert('Please Enter Your Name!');
+            name.focus();
+            return false;
+         }
+
+         var mailFormat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+         if (mailFormat.test(email.value) == false) {
+            alert("Please enter a valid email id");
+            email.focus();
+            return false;
+         }
+
+         if (number.value == "") {
+            alert('Please Enter Your Mobile Number!');
+            number.focus();
+            return false;
+         }
+
+         // if (checkBoxArray.length <= 0) {
+         //    alert('Please Select Required Services');
+         //    return false;
+         // }
+
+         var mob = jQuery("#mobile").intlTelInput("getNumber");
+         swal("", "Please wait your request has been processing", "info");
+         jQuery.ajax({
+            type: 'POST',
+            url: 'mail/sendMail.php',
+            data: {
+               name: jQuery("#name").val(),
+               mobile: mob,
+               email: jQuery("#email").val(),
+               message: jQuery("#message").val()
+               // services: checkBoxArray.toString()
+
+            },
+            success: function(result) {
+               console.log("sucess", result)
+               if (result == 1) {
+                  jQuery('.statusMsg').html('<span style="color:#91ffc7;">Thanks for contacting us, we\'ll get back to you soon.</p>');
+                  swal("ThankYou", "Your request has been successfully sent", "success");
+                  jQuery('#gform_7').trigger("reset");
+               } else {
+                  jQuery('.statusMsg').html('<span style="color:#e6cd94;">Some problem occurred, please try again.</span>');
+                  swal("Sorry", "Something went wrong", "error");
+               }
+            },
+            error: function(result) {
+               console.log("failiure", result)
+
+               swal("Error", "oops something went wrong", "error");
+            }
+         });
+      }
+   </script>
+
    <script type="text/html" id="wpb-modifications"></script>
    <!-- <link rel="stylesheet" property="stylesheet" id="rs-icon-set-fa-icon-css" href="https://dtpsychiatrist.wpengine.com/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all" /> -->
    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700%7COpen+Sans:700%2C300%2C600%2C400%2C800%7CRoboto:400" rel="stylesheet" property="stylesheet" media="all" type="text/css">
@@ -1314,7 +1397,9 @@
    </script>
    <link rel='stylesheet' id='vc_animate-css-css' href='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=6.5.0' type='text/css' media='all' />
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min.js?ver=1.2.0' id='jquery-selectBox-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.2' id='contact-form-7-js'></script>
+   <!-- <script type='text/javascript'
+      src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.2'
+      id='contact-form-7-js'></script> -->
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.tabs.min.js?ver=6.0.3' id='dt-sc-tabs-js'></script>
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.tipTip.minified.js?ver=6.0.3' id='dt-sc-tiptip-js'></script>
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/designthemes-core-features/shortcodes/js/jquery.inview.js?ver=6.0.3' id='dt-sc-inview-js'></script>

@@ -865,6 +865,43 @@
    <script type='text/javascript' src='js/jquery-cookie/jquery.cookie.min.js'     id='jquery-cookie-js'></script>
    <script type='text/javascript' src='js/js_composer_front.min.js?ver=6.5.0'     id='wpb_composer_front_js-js'></script>
    <script type='text/javascript' src='js/vc-waypoints.min.js'                    id='vc_waypoints-js'></script>
+   <!-- Whatp chat plugin  -->
+   <script type='text/javascript'>
+      var url = 'js/chat_plugin.js';
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = url;
+      var options = {
+         "enabled": true,
+         "chatButtonSetting": {
+            "backgroundColor": "#26c281",
+            "ctaText": "",
+            "borderRadius": "32",
+            "marginLeft": "0",
+            "marginBottom": "50",
+            "marginRight": "50",
+            "position": "right"
+         },
+         "brandSetting": {
+            "brandName": "Dr. Smrithi Ayurraksha Clinic",
+            "brandSubTitle": "Typically replies within a day",
+            "brandImg": "img/Dr.smrithiayurakshaclinic.png",
+            "welcomeText": "Hi there!\nHow can I help you?",
+            "messageText": "Hello, I would like to know the treatment procedures at Smrithi Ayuraksha",
+            "backgroundColor": "rgba(62,16,67)",
+            "ctaText": "Start Chat",
+            "borderRadius": "25",
+            "autoShow": false,
+            "phoneNumber": "919567760405"
+         }
+      };
+      s.onload = function () {
+         CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+   </script>
 </body>
 
 </html>

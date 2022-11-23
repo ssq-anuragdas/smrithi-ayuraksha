@@ -10,8 +10,9 @@ class Footer extends HTMLElement {
                <div class="textwidget">
                   <div class="vc_empty_space" style="height: 8px"><span class="vc_empty_space_inner"></span>
                   </div>
-                  <img src="img/Dr.smrithiayurakshaclinic.png" width="25%" title="" alt="Logo">
-                  <p style="margin-top: 10px;">
+                 <!-- <img src="img/Dr.smrithiayurakshaclinic.png" width="18%" title="" alt="Logo"> -->
+                  <img src="img/smirth.png" width="60%" title="" alt="Logo">
+                  <p style="margin-top: 10px; font-size: 16px !important; line-height: 1.8;">
                      Smriti Ayurkasha Clinic is one of the best Ayurvedic treatment centers in Kerala
                      that offers genuine, authentic, and best Ayurvedic treatment.
                   </p>
@@ -49,7 +50,7 @@ class Footer extends HTMLElement {
                   </tr>
                   <tr>
                      <td>
-                        <i class="fa fa-clock-o" aria-hidden="true" style="color: blue;"></i>
+                        <i class="fa fa-clock-o" aria-hidden="true" style="color: #67bb65;"></i>
                         9am to 7pm
                      </td>
                   </tr>
@@ -58,7 +59,7 @@ class Footer extends HTMLElement {
                   </tr>
                   <tr>
                      <td>
-                        <i class="fa fa-clock-o" aria-hidden="true" style="color: red;"></i>
+                        <i class="fa fa-clock-o" aria-hidden="true" style="color: #c9b45d;"></i>
                         Closed
                      </td>
                   </tr>

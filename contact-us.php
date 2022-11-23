@@ -201,6 +201,9 @@
          margin-bottom: 0
       }
    </style>
+
+
+   <link rel="stylesheet" href="css/common.css">
    <link rel='stylesheet' id='wc-block-vendors-style-css' href='css/vendors-style.css?ver=3.8.1' type='text/css' media='all' />
    <link rel='stylesheet' id='wc-block-style-css' href='css/style.css?ver=3.8.1' type='text/css' media='all' />
    <link rel='stylesheet' id='jquery-selectBox-css' href='css/jquery.selectBox.css?ver=1.2.0' type='text/css' media='all' />
@@ -750,7 +753,7 @@
       }
 
       table.time-slot__table tr>th,
-      table.time-slot__table tr>td       {
+      table.time-slot__table tr>td {
          padding: 5px !important;
          padding-bottom: 15px !important;
          background-color: #fff;
@@ -763,8 +766,6 @@
       table.time-slot__table tr>td {
          color: #666 !important;
       }
-
-
    </style>
    <noscript>
       <style>
@@ -1147,103 +1148,24 @@
             <!-- **Container - End** -->
          </div>
          <!-- **Main - End** -->
-         <!-- **Footer** -->
-         <footer id="footer">
-            <div class="footer-widgets ">
-               <div class="container">
-                  <div class='column dt-sc-one-fourth first'>
-                     <aside id="text-3" class="widget widget_text">
-                        <div class="textwidget">
-                           <div class="vc_empty_space" style="height: 8px"><span class="vc_empty_space_inner"></span>
-                           </div>
-                           <img src="img/Dr.smrithiayurakshaclinic.png" width="25%" alt="" title="">
-                           <br />
-                           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem.</p>
-                           <!-- <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span> -->
-                        </div>
-                        <h6> <strong> Phone - </strong> +91 956 7760 405 </h6>
-                        <h6> <strong> Mail ID - </strong> test@gmail.com </h6>
-                  </div>
-                  </aside>
-               </div>
-               <div class='column dt-sc-one-fourth '>
-                  <aside id="text-4" class="widget widget_text">
-                     <h3 class="widgettitle">Treatments</h3>
-                     <div class="textwidget">
-                        <ul>
-                           <li class="checkbox">
-                              <a href="treatment.html">WOUND HEALING THERAPY</a>
-                           </li>
-                           <li class="checkbox"><a href="panchakarma.html">PANCHAKARMA</a></li>
-                           <li class="checkbox"><a href="treatment.html">VANITHA CLINIC </a></li>
-                        </ul>
-                     </div>
-                  </aside>
-               </div>
-               <div class='column dt-sc-one-fourth '>
-                  <aside id="text-5" class="widget widget_text">
-                     <h3 class="widgettitle">Our Time Schedule</h3>
-                     <div class="textwidget">
-                        <p><strong>Monday - Friday </strong></p>
-                        <p class="secondary-skin-color">8am to 6pm</p>
-                        <div class="ult-spacer spacer-636b5c98f2054" data-id="636b5c98f2054" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
-                        <p><strong>Saturday - Sunday</strong></p>
-                        <p class="secondary-skin-color">9am to 4pm</p>
-                     </div>
-                  </aside>
-               </div>
-               <div class='column dt-sc-one-fourth '>
-                  <aside id="text-7" class="widget widget_text">
-                     <h3 class="widgettitle">Follow Us</h3>
-                     <div class="textwidget">
-                        <ul class="dt-sc-sociable alignleft">
-                           <li class="checkbox"> <a class="fa fa-facebook" title="Facebook" href="#"> </a> </li>
-                           <li class="checkbox"> <a class="fa fa-twitter" title="Twitter" href="#"> </a> </li>
-                           <li class="checkbox"> <a class="fa fa-instagram" title="Instagram" href="#"> </a> </li>
-                           <li class="checkbox"> <a class="fa fa-linkedin" title="LinkedIn" href="#"> </a> </li>
-                        </ul>
-                     </div>
-                  </aside>
-               </div>
-            </div>
-      </div>
-      <div class="footer-copyright dt-sc-dark-bg">
-         <div class="container">
-            <div class="column dt-sc-one-half first ">&copy; 2022 Sanesquare Private Ltd. All rights reserved.
-            </div>
-            <div class="column dt-sc-one-half footer-menu">
-               <ul id="menu-footer-menu" class="menu-links">
-                  <li id="menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380">
-                     <a href="http://google.com/">Privacy Policy</a>
-                  </li>
-                  <li id="menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381">
-                     <a href="http://google.com/">Terms of Use</a>
-                  </li>
-                  <li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382">
-                     <a href="http://google.com/">Site Map</a>
-                  </li>
-               </ul>
+
+         <site-footer></site-footer>
+
+         <!--? Call Function -->
+         <div class="call-wrapper">
+            <div class="call-icon-wrap">
+               <a href="tel:+919567760405">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+               </a>
             </div>
          </div>
-      </div>
-      </footer>
-      <!-- **Footer - End** -->
 
-      <!--? Call Function -->
-      <div class="call-wrapper">
-         <div class="call-icon-wrap">
-            <a href="tel:+919567760405">
-               <i class="fa fa-phone" aria-hidden="true"></i>
-            </a>
-         </div>
       </div>
-
-   </div>
-   <!-- **Inner Wrapper - End** -->
+      <!-- **Inner Wrapper - End** -->
    </div>
    <!-- **Wrapper - End** -->
 
-
+   <script type="module" src="footer/footer.js"></script>
 
    <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.14/css/intlTelInput.css" rel="stylesheet" />
    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>

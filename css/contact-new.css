@@ -1747,34 +1747,3 @@
 .content-wrapper .checkbox-wrapper .checkbox-ul li>label {
 	padding-left: 10px;
 }
-
-
-
-.call-wrapper {
-	position: fixed;
-	content: ' ';
-	border-radius: 50px;
-	bottom: 120px;
-	right: 50px;
-	background-color: #c09245;
-	z-index: 111111;
-}
-.call-wrapper .call-icon-wrap{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 65px !important;
-	height: 65px !important;
-}
-
-.call-wrapper .call-icon-wrap a,
-.call-wrapper .call-icon-wrap a>i {
-	margin: auto !important;
-	padding: 5px !important;
-}
-
-
-.call-wrapper .call-icon-wrap a>i {
-	font-size: x-large;
-	color: white;
-}

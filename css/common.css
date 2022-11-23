@@ -107,6 +107,13 @@ ul.footer__treatment-list>li {
     padding-bottom: 0 !important;
 }
 
+ul.footer__treatment-list>li>a {
+    padding-top: 0 !important;
+}
+
+.widget ul li:before {
+    top: -3px !important;
+}
 
 table.footer_time-slot,
 table.footer_contact-table {
@@ -117,27 +124,37 @@ table.footer_time-slot tr>th,
 table.footer_contact-table tr>th {
     background-color: #f8f8f9 !important;
     padding: 0px !important;
-    padding-bottom: 15px !important;
+    padding-bottom: 8px !important;
     text-align: left !important;
     border: none !important;
     max-width: 50px;
-    color: #111;
+    color: #a8a8a8;
 }
 
 table.footer_time-slot tr>td,
 table.footer_contact-table tr>td {
     background-color: #f8f8f9 !important;
     padding: 0px !important;
-    padding-bottom: 15px !important;
     text-align: left !important;
-    font-size: 15px !important;
     border: none !important;
+    font-size: large !important;
+    color: #666 !important;
+    font-weight: 600 !important;
+    padding-bottom: 15px !important;
+}
+
+table.footer_contact-table tr>td>a:hover {
+    text-decoration: none !important;
+}
+
+table.footer_contact-table tr>td>a {
+    font-weight: 500 !important;
+    font-size: 16px !important;
 }
 
 table.footer_time-slot tr>td>i {
-    padding-left: 20px;
     padding-right: 5px;
-    font-size: small !important;
+    font-size: large !important;
 }
 
 a#footer__social-icon-fb {

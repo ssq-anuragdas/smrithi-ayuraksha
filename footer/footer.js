@@ -82,13 +82,16 @@ class Footer extends HTMLElement {
                <div class="textwidget">
                   <ul class="dt-sc-sociable alignleft">
                      <li> 
-                        <a id="footer__social-icon-fb" class="fa fa-facebook-square" title="Facebook" href="https://www.facebook.com/Dr.Smrithi.Wound.Healing.Specialist"></a> 
+                        <a id="footer__social-icon-fb" class="fa fa-facebook-square" title="Facebook" 
+                          target="_blank" href="https://www.facebook.com/Dr.Smrithi.Wound.Healing.Specialist"></a> 
                      </li>
                      <li> 
-                        <a id="footer__social-icon-insta" class="fa fa-instagram" title="Instagram" href="https://www.instagram.com/dr_smrithi/"></a> 
+                        <a id="footer__social-icon-insta" class="fa fa-instagram" title="Instagram" 
+                          target="_blank" href="https://www.instagram.com/dr_smrithi/"></a> 
                      </li>
                      <li> 
-                        <a id="footer__social-icon-youtube" class="fa fa-youtube-play" title="Youtube" href="https://www.youtube.com/channel/UCwmUYcoxGmKFCxarQCcxAzA"></a>
+                        <a id="footer__social-icon-youtube" class="fa fa-youtube-play" title="Youtube" 
+                          target="_blank" href="https://www.youtube.com/channel/UCwmUYcoxGmKFCxarQCcxAzA"></a>
                      </li>
                   </ul>
                </div>

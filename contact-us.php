@@ -1411,6 +1411,7 @@
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min.js?ver=6.5.0' id='vc_jquery_skrollr_js-js'></script>
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/vhparallax.min.js?ver=3.19.8' id='jquery.vhparallax-js'></script>
    <script type='text/javascript' src='js/jquery.prettyPhoto.min005e.js?ver=3.1.6' id='prettyPhoto-js'></script>
+   
    <!-- Whatp chat plugin  -->
    <script type='text/javascript'>
       var url = 'js/chat_plugin.js';
@@ -1434,15 +1435,15 @@
             "brandSubTitle": "Typically replies within a day",
             "brandImg": "img/Dr.smrithiayurakshaclinic.png",
             "welcomeText": "Hi there!\nHow can I help you?",
-            "messageText": "Hello, I have a question about {{page_link}}",
+            "messageText": "Hello, I would like to know the treatment procedures at Smrithi Ayuraksha",
             "backgroundColor": "rgba(62,16,67)",
             "ctaText": "Start Chat",
             "borderRadius": "25",
             "autoShow": false,
-            "phoneNumber": "918606628622"
+            "phoneNumber": "919567760405"
          }
       };
-      s.onload = function() {
+      s.onload = function () {
          CreateWhatsappChatWidget(options);
       };
       var x = document.getElementsByTagName('script')[0];

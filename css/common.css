@@ -1,3 +1,17 @@
+/***** Home(index.html) page *****/
+
+/* Used for Popular Therapy Services cards in home page */
+.line-clamp__para {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/***** End Home(index.html) page *****/
+
+
+
 /***** caller function *****/
 
 .call-wrapper {
@@ -35,6 +49,10 @@
 
 
 /***** Treatment Page style *****/
+
+section.treatment-page__content-wrapper p {
+    font-size: 16px !important;
+}
 
 .left-side__wrapper {
     max-width: 100%;
@@ -86,6 +104,19 @@ ul.treatment-left__ul-nav>li>a:hover {
     top: 45px;
     background-color: #0fb8cd;
     border-radius: 20px;
+}
+
+.wound-details__title-wrapper h4 {
+    font-size: 20px !important;
+}
+
+
+ul.dt-sc-fancy-list {
+    padding-left: 20px;
+}
+
+ul.dt-sc-fancy-list li:before {
+    font-size: xx-small !important;
 }
 
 /***** End Treatment Page style *****/
@@ -170,6 +201,14 @@ a#footer__social-icon-insta {
 a#footer__social-icon-youtube {
     color: #FF0000 !important;
     font-size: 20px !important;
+}
+
+.footer-copyright .menu-links li a:before {
+    width: 5px !important;
+    height: 5px !important;
+    top: 60% !important;
+    left: -15px !important;
+    border-radius: 50px;
 }
 
 /***** End Footer *****/

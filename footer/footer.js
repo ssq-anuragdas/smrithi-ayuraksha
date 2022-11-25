@@ -42,7 +42,7 @@ class Footer extends HTMLElement {
             </aside>
          </div>
          <div class='column dt-sc-one-fourth '>
-            <aside id="text-5" class="widget widget_text">
+            <aside id="text-5" class="widget widget_text" style="margin-bottom: 0 !important;">
                <h3 class="widgettitle">Our Time Schedule</h3>
                <table class="footer_time-slot">
                   <tr>

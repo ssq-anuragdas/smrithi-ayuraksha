@@ -901,7 +901,7 @@
             <header id="header">
                <!-- **Main Header Wrapper** -->
                <div id="main-header-wrapper" class="main-header-wrapper">
-                  <div class="container">
+                  <div class="container container-xs">
                      <!-- **Main Header** -->
                      <div class="main-header">
                         <div id="logo">
@@ -919,12 +919,15 @@
                                     <a href="index.html">Home</a>
                                  </li>
                                  <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent ">
+                                    <a href="about-us.html">About Us</a>
+                                 </li>
+                                 <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent current_page_item">
                                     <a href="treatment.html">Treatments</a>
                                  </li>
-                                 <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-depth-0 menu-item-simple-parent ">
+                                 <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent ">
                                     <a href="gallery.html">Gallery</a>
                                  </li>
-                                 <li id="menu-item-836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent current-menu-item">
+                                 <li id="menu-item-836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent ">
                                     <a href="contact-us.php">Contact Us</a>
                                  </li>
                               </ul>
@@ -950,6 +953,7 @@
                      </div>
                   </div>
                </div>
+               <!-- **Main Header** -->
             </header>
             <!-- **Header - End** -->
          </div>
@@ -965,11 +969,11 @@
                </div>
             </section>
             <!-- ** Container ** -->
-            <div class="container">
+            <div class="container primary-section__wrapper">
                <section id="primary" class="content-full-width">
                   <!-- #post-778 -->
                   <div id="post-778" class="post-778 page type-page status-publish hentry">
-                     <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1505211011962 vc_row-no-padding" style="position: relative; left: -156px; box-sizing: border-box; width: 1512px;">
+                     <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1505211011962 vc_row-no-padding map-wrapper-width map-in__small-screen" style="position: relative; left: -156px; box-sizing: border-box; width: 1512px;">
                         <div class="wpb_column vc_column_container vc_col-sm-12">
                            <div class="vc_column-inner ">
                               <div class="wpb_wrapper">
@@ -1055,9 +1059,9 @@
                            </div>
                         </div>
                         <div class="wpb_column vc_column_container vc_col-sm-12">
-                           <div class="vc_column-inner ">
+                           <div class="vc_column-inner">
                               <div class="wpb_wrapper">
-                                 <div class="ult-spacer spacer-6370f65fb94a3" data-id="6370f65fb94a3" data-height="50" data-height-mobile="50" data-height-tab="50" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
+                                 <div class="ult-spacer spacer-6370f65fb94a3 d-none_mob" data-id="6370f65fb94a3" data-height="50" data-height-mobile="50" data-height-tab="50" data-height-tab-portrait="" data-height-mobile-landscape="" style="clear:both;display:block;"></div>
                                  <div class="dt-sc-clear "> </div>
                               </div>
                            </div>
@@ -1076,7 +1080,7 @@
                                  <input type="email" name="email" id="email" placeholder="Email" required autocomplete="none" />
 
                                  <div class="form-group-contactus">
-                                    <input type="tel" name="mobile" id="mobile" class="input form-control" value="" placeholder="1234567890" maxlength="10" />
+                                    <input type="tel" name="mobile" id="mobile" class="input form-control" value="" placeholder="9567760405" maxlength="10" />
                                  </div>
                                  <textarea class="form-control" name="message" id="message" placeholder="Your Message" required autocomplete="none"></textarea>
 
@@ -1411,7 +1415,7 @@
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/lib/bower/skrollr/dist/skrollr.min.js?ver=6.5.0' id='vc_jquery_skrollr_js-js'></script>
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/vhparallax.min.js?ver=3.19.8' id='jquery.vhparallax-js'></script>
    <script type='text/javascript' src='js/jquery.prettyPhoto.min005e.js?ver=3.1.6' id='prettyPhoto-js'></script>
-   
+
    <!-- Whatp chat plugin  -->
    <script type='text/javascript'>
       var url = 'js/chat_plugin.js';
@@ -1443,7 +1447,7 @@
             "phoneNumber": "919567760405"
          }
       };
-      s.onload = function () {
+      s.onload = function() {
          CreateWhatsappChatWidget(options);
       };
       var x = document.getElementsByTagName('script')[0];

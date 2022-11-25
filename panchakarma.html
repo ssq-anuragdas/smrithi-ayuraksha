@@ -214,6 +214,12 @@
             margin-top: 0;
             margin-bottom: 0
         }
+
+        @media screen and (min-width: 768px) {
+            .container-xs {
+                width: 100% !important;
+            }
+        }
     </style>
     <link rel='stylesheet' id='wc-block-vendors-style-css'
         href='https://dtpsychiatrist.wpengine.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-style.css?ver=3.8.1'
@@ -1553,7 +1559,7 @@
                 <header id="header">
                     <!-- **Main Header Wrapper** -->
                     <div id="main-header-wrapper" class="main-header-wrapper">
-                        <div class="container">
+                        <div class="container container-xs">
                             <!-- **Main Header** -->
                             <div class="main-header">
                                 <div id="logo">
@@ -1635,7 +1641,7 @@
                     </div>
                 </section>
                 <!-- ** Container ** -->
-                <div class="container">
+                <div class="container primary-section__wrapper">
                     <section id="primary" class="content-full-width">
                         <article id="post-432"
                             class="dt-portfolio-single post-432 dt_portfolios type-dt_portfolios status-publish has-post-thumbnail hentry portfolio_entries-web-design">

@@ -306,7 +306,8 @@
 		.dt-sc-contact-info.type4, .dt-sc-contact-info.type6 { display: block; float: none; margin-left: auto; margin-right: auto; }
 
 		.dt-sc-contact-info.type7 { padding-left: 120px; }
-		.dt-sc-contact-info.type7 span { left: 15px; }
+		/* .dt-sc-contact-info.type7 span { left: 15px; } */
+		.dt-sc-contact-info.type7 span { left: 0px; font-size: x-large; width: 40px; }
 
 		.dt-sc-contact-info.type8 span { top: -120px; }
 

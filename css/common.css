@@ -44,6 +44,29 @@
     color: white;
 }
 
+@media screen and (max-width: 1111px) {
+    .call-wrapper {
+        bottom: 10px;
+        left: 10px;
+        right: unset;
+        box-shadow: 2px 2px 6px rgb(0 0 0 / 40%);
+    }
+
+    .call-wrapper .call-icon-wrap {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    #wa-widget-send-button {
+        margin: 0 !important;
+        /* margin: 0; isn't work so bottom: -40px; is used for positioning */
+        bottom: -40px !important;
+        right: 10px !important;
+        height: 60px !important;
+        min-width: 60px !important;
+    }
+}
+
 /***** End caller function *****/
 
 
@@ -212,3 +235,176 @@ a#footer__social-icon-youtube {
 }
 
 /***** End Footer *****/
+
+
+
+/***** Mob-Screen responsive *****/
+
+@media only screen and (max-width: 768px) {
+
+    /* Style for menu/header section */
+    div.container-xs {
+        width: 100% !important;
+    }
+
+    .main-header-wrapper {
+        padding: 0 !important;
+    }
+
+    .menu-icons-wrapper {
+        width: auto !important;
+        display: inline-flex;
+        align-items: center;
+        justify-content: end;
+        margin: 0 !important;
+        left: unset !important;
+        right: 15px !important;
+        padding: 0 !important;
+    }
+
+    .menu-icons-wrapper .search a span {
+        padding-top: 25px !important;
+        font-size: 18px !important;
+    }
+
+    .is-sticky .menu-icons-wrapper {
+        top: 10px !important;
+    }
+
+    .is-sticky .menu-icons-wrapper .search a span {
+        padding: 0px !important;
+        font-size: 16px !important;
+    }
+
+    .is-sticky #logo {
+        padding: 10px !important;
+        height: 60px !important;
+        transition: all 0.5s ease !important;
+    }
+
+    #logo a {
+        height: 60px !important;
+    }
+
+    .is-sticky #logo a {
+        height: 50px !important;
+    }
+
+    .is-sticky #main-menu>ul.menu>li>a {
+        line-height: 40px !important;
+    }
+
+
+    /* Style for container width and contents */
+    .container.primary-section__wrapper {
+        width: calc(100% - 30px) !important;
+    }
+
+    .dt-sc-title.with-right-border-decor>*:first-child {
+        padding-bottom: 10px !important;
+    }
+
+    .dt-sc-title.with-right-border-decor>*:first-child:after {
+        width: 80px !important;
+        border-radius: 50px !important;
+    }
+
+
+    /* Idex page main title */
+    .welcome-title {
+        font-size: 24px !important;
+        line-height: 1.4;
+        margin-bottom: 15px !important;
+    }
+
+    div.main-btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 30px !important;
+    }
+
+    div.main-btn-wrapper a {
+        margin: 0 !important;
+        padding: 15px;
+        font-size: small !important;
+        width: max-content !important;
+    }
+
+    /* to remove the space */
+    div.ult-spacer.d-none_mob {
+        display: none !important;
+    }
+
+    div.about-dr__wrapper {
+        padding: 0px 15px !important;
+        background:
+            linear-gradient(to bottom,
+                rgba(45, 80, 45, 0.85),
+                rgba(45, 80, 45, 0.85)),
+            url(../img/banner-mob.png);
+        background-position: center;
+        background-size: 220%;
+        /* background-color: rgba(88, 133, 80, 0.6); */
+        padding-top: 40px !important;
+    }
+
+    div.dr_content-wrapper {
+        margin: 0 !important;
+    }
+
+    div.about-dr__wrapper p,
+    div.about-dr__wrapper h2 {
+        color: rgb(228, 228, 228) !important;
+    }
+
+    div.dr_desc {
+        padding: 0px 18px !important;
+    }
+
+    div.video-sec__title-wrapper {
+        margin-top: 20px;
+    }
+
+    div.mob-center-align {
+        text-align: center !important;
+    }
+
+    div.mob-center-align h4 {
+        padding: 0 !important;
+    }
+
+    
+    /* About-Us page */
+    div.dt-sc-title>h2.smrithi-doc-name {
+        font-size: x-large !important;
+    }
+
+    h5#doctor-sign-name {
+        text-align: center !important;
+        font-size: medium !important;
+    }
+
+    div.vc_align_left.doctor-sign-wrapper {
+        text-align: center !important;
+        width: 50% !important;
+        margin: auto !important;
+    }
+
+    div.dt-sc-title>h2.specialization-title {
+        font-size: 22px !important;
+        margin-top: 10px !important;
+        margin-bottom: 0px !important;
+    }
+
+    p#mob-align-center {
+        text-align: center !important;
+    }
+
+    div.dt-sc-title>h2#why-we-are-best {
+        font-size: 28px !important;
+    }
+
+}
+
+/***** End Mob-Screen responsive *****/

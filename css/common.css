@@ -236,6 +236,22 @@ a#footer__social-icon-youtube {
 
 /***** End Footer *****/
 
+/* This style is used in index.html(Wound healing specialist) */
+@media screen and (min-width: 768px) and (max-width: 2400px) {
+    /* div.vc_general.vc_parallax.vc_parallax-content-moving.smrithi-banner-content {
+        width: calc(100% + 5%) !important;
+        left: -10px !important;
+    } */
+
+    div.for-big-screen__left {
+        margin-left: 12% !important;
+        margin-right: -4% !important;
+    }
+
+    div.for-big-screen__right {
+        margin-left: -4% !important;
+    }
+}
 
 
 /***** Mob-Screen responsive *****/
@@ -332,7 +348,8 @@ a#footer__social-icon-youtube {
     }
 
     /* to remove the space */
-    div.ult-spacer.d-none_mob {
+    div.ult-spacer.d-none_mob,
+    div.d-none_mob {
         display: none !important;
     }
 
@@ -374,7 +391,12 @@ a#footer__social-icon-youtube {
         padding: 0 !important;
     }
 
-    
+    /* Ayurveda evelution and history section*/
+    div.padding-mob {
+        padding: 0px 15px !important;
+    }
+
+
     /* About-Us page */
     div.dt-sc-title>h2.smrithi-doc-name {
         font-size: x-large !important;
@@ -403,6 +425,30 @@ a#footer__social-icon-youtube {
 
     div.dt-sc-title>h2#why-we-are-best {
         font-size: 28px !important;
+    }
+
+    /* treatment page */
+
+    div#one>h3.treatments-title {
+        font-size: 1.5em !important;
+    }
+
+    /* padding-top for main images in treatment page */
+    div.padding-in-mob {
+        padding-top: 270px !important;
+    }
+
+    /* to arrange the para on top */
+    div.wound-content__wrapper>p.para-top-mob {
+        position: absolute !important;
+        top: 60px !important;
+    }
+    div.treatment-effect-title__wrapper {
+        margin-bottom: 10px;
+    }
+
+    div#one>h3.treatment-effect-title {
+        font-size: 1em;
     }
 
 }

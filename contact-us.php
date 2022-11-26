@@ -8,8 +8,11 @@
    <script>
       document.documentElement.className = document.documentElement.className + ' yes-js js_active js'
    </script>
-   <title>Contact Us | Dr. Smrithi Ayuraksha clinic</title>
+   <title>Ayurvedic Wound Care Specialist Near Me in Kozhikode | Calicut</title>
    <meta name='robots' content='max-image-preview:large' />
+   <meta name="description" content="Are you looking for the best Ayurvedic Treatment in Calicut? Dr. Smirthi provides treatments for Bedsores, Fissures, & Diabetic wounds in Kozhikode, Call Now." />
+   <meta name="Keywords" content="Ayurvedic wound care specialist near me, treatment for diabetic wound infection, diabetic wound care treatments in Calicut. Ayurveda doctor for wound heal." />
+
    <link rel='dns-prefetch' href='http://code.jquery.com/' />
    <link rel='dns-prefetch' href='http://s.w.org/' />
    <link href='https://fonts.gstatic.com/' crossorigin rel='preconnect' />
@@ -514,12 +517,10 @@
          }
       </style>
    </noscript>
-   <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-   <meta name="generator" content="Powered by Slider Revolution 6.3.3 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-   <link rel="icon" href="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/cropped-apple-touch-icon-144x144-32x32.png" sizes="32x32" />
-   <link rel="icon" href="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/cropped-apple-touch-icon-144x144-192x192.png" sizes="192x192" />
-   <link rel="apple-touch-icon" href="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/cropped-apple-touch-icon-144x144-180x180.png" />
-   <meta name="msapplication-TileImage" content="https://dtpsychiatrist.wpengine.com/wp-content/uploads/2017/05/cropped-apple-touch-icon-144x144-270x270.png" />
+   <link rel="icon" href="img/Dr.smrithiayurakshaclinic.png" sizes="32x32" />
+   <link rel="icon" href="img/Dr.smrithiayurakshaclinic.png" sizes="192x192" />
+   <link rel="apple-touch-icon" href="img/Dr.smrithiayurakshaclinic.png" />
+
    <script type="text/javascript">
       function setREVStartSize(e) {
          //window.requestAnimationFrame(function() {				 
@@ -921,13 +922,13 @@
                                  <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent ">
                                     <a href="about-us.html">About Us</a>
                                  </li>
-                                 <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent current_page_item">
+                                 <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent">
                                     <a href="treatment.html">Treatments</a>
                                  </li>
                                  <li id="menu-item-8181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-depth-0 menu-item-simple-parent ">
                                     <a href="gallery.html">Gallery</a>
                                  </li>
-                                 <li id="menu-item-836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent ">
+                                 <li id="menu-item-836" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-depth-0 menu-item-simple-parent current_page_item">
                                     <a href="contact-us.php">Contact Us</a>
                                  </li>
                               </ul>
@@ -939,7 +940,7 @@
                                  <div class="overlay overlay-search">
                                     <div class="overlay-close"></div>
                                     <!-- **Searchform** -->
-                                    <form method="get" id="searchform" action="https://dtpsychiatrist.wpengine.com/">
+                                    <form method="get" id="searchform" action="">
                                        <input id="s" name="s" type="text" value="Enter Keyword" class="text_input" onblur="if(this.value==''){this.value='Enter Keyword';}" onfocus="if(this.value =='Enter Keyword') {this.value=''; }" />
                                        <a href="javascript:void(0)" class="dt-search-icon"> <span class="fa fa-close">
                                           </span> </a>

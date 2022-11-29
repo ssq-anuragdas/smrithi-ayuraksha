@@ -73,6 +73,18 @@
 
 /***** Treatment Page style *****/
 
+body#treatment-body,
+div#main,
+div#treatment-page__wrapper,
+div#treatment-page__inner-wrapper,
+div.primary-section__wrapper.treatment_page-container,
+div.treatment-main__div,
+div.treatment_page-container,
+section.treatment-page__content-wrapper,
+div.wpb_column.treatment-page__column {
+    overflow: unset !important;
+}
+
 section.treatment-page__content-wrapper p {
     font-size: 16px !important;
 }
@@ -82,40 +94,45 @@ section.treatment-page__content-wrapper p {
     height: 100%;
 }
 
-.left-side__wrapper .left-side__nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 100px;
-    padding-left: 20px;
+
+div.treatment-row {
+    display: flex;
 }
 
-
-
-ul.left-nav__ul {
-    margin-top: 5px !important;
-    margin-bottom: 20px !important;
+div.left-side__nav-wrapper {
+    margin-top: 10px !important;
+    align-self: flex-start;
 }
 
-ul.left-nav__ul>li>a {
-    color: #111;
-    font-size: 14px !important;
+/* for sticky nav on left side */
+@media screen and (min-width: 768px) {
+    div.left-side__nav-wrapper {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 100px;
+    }
 }
 
-ul.left-nav__ul>li.active>a {
-    background-color: rgb(191 142 33) !important;
-    padding: 2pX 10px;
+ul.left-side__nav-ul>li>a {
+    color: #333;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+
+ul.left-side__nav-ul>li.active-left_nav>a {
+    color: #c09245 !important;
+    padding: 2px 10px !important;
     border-radius: 3px;
-    color: white !important;
-    /* font-size: 16px !important; */
 }
 
-
-ul.treatment-left__ul-nav>li>a {
-    color: #111;
+ul.left-side__nav-ul>li>ul.left-nested__nav-ul>li>a {
+    color: #777 !important;
 }
 
-ul.treatment-left__ul-nav>li>a:hover {
-    color: #e3ca94;
+ul.left-side__nav-ul>li>ul.left-nested__nav-ul>li>a:hover {
+    background: #d4ad6b !important;
+    padding: 2px 5px !important;
+    border-radius: 3px;
 }
 
 
@@ -140,6 +157,10 @@ ul.dt-sc-fancy-list {
 
 ul.dt-sc-fancy-list li:before {
     font-size: xx-small !important;
+}
+
+ul.left-side__nav-ul>li>div.treatment-nav__img-wrapper {
+    display: none !important;
 }
 
 /***** End Treatment Page style *****/
@@ -335,17 +356,52 @@ a#footer__social-icon-youtube {
 
     div.main-btn-wrapper {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         gap: 1rem;
         margin-bottom: 30px !important;
     }
 
     div.main-btn-wrapper a {
         margin: 0 !important;
-        padding: 15px;
+        /* padding: 15px; */
+        padding: 5px 15px !important;
+        line-height: 35px !important;
         font-size: small !important;
         width: max-content !important;
     }
+
+    /*** Home page Slider function style ***/
+
+    /* slider height */
+    rs-module#rev_slider_3_1 {
+        height: 280px !important;
+    }
+
+    /* Slider caption */
+    rs-layer#slider-3-slide-7-layer-3,
+    rs-layer#slider-3-slide-7-layer-4,
+    rs-layer#slider-3-slide-8-layer-3,
+    rs-layer#slider-3-slide-8-layer-4 {
+        font-size: 10px !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-3,
+    rs-layer#slider-3-slide-9-layer-10,
+    rs-layer#slider-3-slide-9-layer-12 {
+        font-size: 8px !important;
+    }
+
+    rs-group-wrap.rs-parallax-wrap {
+        top: 160px !important;
+    }
+
+    rs-group#slider-3-slide-7-layer-7 {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 1rem !important;
+    }
+
+
 
     /* to remove the space */
     div.ult-spacer.d-none_mob,
@@ -396,6 +452,12 @@ a#footer__social-icon-youtube {
         padding: 0px 15px !important;
     }
 
+    /* medicine image in mob screen */
+    div.medicine-img_mob {
+        display: block !important;
+        width: 100%;
+        height: auto;
+    }
 
     /* About-Us page */
     div.dt-sc-title>h2.smrithi-doc-name {
@@ -431,6 +493,7 @@ a#footer__social-icon-youtube {
 
     div#one>h3.treatments-title {
         font-size: 1.5em !important;
+        margin-top: 10px;
     }
 
     /* padding-top for main images in treatment page */
@@ -443,6 +506,7 @@ a#footer__social-icon-youtube {
         position: absolute !important;
         top: 60px !important;
     }
+
     div.treatment-effect-title__wrapper {
         margin-bottom: 10px;
     }
@@ -451,6 +515,169 @@ a#footer__social-icon-youtube {
         font-size: 1em;
     }
 
+
+    /* Treatment row */
+    div.treatment-row {
+        flex-direction: column !important;
+    }
+
+    div.left-side__nav-wrapper {
+        /* background-color: white;
+        padding: 10px;
+        padding-top: 15px;
+        top: 115px;
+        z-index: 1111; */
+        width: 100%;
+    }
+
+    ul.left-side__nav-ul {
+        display: flex;
+        list-style: none !important;
+        margin-bottom: 0;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    ul.left-side__nav-ul>li {
+        text-align: center !important;
+        padding-bottom: 0;
+        line-height: normal;
+        width: 33.333% !important;
+    }
+
+    ul.left-side__nav-ul>li>a {
+        font-size: 10px;
+        line-height: normal;
+    }
+
+    ul.left-side__nav-ul>li ul.left-nested__nav-ul {
+        display: none;
+    }
+
+    ul.left-side__nav-ul>li div.treatment-nav__img-wrapper {
+        display: block !important;
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+        overflow: hidden !important;
+        object-fit: cover;
+    }
+
+    ul.left-side__nav-ul>li div.treatment-nav__img-wrapper img {
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    a.button-123>rs-mask-wrap {
+        transform: translateX(-25px) !important;
+    }
+
+    /* for buttons in sliders */
+    rs-layer#slider-3-slide-7-layer-5,
+    rs-layer#slider-3-slide-7-layer-6,
+    rs-layer#slider-3-slide-8-layer-5,
+    rs-layer#slider-3-slide-9-layer-5,
+    rs-layer#slider-3-slide-9-layer-6 {
+        padding: 8px 15px !important;
+        font-size: 8px !important;
+    }
+
+    rs-layer#slider-3-slide-8-layer-5 {
+        font-size: 10px !important;
+    }
+
+    rs-layer#slider-3-slide-7-layer-5,
+    rs-layer#slider-3-slide-7-layer-6 {
+        font-size: small !important;
+        min-height: 30px !important;
+        line-height: 22px !important;
+    }
+
+    rs-layer#slider-3-slide-7-layer-2 {
+        font-size: large !important;
+    }
+
+    .slider-1 rs-mask-wrap {
+        transform: translateX(-25px) !important;
+    }
+
+    .slider-1 rs-bg {
+        background-size: 129% auto !important;
+        background-position: 20% 100% !important;
+    }
+
+    /* used to add a blury background for first slider caption and button */
+
+    @keyframes OpacityAnim {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .slider-1 .backdrop-filter::before {
+        content: ' ';
+        position: absolute !important;
+        width: 100%;
+        height: 7.5rem !important;
+        bottom: 0px !important;
+        left: 0px !important;
+        background-color: rgba(255, 255, 255, 0.1) !important;
+        backdrop-filter: blur(1.5px) !important;
+        animation: OpacityAnim 7s;
+    }
+
+    /* first slider caption */
+    rs-layer#slider-3-slide-7-layer-3,
+    rs-layer#slider-3-slide-7-layer-4 {
+        padding: 15px !important;
+        transform: translate(-45px, 15px) !important;
+        font-size: 0.9em !important;
+        font-weight: 600 !important;
+    }
+
+    rs-layer#slider-3-slide-7-layer-3 {
+        margin-top: 8px !important;
+    }
+
+    rs-layer#slider-3-slide-7-layer-4 {
+        margin-top: 20px !important;
+    }
+
+    a.button-slider-1 rs-mask-wrap {
+        transform: translate(-85px, 70px) !important;
+    }
+
+    a.button-slider-2 rs-mask-wrap {
+        transform: translate(10px, 69px) !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-5 {
+        transform: translateX(-15px) !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-6 {
+        transform: translateX(15px) !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-10 {
+        width: 100px !important;
+        transform: translateX(25px) !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-11 {
+        transform: translateX(-10px) !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-12 {
+        transform: translateX(80px) !important;
+        width: 200px !important;
+    }
 }
 
 /***** End Mob-Screen responsive *****/

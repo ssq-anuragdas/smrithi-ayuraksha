@@ -206,7 +206,7 @@
    </style>
 
 
-   <link rel="stylesheet" href="css/common.css">
+   <link rel="stylesheet" href="css/common.css?ver=1.4">
    <link rel='stylesheet' id='wc-block-vendors-style-css' href='css/vendors-style.css?ver=3.8.1' type='text/css' media='all' />
    <link rel='stylesheet' id='wc-block-style-css' href='css/style.css?ver=3.8.1' type='text/css' media='all' />
    <link rel='stylesheet' id='jquery-selectBox-css' href='css/jquery.selectBox.css?ver=1.2.0' type='text/css' media='all' />
@@ -1172,7 +1172,7 @@
 
    <script type="module" src="footer/footer.js"></script>
 
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.14/css/intlTelInput.css" rel="stylesheet" />
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.14/css/intlTelInput.css?ver=1.0" rel="stylesheet" />
    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
 
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
@@ -1296,7 +1296,7 @@
    </script>
 
    <script type="text/html" id="wpb-modifications"></script>
-   <!-- <link rel="stylesheet" property="stylesheet" id="rs-icon-set-fa-icon-css" href="https://dtpsychiatrist.wpengine.com/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css" type="text/css" media="all" /> -->
+   <!-- <link rel="stylesheet" property="stylesheet" id="rs-icon-set-fa-icon-css" href="https://dtpsychiatrist.wpengine.com/wp-content/plugins/revslider/public/assets/fonts/font-awesome/css/font-awesome.css?ver=1.0" type="text/css" media="all" /> -->
    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700%7COpen+Sans:700%2C300%2C600%2C400%2C800%7CRoboto:400" rel="stylesheet" property="stylesheet" media="all" type="text/css">
    <script type="text/javascript">
       (function() {
@@ -1363,7 +1363,7 @@
       /* ]]> */
    </script>
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/pace.min.js?ver=6.0.3' id='pace-js'></script>
-   <script type='text/javascript' id='psychiatrist-jqcustom-js-extra'>
+   <script type='text/javascript' id='jquery-custom-js-extra'>
       /* <![CDATA[ */
       var dttheme_urls = {
          "theme_base_url": "",
@@ -1409,7 +1409,7 @@
       };
       /* ]]> */
    </script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/custom.js?ver=6.0.3' id='psychiatrist-jqcustom-js'></script>
+   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/custom.js?ver=6.0.3' id='jquery-custom-js'></script>
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1' id='jquery-cookie-js'></script>
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.5.0' id='wpb_composer_front_js-js'></script>
    <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min.js?ver=6.5.0' id='vc_waypoints-js'></script>

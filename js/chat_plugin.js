@@ -3,7 +3,7 @@ function CreateWhatsappChatWidget(option = {
         autoShow: true,
         backgroundColor: "#004575",
         borderRadius: "25",
-        brandImg: "../img/Dr.smrithiayurakshaclinic.png",
+        brandImg: "../img/Dr.smrithi-logo.png",
         brandImgData: null,
         brandName: "Dr.Smrithi Ayuraksha Clinic",
         brandSubTitle: "Typically replies within a day",

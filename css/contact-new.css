@@ -1635,11 +1635,10 @@
 }
 
 
-
-/* Enquiry form style */
+/* 
 .enquire-now__form-sec {
 	margin-top: 5rem;
-}
+} */
 
 .enquire-now__form-sec .content-wrapper {
 	display: flex;
@@ -1798,8 +1797,9 @@
 
 	.enquire-now__form-sec .appointment-form .btn-wrapper button {
 		position: absolute;
-		bottom: 20px;
+		bottom: 50%;
 		width: 100%;
+		z-index: 1111;
 	}
 
 	.intl-tel-input.separate-dial-code .selected-flag {

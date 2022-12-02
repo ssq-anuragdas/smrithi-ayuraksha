@@ -3692,7 +3692,7 @@ ul.side-nav>li>ul>li>ul>li>a:hover {
 	height: 60px;
 	border: none;
 	text-indent: 100%;
-	background: url(../images/totop@2x.png) no-repeat right bottom;
+	/* background: url(../images/totop@2x.png) no-repeat right bottom; */
 	z-index: 999;
 	text-indent: -9999px;
 	background-size: 100%;
@@ -3740,7 +3740,7 @@ ul.side-nav>li>ul>li>ul>li>a:hover {
 	-moz-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
-	background: url(../images/totop-after.png) no-repeat center;
+	/* background: url(../images/totop-after.png) no-repeat center; */
 	border-radius: 50%;
 	-webkit-transition: all 0.3s linear;
 	-moz-transition: all 0.3s linear;

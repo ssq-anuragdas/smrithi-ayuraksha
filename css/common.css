@@ -232,19 +232,28 @@ table.footer_time-slot tr>td>i {
     font-size: large !important;
 }
 
+/* Color and font size for footer icons */
+a#footer__social-icon-fb,
+a#footer__social-icon-insta,
+a#footer__social-icon-twitter,
+a#footer__social-icon-youtube {
+    font-size: 20px !important;
+}
+
 a#footer__social-icon-fb {
     color: #4267B2 !important;
-    font-size: 20px !important;
 }
 
 a#footer__social-icon-insta {
     color: #b92041 !important;
-    font-size: 20px !important;
+}
+
+a#footer__social-icon-twitter {
+    color: #00acee !important;
 }
 
 a#footer__social-icon-youtube {
     color: #FF0000 !important;
-    font-size: 20px !important;
 }
 
 .footer-copyright .menu-links li a:before {
@@ -491,6 +500,18 @@ a#footer__social-icon-youtube {
 
     /* treatment page */
 
+    div.treatment-wound__img-wrap {
+        display: flex;
+    }
+
+    a.wound-slider_prev-btn,
+    a.wound-slider_next-btn {
+        width: 30px !important;
+        height: 30px !important;
+        border-radius: 5px !important;
+        font-size: 14px !important;
+    }
+
     div#one>h3.treatments-title {
         font-size: 1.5em !important;
         margin-top: 10px;
@@ -536,13 +557,15 @@ a#footer__social-icon-youtube {
         margin-bottom: 0;
         gap: 1rem;
         width: 100%;
+        overflow-y: scroll;
     }
 
     ul.left-side__nav-ul>li {
         text-align: center !important;
-        padding-bottom: 0;
+        padding-bottom: 10px;
         line-height: normal;
-        width: 33.333% !important;
+        width: 33.333%;
+        flex: 0 0 33.333%;
     }
 
     ul.left-side__nav-ul>li>a {
@@ -681,3 +704,121 @@ a#footer__social-icon-youtube {
 }
 
 /***** End Mob-Screen responsive *****/
+
+
+
+
+.post-nav-container {
+    float: left;
+    width: 100%;
+    margin: 40px 0px 0px;
+    padding: 0px;
+    display: block;
+    clear: both;
+    position: relative;
+}
+
+.post-nav-container:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 21px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 1px;
+}
+
+.post-nav-container .post-next-link a,
+.post-nav-container .post-prev-link a {
+    background: #ffffff;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 15px 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid;
+    margin: 0px 20px 0px 0px;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+}
+
+.post-nav-container .post-prev-link {
+    float: left;
+}
+
+.post-nav-container .post-next-link {
+    float: right;
+}
+
+.post-nav-container .post-next-link a i {
+    margin-left: 10px;
+}
+
+.post-nav-container .post-prev-link a i {
+    margin-right: 10px;
+}
+
+.post-nav-container .post-next-link a i,
+.post-nav-container .post-prev-link a i {
+    color: #000000;
+    position: relative;
+    top: -1px;
+}
+
+.post-nav-container .post-next-link a {
+    margin-right: 0px;
+}
+
+.post-nav-container .post-next-link a:hover,
+.post-nav-container .post-prev-link a:hover,
+.post-nav-container .post-next-link a:hover i,
+.post-nav-container .post-prev-link a:hover i {
+    color: #ffffff;
+}
+
+div#responsive_map-1210183613 {
+    height: auto !important;
+}
+
+div.vc_row.wpb_row.vc_row-fluid.university-contact-info.contact-address {
+    margin: auto !important;
+}
+
+
+/* For footer styling */
+@media screen and (max-width: 768px) {
+    div.footer-copyright.dt-sc-dark-bg {
+        padding-bottom: 60px !important;
+    }
+
+    div.column.dt-sc-one-half.footer-menu {
+        display: flex;
+        flex-wrap: wrap;
+        width: calc(100% + 60px) !important;
+        left: -25px !important;
+    }
+
+    div.column.dt-sc-one-half.first.copyright {
+        width: calc(100% - 60px) !important;
+        left: 10% !important;
+    }
+
+    div.container.footer-container {
+        left: -10px;
+    }
+
+    div.footer-widgets .widget {
+        margin-bottom: 0 !important;
+    }
+
+    div.footer-widgets {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+}

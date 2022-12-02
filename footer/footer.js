@@ -4,7 +4,7 @@ class Footer extends HTMLElement {
 
 <footer id="footer">
    <div class="footer-widgets ">
-      <div class="container">
+      <div class="container footer-container">
          <div class='column dt-sc-one-fourth first'>
             <aside id="text-3" class="widget widget_text">
                <div class="textwidget">
@@ -13,8 +13,9 @@ class Footer extends HTMLElement {
                  <!-- <img src="img/Dr.smrithi-logo.png" width="18%" title="" alt="Logo"> -->
                   <img src="img/smrithi-title-logo.png" width="60%" title="" alt="Logo">
                   <p style="margin-top: 10px; font-size: 16px !important; line-height: 1.8;">
-                     Smriti Ayurkasha Clinic is one of the best Ayurvedic treatment centers in Kerala
-                     that offers genuine, authentic, and best Ayurvedic treatment.
+                      Dr. Smrithi’s Ayurkasha Clinic is one of the best Ayurvedic treatment centers in Calicut, 
+                      Kerala that offers genuine, authentic, and best Ayurvedic treatment for General wounds, 
+                      Anal Fissures & Bedsores.
                   </p>
                   <!-- <div class="vc_empty_space" style="height: 30px"><span class="vc_empty_space_inner"></span>
                           </div> -->
@@ -90,6 +91,10 @@ class Footer extends HTMLElement {
                           target="_blank" href="https://www.instagram.com/dr_smrithi/"></a> 
                      </li>
                      <li> 
+                        <a id="footer__social-icon-twitter" class="fa fa-twitter" title="Twitter" 
+                          target="_blank" href="https://twitter.com/DrSmrithi_Ayu"></a> 
+                     </li>
+                     <li> 
                         <a id="footer__social-icon-youtube" class="fa fa-youtube-play" title="Youtube" 
                           target="_blank" href="https://www.youtube.com/channel/UCwmUYcoxGmKFCxarQCcxAzA"></a>
                      </li>
@@ -101,7 +106,7 @@ class Footer extends HTMLElement {
    </div>
    <div class="footer-copyright dt-sc-dark-bg">
       <div class="container">
-         <div class="column dt-sc-one-half first ">&copy; 2022 Smrithi Ayuraksha Clinic. All rights reserved.
+         <div class="column dt-sc-one-half first copyright">&copy; 2022 Smrithi Ayuraksha Clinic. All rights reserved.
          </div>
          <div class="column dt-sc-one-half footer-menu">
             <ul id="menu-footer-menu" class="menu-links">

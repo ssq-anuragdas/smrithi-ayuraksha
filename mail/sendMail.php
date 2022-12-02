@@ -2,14 +2,16 @@
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: *");
 header("Access-Control-Allow-Methods: POST");
-header("Content-Type: application/json; charset=UTF-8",true);
+header("Content-Type: application/json; charset=UTF-8", true);
 include('PHPMailer.php');
 include('Exception.php');
 include('SMTP.php');
 include('OAuth.php');
 include('POP3.php');
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+
 $mail = new PHPMailer(true);
 $name = $_POST['name'];
 $mobile = $_POST['mobile'];
@@ -17,24 +19,24 @@ $email = $_POST['email'];
 $message = $_POST['message'];
 // $services = $_POST['services'];        // Services checkbox values
 
-$result=false;
-try{
-    $mail->isSMTP();                                      
-    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'm.athulchandran@gmail.com';                 // SMTP username
-    $mail->Password = 'ATHULCHANDRAN@googl123';                          // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 587;                                    // TCP port to connect to
+$result = false;
+try {
+   $mail->isSMTP();
+   $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+   $mail->SMTPAuth = true;                               // Enable SMTP authentication
+   $mail->Username = 'noreply.sanesquare2021@gmail.com';                 // SMTP username
+   $mail->Password = 'heebjkfrthvjnlco';                          // SMTP password
+   $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+   $mail->Port = 587;                                    // TCP port to connect to
 
-    //Recipients
-    $mail->setFrom('m.athulchandran@gmail.com', 'abcd Website');
-    $mail->addAddress('athul8246athu@gmail.com','abcd buzz');     // Add a recipient
+   //Recipients
+   $mail->setFrom('noreply.sanesquare2021@gmail.com', 'Sanesquare Websites');
+   $mail->addAddress('m.athulchandran@gmail.com', 'Sanesquare buzz');     // Add a recipient
 
-    //Content
-    $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Inquiry Letter From Website';
-    $mail->Body    ="<table style='border-collapse:separate;width:100%;background:linear-gradient(45deg, #dcdcdc, #ececec);'>
+   //Content
+   $mail->isHTML(true);                                  // Set email format to HTML
+   $mail->Subject = 'Inquiry Letter From Website';
+   $mail->Body    = "<table style='border-collapse:separate;width:100%;background:linear-gradient(45deg, #dcdcdc, #ececec);'>
                        <tr>
                           <td>&nbsp;</td>
                           <td style='display:block;margin:0 auto!important;max-width:200px!important;padding: 15px 0 15px;'>
@@ -61,8 +63,8 @@ try{
                                                         <td style='font-family:sans-serif;font-size: 14px;vertical-align: top;'  colspan='3'>
                                                            <h4 style='color : #000000;font-family : sans-serif;line-height : 1.4;margin : 0;letter-spacing : 0.5px;margin-bottom : 15px;font-size : initial;'>Greetings,</h4>
                                                            <p style='font-family : sans-serif;font-weight : normal;margin : 0;margin-bottom : 15px;color : #464646;font-size : smaller;letter-spacing : 0.6px;'>This mail is regarding to the Enquiry of consultation from Mr./Mrs./Ms. " . $name . ". You can contact the client from the below resources.<br/><br/>Mobile&nbsp; : <a href='tel:+91" . $mobile . "'> " . $mobile . "</a><br/>Email &nbsp;&nbsp; : <a href='mailto:" . $email . "'>" . $email . "</a><br/></p>
-                                                           <p style='font-family : sans-serif;font-weight : normal;margin : 0;margin-bottom : 15px;color : #464646;font-size : smaller;letter-spacing : 0.6px;'><b>Here is the Message from client:</b><br/><i>". $message ."</i></p>
-                                                           <p style='font-family : sans-serif;font-weight : normal;margin : 0;margin-bottom : 15px;color : #464646;font-size : smaller;letter-spacing : 0.6px;'><b>Selected Services for consultation:</b><br/><i>". $services ."</i></p>
+                                                           <p style='font-family : sans-serif;font-weight : normal;margin : 0;margin-bottom : 15px;color : #464646;font-size : smaller;letter-spacing : 0.6px;'><b>Here is the Message from client:</b><br/><i>" . $message . "</i></p>
+                                                           <p style='font-family : sans-serif;font-weight : normal;margin : 0;margin-bottom : 15px;color : #464646;font-size : smaller;letter-spacing : 0.6px;'><b>Selected Services for consultation:</b><br/><i>" . $services . "</i></p>
                                                         </td>
                                                      </tr>
                                                   </table>
@@ -97,10 +99,8 @@ try{
                        </tr>
                     </table>";
 
-   $result= $mail->send();
-}catch(Exception $e){
-	$result = $e -> getMessage();
+   $result = $mail->send();
+} catch (Exception $e) {
+   $result = $e->getMessage();
 }
 echo $result;
-?>
- 

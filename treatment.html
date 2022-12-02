@@ -713,7 +713,7 @@
       }
 
       .vc_custom_1493873433275 {
-         background-image: url(img/services-img.png) !important;
+         background-image: url(img/services-img.jpg) !important;
       }
 
       .vc_custom_1493805049889 {
@@ -790,6 +790,23 @@
          }
       </style>
    </noscript>
+
+   <script>
+      $(function () {
+         $('a[href*=#]:not([href=#])').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+               var target = $(this.hash);
+               target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+               if (target.length) {
+                  $('html,body').animate({
+                     scrollTop: target.offset().top
+                  }, 1000);
+                  return false;
+               }
+            }
+         });
+      });
+   </script>
 </head>
 
 <body id="treatment-body"
@@ -941,8 +958,8 @@
                      <div class="main-header">
                         <div id="logo">
                            <a href="index.html" title="Dr. Smrithi Ayuraksha clinic">
-                              <img class="normal_logo" src="img/smrithi-title-logo.png" alt="Dr. Smrithi Ayuraksha clinic logo"
-                                 title="Dr. Smrithi Ayuraksha clinic logo" />
+                              <img class="normal_logo" src="img/smrithi-title-logo.png"
+                                 alt="Dr. Smrithi Ayuraksha clinic logo" title="Dr. Smrithi Ayuraksha clinic logo" />
                            </a>
                         </div>
                         <div id="menu-wrapper" class="menu-wrapper menu-default">
@@ -1014,7 +1031,7 @@
                </div>
             </section>
             <!-- ** Container ** -->
-            <div class="container primary-section__wrapper treatment_page-container">
+            <div class="container primary-section__wrapper treatment_page-container" id="woundtreatments">
                <section id="primary" class="content-full-width treatment-page__content-wrapper">
                   <article id="post-8202"
                      class="post-8202 dt_procedure type-dt_procedure status-publish has-post-thumbnail hentry procedure_entries-family-difficulties procedure_entries-stress-and-worry">
@@ -1033,15 +1050,15 @@
                                           <li>
                                              <div class="treatment-nav__img-wrapper">
                                                 <a href="#!">
-                                                   <img src="img/treatments/wound.jpg" alt="wound" />
+                                                   <img src="img/treatments/wound.jpg" alt="wound-image" />
                                                 </a>
                                              </div>
-                                             <a href="#!">WOUND TREATMENT</a>
+                                             <a href="treatment.html#woundtreatments">WOUND TREATMENT</a>
                                              <ul class="left-nested__nav-ul">
-                                                <li><a href="#one">DIABETIC WOUND</a></li>
-                                                <li><a href="#two">BEDSORE</a></li>
-                                                <li><a href="#three">FISSURE IN ANO</a></li>
-                                                <li><a href="#four">GENRAL WOUND </a></li>
+                                                <li><a href="#diabeticwounds">DIABETIC WOUND</a></li>
+                                                <li><a href="#bedsores">BEDSORE</a></li>
+                                                <li><a href="#analfissures">FISSURE IN ANO</a></li>
+                                                <li><a href="#generalwounds">GENRAL WOUND </a></li>
                                              </ul>
                                           </li>
                                           <li>
@@ -1060,17 +1077,78 @@
                                              </div>
                                              <a href="vanitha-clinic.html">VANITHA CLINIC</a>
                                           </li>
+                                          <li>
+                                             <div class="treatment-nav__img-wrapper">
+                                                <a href="#!">
+                                                   <img src="img/treatments/life-style-img.jpeg" alt="life-style-img" />
+                                                </a>
+                                             </div>
+                                             <a href="#!">LIFE STYLE CLINIC</a>
+                                          </li>
+                                          <li>
+                                             <div class="treatment-nav__img-wrapper">
+                                                <a href="#!">
+                                                   <img src="img/treatments/beauty-clinic-img.jpeg"
+                                                      alt="beauty-clinic-img" />
+                                                </a>
+                                             </div>
+                                             <a href="#!">BEAUTY CLINIC</a>
+                                          </li>
+                                          <li>
+                                             <div class="treatment-nav__img-wrapper">
+                                                <a href="#!">
+                                                   <img src="img/treatments/allergy-img.jpg" alt="allergy-img" />
+                                                </a>
+                                             </div>
+                                             <a href="#!">ALLERGY CLINIC</a>
+                                          </li>
+                                          <li>
+                                             <div class="treatment-nav__img-wrapper">
+                                                <a href="#!">
+                                                   <img src="img/treatments/skin-care-img.jpeg" alt="skin-care-img" />
+                                                </a>
+                                             </div>
+                                             <a href="#!">SKIN CLINIC</a>
+                                          </li>
+                                          <li>
+                                             <div class="treatment-nav__img-wrapper">
+                                                <a href="#!">
+                                                   <img src="img/treatments/swarna-prashana-img.jpeg"
+                                                      alt="swarna-prashana-img" />
+                                                </a>
+                                             </div>
+                                             <a href="#!">SWARNA PRASHANA</a>
+                                          </li>
+                                          <li>
+                                             <div class="treatment-nav__img-wrapper">
+                                                <a href="#!">
+                                                   <img src="img/treatments/yoga-img.jpeg" alt="yoga-img" />
+                                                </a>
+                                             </div>
+                                             <a href="#!">YOGA & STRESS CLINIC</a>
+                                          </li>
+                                          <li>
+                                             <div class="treatment-nav__img-wrapper">
+                                                <a href="#!">
+                                                   <img src="img/treatments/pain-clinic-img.jpeg"
+                                                      alt="pain-clinic-img" />
+                                                </a>
+                                             </div>
+                                             <a href="#!">PAIN CLINIC</a>
+                                          </li>
                                        </ul>
                                     </div>
                                     <div class="vc_col-sm-8">
+                                       <div id="diabeticwounds"></div>
                                        <div
-                                          class="wpb_text_column wpb_content_element  vc_custom_1462774334729 inherit">
-                                          <div id="one" class="wpb_wrapper">
+                                          class=" wpb_text_column wpb_content_element vc_custom_1462774334729 inherit">
+                                          <div class="wpb_wrapper">
                                              <h3 class="treatments-title">Diabetic Wound Treatment</h3>
                                              <div class="vc_empty_space" style="height: 5px">
                                                 <span class="vc_empty_space_inner"></span>
                                              </div>
-                                             <div class="vc_row wpb_row vc_inner vc_row-fluid padding-in-mob">
+                                             <div
+                                                class="vc_row wpb_row vc_inner vc_row-fluid padding-in-mob treatment-wound__img-wrap">
                                                 <div class="wpb_column vc_column_container vc_col-sm-4">
                                                    <div class="vc_column-inner ">
                                                       <div class="wpb_wrapper">
@@ -1150,7 +1228,7 @@
                                                    </div>
                                                 </div>
                                              </div>
-                                             <div class="vc_empty_space" style="height: 21px">
+                                             <div class="vc_empty_space d-none_mob" style="height: 21px">
                                                 <span class="vc_empty_space_inner"></span>
                                              </div>
                                              <div class="wound-content__wrapper">
@@ -1262,14 +1340,16 @@
                                                                         </div>
                                                                      </div>
                                                                   </div>
-                                                                  <a class="vc_left vc_carousel-control"
+                                                                  <a class="vc_left vc_carousel-control wound-slider_prev-btn"
                                                                      href="#vc_images-carousel-1-1668518070"
-                                                                     data-slide="prev"><span
-                                                                        class="icon-prev"></span></a><a
-                                                                     class="vc_right vc_carousel-control"
+                                                                     data-slide="prev">
+                                                                     <span class="icon-prev"></span>
+                                                                  </a>
+                                                                  <a class="vc_right vc_carousel-control wound-slider_next-btn"
                                                                      href="#vc_images-carousel-1-1668518070"
-                                                                     data-slide="next"><span
-                                                                        class="icon-next"></span></a>
+                                                                     data-slide="next">
+                                                                     <span class="icon-next"></span>
+                                                                  </a>
                                                                </div>
                                                             </div>
                                                          </div>
@@ -1282,8 +1362,9 @@
                                           <div class="vc_empty_space" style="height: 21px">
                                              <span class="vc_empty_space_inner"></span>
                                           </div>
-                                          <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1462777191544"
-                                             id="two">
+
+                                          <div id="bedsores"></div>
+                                          <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1462777191544">
                                              <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner ">
                                                    <div class="wpb_wrapper">
@@ -1378,8 +1459,10 @@
                                                 </div>
                                              </div>
                                           </div>
-                                          <div id="three"
-                                             class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1462777191544">
+
+
+                                          <div id="analfissures"></div>
+                                          <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1462777191544">
                                              <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner ">
                                                    <div class="wpb_wrapper">
@@ -1454,8 +1537,10 @@
                                                 </div>
                                              </div>
                                           </div>
-                                          <div id="four"
-                                             class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1462777191544">
+
+
+                                          <div id="generalwounds"></div>
+                                          <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1462777191544">
                                              <div class="wpb_column vc_column_container vc_col-sm-12">
                                                 <div class="vc_column-inner ">
                                                    <div class="wpb_wrapper">
@@ -1464,18 +1549,16 @@
                                                             <h3 class="treatments-title">GENRAL WOUND</h3>
                                                             <p>
                                                                The biggest advantage of Ayurvedic medicines is that they
-                                                               have
-                                                               no side effects. Ayurveda is the best option available
-                                                               when you
-                                                               need natural treatment for your cuts and bruises.
+                                                               have no side effects. Ayurveda is the best option
+                                                               available when you need natural treatment for your cuts
+                                                               and bruises.
                                                             </p>
                                                             <p>
                                                                Very fast relief on all general wounds can be attained by
-                                                               applying our medicine. A wound is an injury involving an
-                                                               external or internal break in the body tissue, usually
+                                                               applying for our medicine. A wound is an injury involving
+                                                               an external or internal break in the body tissue, usually
                                                                involving the skin. We can speed up the healing process
-                                                               of all
-                                                               general wounds seen in patients.
+                                                               of all general wounds seen in patients.
                                                             </p>
                                                             <div class="wpb_wrapper wound-details__title-wrapper"
                                                                style="margin-bottom: 10px;">

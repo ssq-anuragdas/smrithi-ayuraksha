@@ -200,7 +200,7 @@ function CreateWhatsappChatWidget(option = {
         }
         .wa-chat-box{
             background-color:white;
-            z-index: 16000160 !important;
+            z-index: 11111 !important;
             margin-bottom: 60px;
             width: 360px;
             position: fixed !important;
@@ -215,7 +215,7 @@ function CreateWhatsappChatWidget(option = {
             padding-left: ${option.chatButtonSetting.ctaText ? "15px" : "0px"};
             padding-right: ${option.chatButtonSetting.ctaText ? "15px" : "0px"};
             position: fixed !important;
-            z-index: 16000160 !important;
+            z-index: 11111 !important;
             right: 25 !important;
             bottom: 800 !important;
             text-align: center !important;

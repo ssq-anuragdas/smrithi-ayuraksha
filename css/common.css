@@ -8,6 +8,16 @@
     overflow: hidden;
 }
 
+
+/* Header logo style */
+#logo a {
+    height: 55px !important;
+}
+
+.is-sticky #logo a {
+    height: 48px !important;
+}
+
 /***** End Home(index.html) page *****/
 
 
@@ -139,9 +149,9 @@ ul.left-side__nav-ul>li>ul.left-nested__nav-ul>li>a:hover {
 .wpb_wrapper h3.treatments-title::before {
     content: ' ';
     position: absolute;
-    width: 65px;
+    width: 85px;
     height: 4px;
-    top: 45px;
+    top: 46px;
     background-color: #0fb8cd;
     border-radius: 20px;
 }
@@ -232,6 +242,51 @@ table.footer_time-slot tr>td>i {
     font-size: large !important;
 }
 
+/***** contact-us page *****/
+
+.dt-sc-contact-info.type7 {
+    margin-bottom: 0 !important;
+    padding-left: 70px !important;
+}
+
+.dt-sc-contact-info.type7 h6 {
+    margin-bottom: 0 !important;
+}
+
+.dt-sc-contact-info.type7 a {
+    color: #666 !important;
+}
+
+table.time-slot__table {
+    border-collapse: collapse;
+    border: none !important;
+    margin: 0 !important;
+}
+
+table.time-slot__table tr {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+table.time-slot__table tr>th,
+table.time-slot__table tr>td {
+    padding: 5px !important;
+    padding-bottom: 15px !important;
+    background-color: #fff;
+    color: #111;
+    font-size: small !important;
+    text-align: left;
+    border: none;
+}
+
+table.time-slot__table tr>td {
+    color: #666 !important;
+}
+
+/***** End contact-us page *****/
+
 /* Color and font size for footer icons */
 a#footer__social-icon-fb,
 a#footer__social-icon-insta,
@@ -288,6 +343,10 @@ a#footer__social-icon-youtube {
 
 @media only screen and (max-width: 768px) {
 
+    .dt-menu-toggle {
+        background-color: #aa9331 !important;
+    }
+
     /* Style for menu/header section */
     div.container-xs {
         width: 100% !important;
@@ -309,8 +368,8 @@ a#footer__social-icon-youtube {
     }
 
     .menu-icons-wrapper .search a span {
-        padding-top: 25px !important;
-        font-size: 18px !important;
+        padding-top: 8px !important;
+        font-size: 24px !important;
     }
 
     .is-sticky .menu-icons-wrapper {
@@ -329,11 +388,11 @@ a#footer__social-icon-youtube {
     }
 
     #logo a {
-        height: 60px !important;
+        height: 45px !important;
     }
 
     .is-sticky #logo a {
-        height: 50px !important;
+        height: 40px !important;
     }
 
     .is-sticky #main-menu>ul.menu>li>a {
@@ -388,13 +447,10 @@ a#footer__social-icon-youtube {
 
     /* Slider caption */
     rs-layer#slider-3-slide-7-layer-3,
-    rs-layer#slider-3-slide-7-layer-4,
-    rs-layer#slider-3-slide-8-layer-3,
-    rs-layer#slider-3-slide-8-layer-4 {
+    rs-layer#slider-3-slide-7-layer-4 {
         font-size: 10px !important;
     }
 
-    rs-layer#slider-3-slide-9-layer-3,
     rs-layer#slider-3-slide-9-layer-10,
     rs-layer#slider-3-slide-9-layer-12 {
         font-size: 8px !important;
@@ -512,9 +568,12 @@ a#footer__social-icon-youtube {
         font-size: 14px !important;
     }
 
-    div#one>h3.treatments-title {
-        font-size: 1.5em !important;
-        margin-top: 10px;
+    div#diabeticwounds h3.treatments-title,
+    div#bedsores h3.treatments-title,
+    div#analfissures h3.treatments-title,
+    div#generalwounds h3.treatments-title {
+        font-size: 1.3em !important;
+        margin-top: 15px;
     }
 
     /* padding-top for main images in treatment page */
@@ -534,6 +593,30 @@ a#footer__social-icon-youtube {
 
     div#one>h3.treatment-effect-title {
         font-size: 1em;
+    }
+
+    /* This style is used for all pages banners */
+    section.treatments-title-section-wrapper>.container,
+    section.panchakarma-title-section-wrapper>.container,
+    section.vanitha-title-section-wrapper>.container,
+    section.contact-title-section-wrapper>.container,
+    section.about-title-section-wrapper>.container,
+    section.gallery-title-section-wrapper>.container {
+        margin: 0 !important;
+    }
+
+    /* This style is used for all pages banner titles */
+    div.main-title-section>h1.treatment-banner__title,
+    div.main-title-section>h1.panchakarma-banner__title,
+    div.main-title-section>h1.vanitha-banner__title,
+    div.main-title-section>h1.contact-banner__title,
+    div.main-title-section>h1.about-banner__title,
+    div.main-title-section>h1.gallery-banner__title {
+        font-size: 1em !important;
+        text-align: left !important;
+        padding-left: 20px !important;
+        padding-top: 90px !important;
+        margin-bottom: -15px !important;
     }
 
 
@@ -607,8 +690,31 @@ a#footer__social-icon-youtube {
         font-size: 8px !important;
     }
 
+    rs-slide.slider-2 rs-mask-wrap {
+        min-height: 100px !important;
+    }
+
+    rs-layer#slider-3-slide-8-layer-3 {
+        transform: translateY(10px) !important;
+    }
+
+    rs-layer#slider-3-slide-8-layer-2 {
+        font-size: 18px !important;
+        transform: translateY(16px) !important;
+    }
+
+    rs-layer#slider-3-slide-8-layer-4 {
+        transform: translateY(20px) !important;
+    }
+
+    rs-layer#slider-3-slide-8-layer-3,
+    rs-layer#slider-3-slide-8-layer-4 {
+        font-size: 14px !important;
+    }
+
     rs-layer#slider-3-slide-8-layer-5 {
         font-size: 10px !important;
+        transform: translateY(20px) !important;
     }
 
     rs-layer#slider-3-slide-7-layer-5,
@@ -680,25 +786,46 @@ a#footer__social-icon-youtube {
         transform: translate(10px, 69px) !important;
     }
 
+    /* slider-3 content warpper */
+    rs-slide.slider-3 rs-mask-wrap {
+        min-height: 100px !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-2 {
+        transform: translateY(18px) !important;
+        font-size: large !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-3 {
+        font-size: 12px !important;
+        transform: translateY(10px) !important;
+    }
+
     rs-layer#slider-3-slide-9-layer-5 {
-        transform: translateX(-15px) !important;
+        transform: translate(-26px, 20px) !important;
+        font-size: 10px !important;
     }
 
     rs-layer#slider-3-slide-9-layer-6 {
-        transform: translateX(15px) !important;
+        transform: translate(22px, 20px) !important;
+        font-size: 10px !important;
+    }
+
+    rs-layer#slider-3-slide-9-layer-9 {
+        transform: translateY(15px) !important;
     }
 
     rs-layer#slider-3-slide-9-layer-10 {
         width: 100px !important;
-        transform: translateX(25px) !important;
+        transform: translate(25px, 10px) !important;
     }
 
     rs-layer#slider-3-slide-9-layer-11 {
-        transform: translateX(-10px) !important;
+        transform: translate(-10px, 10px) !important;
     }
 
     rs-layer#slider-3-slide-9-layer-12 {
-        transform: translateX(80px) !important;
+        transform: translate(80px, 10px) !important;
         width: 200px !important;
     }
 }
@@ -788,8 +915,23 @@ div#responsive_map-1210183613 {
 
 div.vc_row.wpb_row.vc_row-fluid.university-contact-info.contact-address {
     margin: auto !important;
+    margin-top: 30px !important;
 }
 
+div.wpb_column.vc_column_container.vc_col-sm-12.map-inner__wrap {
+    margin-top: 50px !important;
+    width: calc(100% + 10%);
+    left: -5%;
+    margin-bottom: 5px !important;
+}
+
+@media screen and (max-width: 768px) {
+    div.wpb_column.vc_column_container.vc_col-sm-12.map-inner__wrap {
+        margin-top: 20px !important;
+        width: calc(100% + 20%) !important;
+        left: -10% !important;
+    }
+}
 
 /* For footer styling */
 @media screen and (max-width: 768px) {
@@ -822,3 +964,396 @@ div.vc_row.wpb_row.vc_row-fluid.university-contact-info.contact-address {
         padding-bottom: 30px !important;
     }
 }
+
+
+
+
+
+
+.vc_column_container {
+    width: 100%
+}
+
+.vc_row {
+    margin-left: -15px;
+    margin-right: -15px
+}
+
+.vc_col-lg-1,
+.vc_col-lg-10,
+.vc_col-lg-11,
+.vc_col-lg-12,
+.vc_col-lg-2,
+.vc_col-lg-3,
+.vc_col-lg-4,
+.vc_col-lg-5,
+.vc_col-lg-6,
+.vc_col-lg-7,
+.vc_col-lg-8,
+.vc_col-lg-9,
+.vc_col-md-1,
+.vc_col-md-10,
+.vc_col-md-11,
+.vc_col-md-12,
+.vc_col-md-2,
+.vc_col-md-3,
+.vc_col-md-4,
+.vc_col-md-5,
+.vc_col-md-6,
+.vc_col-md-7,
+.vc_col-md-8,
+.vc_col-md-9,
+.vc_col-sm-1,
+.vc_col-sm-10,
+.vc_col-sm-11,
+.vc_col-sm-12,
+.vc_col-sm-2,
+.vc_col-sm-3,
+.vc_col-sm-4,
+.vc_col-sm-5,
+.vc_col-sm-6,
+.vc_col-sm-7,
+.vc_col-sm-8,
+.vc_col-sm-9,
+.vc_col-xs-1,
+.vc_col-xs-10,
+.vc_col-xs-11,
+.vc_col-xs-12,
+.vc_col-xs-2,
+.vc_col-xs-3,
+.vc_col-xs-4,
+.vc_col-xs-5,
+.vc_col-xs-6,
+.vc_col-xs-7,
+.vc_col-xs-8,
+.vc_col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+
+.vc_col-sm-5 {
+    width: 41.66666667%
+}
+
+.vc_col-sm-4 {
+    width: 33.33333333%
+}
+
+.vc_col-sm-3 {
+    width: 25%
+}
+
+.vc_col-sm-12 {
+    width: 100%
+}
+
+.vc_clearfix:after,
+.vc_clearfix:before {
+    content: " ";
+    display: table
+}
+
+.vc_clearfix:after {
+    clear: both
+}
+
+.vc_clearfix:after,
+.vc_clearfix:before {
+    content: " ";
+    display: table
+}
+
+.vc_clearfix:after {
+    clear: both
+}
+
+@media (min-width: 768px) {
+
+    .vc_col-sm-1,
+    .vc_col-sm-10,
+    .vc_col-sm-11,
+    .vc_col-sm-12,
+    .vc_col-sm-2,
+    .vc_col-sm-3,
+    .vc_col-sm-4,
+    .vc_col-sm-5,
+    .vc_col-sm-6,
+    .vc_col-sm-7,
+    .vc_col-sm-8,
+    .vc_col-sm-9 {
+        float: left
+    }
+}
+
+.vc_column-inner::after,
+.vc_column-inner::before {
+    content: " ";
+    display: table
+}
+
+.vc_column-inner::after {
+    clear: both
+}
+
+.vc_column_container>.vc_column-inner {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%
+}
+
+
+/***** Panchakarma page *****/
+
+div.panchakaram-contents__wrap {
+    margin: 30px 0px;
+}
+
+div.panchakaram-contents__wrap div.details div.image-wrapper {
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    width: 65%;
+    height: auto;
+}
+
+div.details div.image-wrapper img {
+    margin: auto;
+    width: 100%;
+    height: 300px;
+}
+
+div.panchakaram-contents__wrap div.details {
+    display: flex;
+    /* align-items: center; */
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    margin: 40px 0px;
+    background-color: #f8f8f9;
+}
+
+div.details div.details-para-wrapper {
+    padding: 25px;
+    width: 100%;
+}
+
+
+/* cards */
+div.card-container__panchakarma {
+    display: flex;
+    gap: 1rem;
+}
+
+div.card-container__panchakarma div.cards-details {
+    flex-basis: 100%;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    background-color: #f8f8f9;
+}
+
+div.card-container__panchakarma div.cards-details .card-details__img-wrap {
+    overflow: hidden;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+
+div.cards-details .card-details__img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.cards-details div.card-details__content {
+    padding: 20px;
+    padding-right: 25px;
+}
+
+
+
+
+
+/* for screens that are larger than 768px in width */
+@media screen and (min-width: 768px) {
+
+    div.panchakaram-contents__wrap div.details.right-img__container {
+        flex-direction: row-reverse;
+        text-align: right;
+        margin-right: 10%;
+    }
+
+
+    div.panchakaram-contents__wrap div.details.left-img__container {
+        flex-direction: row;
+        text-align: left;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    div.panchakarma-card__wrapper {
+        flex-direction: column;
+        box-shadow: rgba(189, 189, 189, 0.55) 0px 2px 8px 0px;
+    }
+
+    div.panchakaram-contents__wrap div.details {
+        flex-direction: column !important;
+        box-shadow: rgba(189, 189, 189, 0.55) 0px 2px 8px 0px;
+    }
+
+    div.panchakaram-contents__wrap div.details div.image-wrapper {
+        width: 100%;
+    }
+
+    div.details div.details-para-wrapper {
+        padding: 15px;
+    }
+
+    /* cards */
+    div.card-container__panchakarma {
+        flex-direction: column;
+    }
+
+}
+
+/***** End Panchakarma page *****/
+
+
+/***** Vanitha page styles *****/
+
+section.vanitha-title
+
+div.vanitha-page__cards-wrap {
+    display: flex !important;
+    flex-wrap: wrap;
+    height: unset !important;
+}
+
+div.vanitha-page__cards-wrap div.vanitha__cards {
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    width: 32%;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+div.vanitha-card__details {
+    height: 20rem !important;
+    text-align: left !important;
+    padding: 25px !important;
+    margin-top: 10px !important;
+}
+
+div.vanitha-card__details.xl-height {
+    height: 28rem !important;
+}
+
+div.vanitha-card__details.xxl-height {
+    height: 38rem !important;
+}
+
+div.vanitha-card__details.xs-height {
+    height: 12rem !important;
+}
+
+div.vanitha-card__middle-card {
+    display: flex !important;
+    gap: 1rem;
+    margin: 30px 15px;
+}
+
+div.vanitha-card__middle-card div.image-wrapper {
+    flex-basis: 50%;
+    overflow: hidden !important;
+    border-radius: 5px;
+}
+
+div.vanitha-card__middle-card div.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.vanitha-card__middle-card div.middle-card__details {
+    flex-basis: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    padding: 25px;
+}
+
+
+div.vanitha-page__desc {
+    display: flex;
+    position: relative;
+    margin: 30px 0px;
+    width: calc(100% + 50px);
+    left: -25px !important;
+}
+
+div.vanitha-page__desc::before {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 3px;
+    top: 125px;
+    left: 36%;
+    border-radius: 20px;
+    background-color: #0fb8cd;
+}
+
+div.vanitha-page__desc div.desc-content-wrap {
+    text-align: center;
+    margin: auto;
+    padding: 20px 100px;
+}
+
+div.vanitha-page__desc div.desc-content-wrap p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333 !important;
+}
+
+
+
+div.vanitha-card__details a h3 {
+    margin-bottom: 5px !important;
+}
+
+@media screen and (max-width:768px) {
+    div.vanitha-page__desc {
+        width: 100%;
+        left: unset !important;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    div.vanitha-page__desc div.desc-content-wrap {
+        padding: 10px;
+        /* text-align: left; */
+        font-size: 16px !important;
+    }
+
+    div.vanitha-page__cards-wrap {
+        flex-direction: column;
+    }
+
+    div.vanitha-page__cards-wrap div.vanitha__cards {
+        width: 100%;
+    }
+
+    div.vanitha-card__middle-card {
+        flex-direction: column;
+        gap: 0.5rem;
+        margin: 0;
+    }
+
+
+}
+
+/***** End Vanitha page styles *****/

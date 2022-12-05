@@ -2821,27 +2821,80 @@ html {
 	width: 100%;
 }
 
-.header-on-slider .vanitha-title-section-wrapper::before {
-	background:
-		linear-gradient(to bottom,
-			rgba(0, 0, 0, 0.35),
-			rgba(0, 0, 0, 0.35)),
-		url('../img/about-bg1.jpg') !important;
-}
-
+/* banner style for treatments page */
 .header-on-slider .treatments-title-section-wrapper::before {
 	background:
-		linear-gradient(to bottom,
-			rgb(255 255 255 / 0%),
-			rgb(248 248 248 / 0%)),
-		url(../img/slider-smrithi-01.png) !important;
-	background-repeat: no-repeat;
-	background-position: bottom !important;
-	background-size: 82% 100% !important;
+		linear-gradient(to left,
+			rgba(0 0 0 / 20%),
+			rgba(0 0 0 / 45%)),
+		url(../img/banners/treatments-banner.jpeg) !important;
+	background-repeat: no-repeat !important;
+	background-position: 100% 80% !important;
+	background-size: 100% 180% !important;
 	height: 230%;
 	bottom: -30px;
 }
 
+.treatments-title-section-wrapper h1,
+.treatments-title-section-wrapper a,
+.treatments-title-section-wrapper span,
+.panchakarma-title-section-wrapper h1,
+.panchakarma-title-section-wrapper a,
+.panchakarma-title-section-wrapper span {
+	color: #fff !important;
+}
+
+/* banner style for panchakarma page */
+.header-on-slider .panchakarma-title-section-wrapper::before {
+	background:
+		linear-gradient(to right,
+			rgb(0 0 0 / 50%),
+			rgb(0 0 0 / 50%)),
+		url(../img/banners/panchakarma-banner.jpeg) !important;
+	background-repeat: no-repeat !important;
+	background-position: 100% auto !important;
+	background-size: 100% 100% !important;
+	height: 230%;
+	bottom: -30px;
+}
+
+/* banner style for vanitha clinic page */
+.header-on-slider .vanitha-title-section-wrapper::before {
+	background:
+		linear-gradient(to bottom,
+			rgb(0 0 0 / 10%),
+			rgb(0 0 0 / 10%)),
+		url(../img/banners/women-health-banner.jpeg) !important;
+	background-repeat: no-repeat;
+	background-position: 50% 60% !important;
+	background-size: 65% auto !important;
+	height: 230%;
+	bottom: -30px;
+}
+
+/* Banner style for all pagess in small screens */
+@media screen and (max-width:768px) {
+	.header-on-slider .treatments-title-section-wrapper::before {
+		height: 110%;
+		background-size: 100% auto !important;
+		background-position: left !important;
+		bottom: 0;
+	}
+
+	.header-on-slider .panchakarma-title-section-wrapper::before {
+		height: 135%;
+		background-size: 195% 100% !important;
+		background-position: 54% 100% !important;
+		bottom: 0;
+	}
+
+	.header-on-slider .vanitha-title-section-wrapper::before {
+		background-position: -40% 60% !important;
+		background-size: 125% auto !important;
+		height: 110%;
+		bottom: 0px;
+	}
+}
 
 .home.header-on-slider #header-wrapper,
 .header-on-slider.no-breadcrumb #main {
@@ -2901,13 +2954,6 @@ html {
 
 	.home #header-wrapper.treatment-page__header {
 		margin-bottom: 0 !important;
-	}
-
-	.header-on-slider .treatments-title-section-wrapper::before {
-		height: 100%;
-		background-size: 115% auto !important;
-		background-position: left !important;
-		bottom: 0;
 	}
 
 	.breadcrumb.treatment-breadcrumb\>\<a.href\= {

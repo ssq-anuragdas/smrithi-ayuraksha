@@ -1635,10 +1635,10 @@
 }
 
 
-/* 
+
 .enquire-now__form-sec {
-	margin-top: 5rem;
-} */
+	margin-top: 3rem;
+}
 
 .enquire-now__form-sec .content-wrapper {
 	display: flex;
@@ -1659,6 +1659,12 @@
 
 .enquire-now__form-sec>h2 {
 	margin: 0 !important;
+}
+
+@media screen and (max-width:768px) {
+	.enquire-now__form-sec>h2 {
+		font-size: x-large !important;
+	}
 }
 
 .enquire-now__form-sec div.title-underline {
@@ -1773,6 +1779,14 @@
 		margin-top: 0px !important;
 	}
 
+	div.enquire-now__form-sec {
+		margin-top: 30px !important
+	}
+
+	.enquire-now__form-sec div.title-underline {
+		margin-bottom: 20px !important;
+	}
+
 	div.enquire-now__form-sec .content-wrapper {
 		flex-direction: column;
 		gap: 1rem;
@@ -1797,7 +1811,7 @@
 
 	.enquire-now__form-sec .appointment-form .btn-wrapper button {
 		position: absolute;
-		bottom: 50%;
+		bottom: 49%;
 		width: 100%;
 		z-index: 1111;
 	}
@@ -1817,4 +1831,9 @@
 		left: 0px !important;
 	}
 
+
+	/* For address in contact section  */
+	div#post-778 {
+		margin-left: -20px !important;
+	}
 }

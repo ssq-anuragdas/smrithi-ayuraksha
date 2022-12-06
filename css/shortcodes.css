@@ -4,7 +4,7 @@
 @import "shortcodes/blockquote.css";
 @import "shortcodes/buttons.css";
 @import "shortcodes/carousel.css";
-@import "shortcodes/contact-info.css";
+@import "shortcodes/contact-info.min.css";
 @import "shortcodes/counter.css";
 @import "shortcodes/donut-chart.css";
 @import "shortcodes/dropcap.css";

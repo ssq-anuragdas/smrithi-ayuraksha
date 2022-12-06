@@ -35,6 +35,11 @@
          background-size: 100%;
       }
 
+      /* This style is used for content cards wrapper height */
+      div.dt-sc-fitness-procedure-container.vanitha-page__cards-wrap {
+         height: auto !important;
+      }
+
       @media only screen and (max-width:768px) {
          .container-xs {
             width: 100% !important;
@@ -221,12 +226,12 @@
    </style>
 
 
-   <link rel="stylesheet" href="css/common.css?ver=1.4">
+   <link rel="stylesheet" href="css/common.css?ver=1.5">
    <link rel='stylesheet' href='css/jquery.selectBox.css?ver=1.0' type='text/css' media='all' />
    <link rel='stylesheet' href='css/font-awesome.css?ver=1.0' type='text/css' media='all' />
    <link rel='stylesheet' href='css/material-design-iconic-font.min.css?ver=1.0' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/bg-banner-sec.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/custom-home.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/bg-banner-sec.min.css?ver=6.0.4' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/custom-home.min.css?ver=2.2' type='text/css' media='all' />
 
    <link rel='stylesheet' href='css/style.min.css?ver=6.0.3' type='text/css' media='all' />
    <link rel='stylesheet' href='css/vendors-style.css?ver=3.8.1' type='text/css' media='all' />
@@ -237,16 +242,16 @@
    <link rel='stylesheet' href='css/animations.css?ver=6.0.3' type='text/css' media='all' />
    <link rel='stylesheet' href='css/slick.css?ver=6.0.3' type='text/css' media='all' />
    <link rel='stylesheet' href='css/shortcodes.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/rs6.css?ver=6.3.3' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/rs6.min.css?ver=6.3.3' type='text/css' media='all' />
    <link rel='stylesheet' href='css/store-lt-smrithi.css?ver=2.2' type='text/css' media='all' />
    <link rel='stylesheet' href='css/js_composer.min.css?ver=6.5.0' type='text/css' media='all' />
    <link rel='stylesheet' href='css/ultimate.min.css?ver=3.19.8' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/base.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/grid.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/layout.css?ver=2.4' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/custom-class.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/loaders.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/custom.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/base.min.css?ver=2.3' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/grid.min.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/layout.min.css?ver=2.6' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/custom-class.min.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/loaders.min.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/custom.min.css?ver=2.2' type='text/css' media='all' />
 
 
    <!-- script -->
@@ -263,540 +268,22 @@
    <link rel="apple-touch-icon" href="img/Dr.smrithi-logo.png" />
    <link rel='stylesheet' id='wc-block-style-css' href='css/style.css?ver=3.8.1' type='text/css' media='all' />
    <link rel='stylesheet' id='yith-wcwl-main-css' href='css/style-2.css?ver=3.0.17' type='text/css' media='all' />
-   <style id='global-styles-inline-css' type='text/css'>
-      .has-cyan-bluish-gray-color {
-         color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
 
-      .has-white-color {
-         color: var(--wp--preset--color--white) !important;
-      }
-
-      .has-pale-pink-color {
-         color: var(--wp--preset--color--pale-pink) !important;
-      }
-
-      .has-vivid-red-color {
-         color: var(--wp--preset--color--vivid-red) !important;
-      }
-
-      .has-luminous-vivid-orange-color {
-         color: var(--wp--preset--color--luminous-vivid-orange) !important;
-      }
-
-      .has-luminous-vivid-amber-color {
-         color: var(--wp--preset--color--luminous-vivid-amber) !important;
-      }
-
-      .has-light-green-cyan-color {
-         color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-
-      .has-vivid-green-cyan-color {
-         color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-
-      .has-pale-cyan-blue-color {
-         color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-
-      .has-vivid-cyan-blue-color {
-         color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-
-      .has-vivid-purple-color {
-         color: var(--wp--preset--color--vivid-purple) !important;
-      }
-
-      .has-black-background-color {
-         background-color: var(--wp--preset--color--black) !important;
-      }
-
-      .has-cyan-bluish-gray-background-color {
-         background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
-
-      .has-white-background-color {
-         background-color: var(--wp--preset--color--white) !important;
-      }
-
-      .has-pale-pink-background-color {
-         background-color: var(--wp--preset--color--pale-pink) !important;
-      }
-
-      .has-vivid-red-background-color {
-         background-color: var(--wp--preset--color--vivid-red) !important;
-      }
-
-      .has-luminous-vivid-orange-background-color {
-         background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-      }
-
-      .has-luminous-vivid-amber-background-color {
-         background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-      }
-
-      .has-light-green-cyan-background-color {
-         background-color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-
-      .has-vivid-green-cyan-background-color {
-         background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-
-      .has-pale-cyan-blue-background-color {
-         background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-
-      .has-vivid-cyan-blue-background-color {
-         background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-
-      .has-vivid-purple-background-color {
-         background-color: var(--wp--preset--color--vivid-purple) !important;
-      }
-
-      .has-black-border-color {
-         border-color: var(--wp--preset--color--black) !important;
-      }
-
-      .has-cyan-bluish-gray-border-color {
-         border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-      }
-
-      .has-white-border-color {
-         border-color: var(--wp--preset--color--white) !important;
-      }
-
-      .has-pale-pink-border-color {
-         border-color: var(--wp--preset--color--pale-pink) !important;
-      }
-
-      .has-vivid-red-border-color {
-         border-color: var(--wp--preset--color--vivid-red) !important;
-      }
-
-      .has-luminous-vivid-orange-border-color {
-         border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-      }
-
-      .has-luminous-vivid-amber-border-color {
-         border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-      }
-
-      .has-light-green-cyan-border-color {
-         border-color: var(--wp--preset--color--light-green-cyan) !important;
-      }
-
-      .has-vivid-green-cyan-border-color {
-         border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-      }
-
-      .has-pale-cyan-blue-border-color {
-         border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-      }
-
-      .has-vivid-cyan-blue-border-color {
-         border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-      }
-
-      .has-vivid-purple-border-color {
-         border-color: var(--wp--preset--color--vivid-purple) !important;
-      }
-
-      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-         background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-      }
-
-      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-         background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-      }
-
-      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-         background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-      }
-
-      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-         background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-      }
-
-      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-         background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-      }
-
-      .has-cool-to-warm-spectrum-gradient-background {
-         background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-      }
-
-      .has-blush-light-purple-gradient-background {
-         background: var(--wp--preset--gradient--blush-light-purple) !important;
-      }
-
-      .has-blush-bordeaux-gradient-background {
-         background: var(--wp--preset--gradient--blush-bordeaux) !important;
-      }
-
-      .has-luminous-dusk-gradient-background {
-         background: var(--wp--preset--gradient--luminous-dusk) !important;
-      }
-
-      .has-pale-ocean-gradient-background {
-         background: var(--wp--preset--gradient--pale-ocean) !important;
-      }
-
-      .has-electric-grass-gradient-background {
-         background: var(--wp--preset--gradient--electric-grass) !important;
-      }
-
-      .has-midnight-gradient-background {
-         background: var(--wp--preset--gradient--midnight) !important;
-      }
-
-      .has-small-font-size {
-         font-size: var(--wp--preset--font-size--small) !important;
-      }
-
-      .has-medium-font-size {
-         font-size: var(--wp--preset--font-size--medium) !important;
-      }
-
-      .has-large-font-size {
-         font-size: var(--wp--preset--font-size--large) !important;
-      }
-
-      .has-x-large-font-size {
-         font-size: var(--wp--preset--font-size--x-large) !important;
-      }
-   </style>
-
-   <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="32x32" />
-   <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="192x192" />
-   <link rel="apple-touch-icon" href="img/Dr.smrithi-logo.png" />
-   <script type="text/javascript">function setREVStartSize(e) {
-         //window.requestAnimationFrame(function() {				 
-         window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
-         window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
-         try {
-            var pw = document.getElementById(e.c).parentNode.offsetWidth,
-               newh;
-            pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
-            e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
-            e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
-            e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
-            e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
-            e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
-            e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
-            e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
-            if (e.layout === "fullscreen" || e.l === "fullscreen")
-               newh = Math.max(e.mh, window.RSIH);
-            else {
-               e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-               for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
-               e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
-               e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-               for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
-
-               var nl = new Array(e.rl.length),
-                  ix = 0,
-                  sl;
-               e.tabw = e.tabhide >= pw ? 0 : e.tabw;
-               e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
-               e.tabh = e.tabhide >= pw ? 0 : e.tabh;
-               e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
-               for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
-               sl = nl[0];
-               for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
-               var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
-               newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
-            }
-            if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
-            document.getElementById(e.c).height = newh + "px";
-            window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
-         } catch (e) {
-            console.log("Failure at Presize of Slider:" + e)
-         }
-         //});
-      };
-   </script>
-   <style type="text/css" data-type="vc_shortcodes-custom-css">
-      .vc_custom_1493719450886 {
-         margin-right: 20px !important;
-      }
-
-      .vc_custom_1496056861757 {
-         background-color: #242424 !important;
-      }
-
-      .vc_custom_1496056974772 {
-         background-color: #242424 !important;
-      }
-
-      .vc_custom_1496056876730 {
-         background-color: #242424 !important;
-      }
-
-      .vc_custom_1496299217233 {
-         margin-bottom: 0px !important;
-      }
-
-      .vc_custom_1493723034309 {
-         margin-bottom: 0px !important;
-      }
-
-      .vc_custom_1496130526317 {
-         padding-right: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1493791818670 {
-         padding-right: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1493791824174 {
-         padding-right: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1493793849239 {
-         padding-right: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1493793856732 {
-         padding-right: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1493794105699 {
-         padding-right: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1581684394210 {
-         margin-bottom: 0px !important;
-      }
-
-      .vc_custom_1493805059752 {
-         padding-right: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1493873433275 {
-         background-image: url(img/services-img.jpg) !important;
-      }
-
-      .vc_custom_1493805049889 {
-         padding-right: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1496065640891 {
-         padding-right: 7% !important;
-         padding-left: 7% !important;
-         background-color: #f8f8f9 !important;
-      }
-
-      .vc_custom_1496219206843 {
-         padding-right: 10% !important;
-         padding-left: 10% !important;
-         background-color: #424242 !important;
-      }
-
-      .vc_custom_1493719450886 {
-         margin-right: 20px !important;
-      }
-
-      .vc_custom_1493888679685 {
-         margin-right: 20px !important;
-      }
-
-      .vc_custom_1493895363871 {
-         padding-top: 60px !important;
-         padding-right: 40px !important;
-         padding-bottom: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1458815546962 {
-         margin-top: 0px !important;
-         margin-right: 0px !important;
-         margin-bottom: 0px !important;
-         margin-left: 0px !important;
-         padding-top: 0px !important;
-         padding-right: 0px !important;
-         padding-bottom: 0px !important;
-         padding-left: 0px !important;
-      }
-
-      .vc_custom_1496302456632 {
-         margin-top: -15px !important;
-         margin-right: 0px !important;
-         margin-left: 0px !important;
-         background-position: center !important;
-         background-repeat: no-repeat !important;
-         background-size: cover !important;
-      }
-
-      .vc_custom_1496060764748 {
-         background-color: #f8f8f9 !important;
-      }
-
-      .vc_custom_1493980407780 {
-         margin-top: 0px !important;
-         margin-right: 0px !important;
-         margin-bottom: 0px !important;
-         margin-left: 0px !important;
-         padding-top: 0px !important;
-         padding-right: 0px !important;
-         padding-bottom: 0px !important;
-         padding-left: 0px !important;
-      }
-   </style>
-   <noscript>
-      <style>
-         .wpb_animate_when_almost_visible {
-            opacity: 1;
-         }
-      </style>
-   </noscript>
 </head>
 
 <body id="treatment-body"
    class="home page-template-default page page-id-12 wp-embed-responsive theme-smrithi woocommerce-js fullwidth-header semi-transparent-header sticky-header header-on-slider woo-type6 page-with-slider no-breadcrumb wpb-js-composer js-comp-ver-6.5.0 vc_responsive  layout-boxed">
-   <!-- <body class="dt_procedure-template-default single single-dt_procedure postid-8202 wp-embed-responsive theme-smrithi woocommerce-no-js layout-wide fullwidth-header semi-transparent-header sticky-header header-on-slider woo-type6 wpb-js-composer js-comp-ver-6.5.0 vc_responsive"> -->
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-dark-grayscale">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0 0.498039215686" />
-               <feFuncG type="table" tableValues="0 0.498039215686" />
-               <feFuncB type="table" tableValues="0 0.498039215686" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-grayscale">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0 1" />
-               <feFuncG type="table" tableValues="0 1" />
-               <feFuncB type="table" tableValues="0 1" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-purple-yellow">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0.549019607843 0.988235294118" />
-               <feFuncG type="table" tableValues="0 1" />
-               <feFuncB type="table" tableValues="0.717647058824 0.254901960784" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-blue-red">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0 1" />
-               <feFuncG type="table" tableValues="0 0.278431372549" />
-               <feFuncB type="table" tableValues="0.592156862745 0.278431372549" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-midnight">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0 0" />
-               <feFuncG type="table" tableValues="0 0.647058823529" />
-               <feFuncB type="table" tableValues="0 1" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-magenta-yellow">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0.780392156863 1" />
-               <feFuncG type="table" tableValues="0 0.949019607843" />
-               <feFuncB type="table" tableValues="0.352941176471 0.470588235294" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-purple-green">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0.650980392157 0.403921568627" />
-               <feFuncG type="table" tableValues="0 1" />
-               <feFuncB type="table" tableValues="0.447058823529 0.4" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none"
-      style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-blue-orange">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-               values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0.0980392156863 1" />
-               <feFuncG type="table" tableValues="0 0.662745098039" />
-               <feFuncB type="table" tableValues="0.847058823529 0.419607843137" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
+
    <div class="loader">
-      <div class="loader-inner"><span class="dot"></span><span class="dot dot1"></span><span
-            class="dot dot2"></span><span class="dot dot3"></span><span class="dot dot4"></span></div>
+      <div class="loader-inner">
+         <span class="dot"></span>
+         <span class="dot dot1"></span>
+         <span class="dot dot2"></span>
+         <span class="dot dot3"></span>
+         <span class="dot dot4"></span>
+      </div>
    </div>
+
    <!-- **Wrapper** -->
    <div class="wrapper" id="treatment-page__wrapper">
       <div class="inner-wrapper" id="treatment-page__inner-wrapper">
@@ -849,6 +336,7 @@
                                     <span class="fa fa-search"> </span> </a>
                                  <div class="overlay overlay-search">
                                     <div class="overlay-close"></div>
+
                                     <!-- **Searchform** -->
                                     <form method="get" id="searchform" action="">
                                        <input id="s" name="s" type="text" value="Enter Keyword" class="text_input"
@@ -859,6 +347,7 @@
                                        <input name="submit" type="submit" value="Go" />
                                     </form>
                                     <!-- **Searchform - End** -->
+
                                  </div>
                               </div>
                            </div>
@@ -1182,7 +671,7 @@
    <script type='text/javascript' src='js/reservation.js?ver=6.0.3' id='jq-reservation-js'></script>
    <script type='text/javascript' src='js/doctors.js?ver=6.0.3' id='dt-doctor-addon-js'></script>
    <script type='text/javascript' src='js/script.js?ver=6.0.3' id='dt-fbpixel-script-js'></script>
-   <script type='text/javascript' src='js/js.cookie.min.js' id='js-cookie-js'></script>
+   <script type='text/javascript' src='js/js.cookie.min.js?ver=1.3' id='js-cookie-js'></script>
    <script type='text/javascript' src='js/jquery.prettyPhoto.min.js?ver=3.1.6' id='prettyPhoto-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.ui.totop.min.js' id='jquery-ui-totop-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.caroufredsel.js' id='jquery-caroufredsel-js'></script>
@@ -1200,7 +689,6 @@
    <script type='text/javascript' src='js/jquery/jquery.classie.js' id='jquery-classie-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.placeholder.js' id='jquery-placeholder-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.visualNav.min.js' id='jquery-visualNav-js'></script>
-   <script type='text/javascript' src='js/jquery/jquery.magnific-popup.min.js' id='smrithi-popup-js-js'></script>
 
    <script type='text/javascript' src='js/isotope.pkgd.min.js' id='isotope-js'></script>
 

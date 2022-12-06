@@ -115,7 +115,7 @@ class Footer extends HTMLElement {
                <li id="menu-item-381" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-381"><a
                      href="#!">Terms of Use</a></li>
                <li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382"><a
-                     href="#!">Site Map</a></li>
+                     href="sitemap.xml">Site Map</a></li>
             </ul>
          </div>
       </div>

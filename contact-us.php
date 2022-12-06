@@ -14,35 +14,20 @@
    <meta name="Keywords" content="Ayurvedic wound care specialist near me, treatment for diabetic wound infection, diabetic wound care treatments in Calicut. Ayurveda doctor for wound heal." />
 
 
-   <link rel="stylesheet" href="css/common.css?ver=1.4">
-   <link rel='stylesheet' href='css/jquery.selectBox.css?ver=1.0' type='text/css' media='all' />
+   <link rel="stylesheet" href="css/common.css?ver=1.5">
    <link rel='stylesheet' href='css/font-awesome.css?ver=1.0' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/material-design-iconic-font.min.css?ver=1.0' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/bg-banner-sec.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/magnific-popup.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/custom-home.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/gutenberg.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/bg-banner-sec.min.css?ver=6.0.4' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/custom-home.min.css?ver=2.2' type='text/css' media='all' />
 
-   <link rel='stylesheet' href='css/style.min.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/vendors-style.css?ver=3.8.1' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/jquery.selectBox.css?ver=1.2.0' type='text/css' media='all' />
    <link rel='stylesheet' href='css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/style-2.css?ver=3.0.17' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/animations.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/shortcodes.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/rs6.css?ver=6.3.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/store-lt-smrithi.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/Defaults.css?ver=3.19.8' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/icons.css?ver=3.19.8' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/base.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/grid.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/widget.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/layout.css?ver=2.4' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/custom-class.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/stroke-gap-icons-style.css?ver=1.0' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/loaders.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/custom.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/contact-new.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/shortcodes/contact-info.min.css?ver=3.4' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/base.min.css?ver=2.3' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/grid.min.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/widget.min.css?ver=2.2' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/layout.min.css?ver=2.6' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/stroke-gap-icons-style.min.css?ver=1.0' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/style.min.css?ver=6.0.3' type='text/css' media='all' />
+   <link rel='stylesheet' href='css/contact-new.min.css?ver=2.3' type='text/css' media='all' />
 
 
    <!-- script -->
@@ -51,9 +36,6 @@
    <script type='text/javascript' src='js/jquery/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
    <script type='text/javascript' src='js/jquery/jquery-ui.min.js?ver=3' id='jquery_ui-js'></script>
 
-   <script type='text/javascript' src='js/rbtools.min.js?ver=6.3.3' id='tp-tools-js'></script>
-   <script type='text/javascript' src='js/rs6.min.js?ver=6.3.3' id='revmin-js'></script>
-   <script type='text/javascript' src='js/modernizr.custom.js?ver=6.0.3' id='modernizr-custom-js'></script>
 
    <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="32x32" />
    <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="192x192" />
@@ -82,120 +64,15 @@
 </head>
 
 <body class="home page-template-default page page-id-12 wp-embed-responsive theme-smrithi woocommerce-js fullwidth-header semi-transparent-header sticky-header header-on-slider woo-type6 page-with-slider no-breadcrumb wpb-js-composer js-comp-ver-6.5.0 vc_responsive  layout-boxed">
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-dark-grayscale">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0 0.498039215686" />
-               <feFuncG type="table" tableValues="0 0.498039215686" />
-               <feFuncB type="table" tableValues="0 0.498039215686" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-grayscale">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0 1" />
-               <feFuncG type="table" tableValues="0 1" />
-               <feFuncB type="table" tableValues="0 1" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-purple-yellow">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0.549019607843 0.988235294118" />
-               <feFuncG type="table" tableValues="0 1" />
-               <feFuncB type="table" tableValues="0.717647058824 0.254901960784" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-blue-red">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0 1" />
-               <feFuncG type="table" tableValues="0 0.278431372549" />
-               <feFuncB type="table" tableValues="0.592156862745 0.278431372549" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-midnight">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0 0" />
-               <feFuncG type="table" tableValues="0 0.647058823529" />
-               <feFuncB type="table" tableValues="0 1" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-magenta-yellow">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0.780392156863 1" />
-               <feFuncG type="table" tableValues="0 0.949019607843" />
-               <feFuncB type="table" tableValues="0.352941176471 0.470588235294" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-purple-green">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0.650980392157 0.403921568627" />
-               <feFuncG type="table" tableValues="0 1" />
-               <feFuncB type="table" tableValues="0.447058823529 0.4" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
-   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-      <defs>
-         <filter id="wp-duotone-blue-orange">
-            <feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " />
-            <feComponentTransfer color-interpolation-filters="sRGB">
-               <feFuncR type="table" tableValues="0.0980392156863 1" />
-               <feFuncG type="table" tableValues="0 0.662745098039" />
-               <feFuncB type="table" tableValues="0.847058823529 0.419607843137" />
-               <feFuncA type="table" tableValues="1 1" />
-            </feComponentTransfer>
-            <feComposite in2="SourceGraphic" operator="in" />
-         </filter>
-      </defs>
-   </svg>
+
    <div class="loader">
-      <div class="loader-inner"><span class="dot"></span><span class="dot dot1"></span><span class="dot dot2"></span><span class="dot dot3"></span><span class="dot dot4"></span></div>
+      <div class="loader-inner">
+         <span class="dot"></span>
+         <span class="dot dot1"></span>
+         <span class="dot dot2"></span>
+         <span class="dot dot3"></span>
+         <span class="dot dot4"></span>
+      </div>
    </div>
    <!-- **Wrapper** -->
    <div class="wrapper">
@@ -590,32 +467,35 @@
       }
    </script>
 
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.ui.totop.min.js?ver=6.0.3' id='jquery-ui-totop-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.caroufredsel.js?ver=6.0.3' id='jquery-caroufredsel-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.easing.js?ver=6.0.3' id='jquery-easing-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.debouncedresize.js?ver=6.0.3' id='jquery-debouncedresize-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.prettyphoto.js?ver=6.0.3' id='jquery-prettyphoto-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.touchswipe.js?ver=6.0.3' id='jquery-touchswipe-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.parallax.js?ver=6.0.3' id='jquery-parallax-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.downcount.js?ver=6.0.3' id='jquery-downcount-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.nicescroll.js?ver=6.0.3' id='jquery-nicescroll-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.bxslider.js?ver=6.0.3' id='jquery-bxslider-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.fitvids.js?ver=6.0.3' id='jquery-fitvids-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.sticky.js?ver=6.0.3' id='jquery-sticky-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.simple-sidebar.js?ver=6.0.3' id='jquery-simple-sidebar-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.classie.js?ver=6.0.3' id='jquery-classie-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.placeholder.js?ver=6.0.3' id='jquery-placeholder-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/jquery.visualNav.min.js?ver=6.0.3' id='jquery-visualNav-js'></script>
-   <script type='text/javascript' src='https://dtpsychiatrist.wpengine.com/wp-content/themes/psychiatrist/framework/js/magnific/jquery.magnific-popup.min.js?ver=6.0.3' id='psychiatrist-popup-js-js'></script>
-   <script type='text/javascript' id='pace-js-extra'>
-      /* <![CDATA[ */
-      var paceOptions = {
-         "restartOnRequestAfter": "false",
-         "restartOnPushState": "false"
-      };
-      /* ]]> */
-   </script>
-   <script type='text/javascript' id='jquery-custom-js-extra'>
+
+   <link rel='stylesheet' id='vc_animate-css-css' href='css/animate.min.css?ver=1.0' type='text/css' media='all' />
+
+
+   <script type="module" src="footer/footer.js"></script>
+
+   <!-- shortcodes starts-->
+   <script type='text/javascript' src="js/shortcodes/jquery.tabs.min.js" id='dt-sc-tabs-js'></script>
+   <script type='text/javascript' src='js/shortcodes/jquery.tipTip.minified.js' id='dt-sc-tiptip-js'></script>
+   <script type='text/javascript' src='js/shortcodes/jquery.toggle.click.js' id='dt-sc-toggle-click-js'></script>
+   <!-- shortcodes ends // -->
+
+   <!-- jquery set -->
+   <script type='text/javascript' src='js/script.js?ver=6.0.3' id='dt-fbpixel-script-js'></script>
+   <script type='text/javascript' src='js/js.cookie.min.js?ver=1.3' id='js-cookie-js'></script>
+   <script type='text/javascript' src='js/jquery/jquery.ui.totop.min.js' id='jquery-ui-totop-js'></script>
+   <script type='text/javascript' src='js/jquery/jquery.easing.js' id='jquery-easing-js'></script>
+   <script type='text/javascript' src='js/jquery/jquery.sticky.js' id='jquery-sticky-js'></script>
+   <script type='text/javascript' src='js/jquery/jquery.classie.js' id='jquery-classie-js'></script>
+   <script type='text/javascript' src='js/jquery/jquery.placeholder.js' id='jquery-placeholder-js'></script>
+   <script type='text/javascript' src='js/jquery/jquery.visualNav.min.js' id='jquery-visualNav-js'></script>
+
+   <!-- Header Style js -->
+   <script type='text/javascript' src='js/jquery/jquery.fitvids.js' id='jquery-fitvids-js'></script>
+
+
+
+   <script type='text/javascript' src='js/pace.min.js' id='pace-js'></script>
+   <script type='text/javascript'>
       /* <![CDATA[ */
       var dttheme_urls = {
          "theme_base_url": "",
@@ -630,62 +510,9 @@
       };
       /* ]]> */
    </script>
-   <script type='text/javascript' id='jquery-yith-wcwl-js-extra'>
-      /* <![CDATA[ */
-      var yith_wcwl_l10n = {
-         "ajax_url": "",
-         "redirect_to_cart": "no",
-         "multi_wishlist": "",
-         "hide_add_button": "1",
-         "enable_ajax_loading": "",
-         "ajax_loader_url": "",
-         "remove_from_wishlist_after_add_to_cart": "1",
-         "is_wishlist_responsive": "1",
-         "time_to_close_prettyphoto": "3000",
-         "fragments_index_glue": ".",
-         "reload_on_found_variation": "1",
-         "labels": {
-            "cookie_disabled": "We are sorry, but this feature is available only if cookies on your browser are enabled.",
-            "added_to_cart_message": "<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"
-         },
-         "actions": {
-            "add_to_wishlist_action": "add_to_wishlist",
-            "remove_from_wishlist_action": "remove_from_wishlist",
-            "reload_wishlist_and_adding_elem_action": "reload_wishlist_and_adding_elem",
-            "load_mobile_action": "load_mobile",
-            "delete_item_action": "delete_item",
-            "save_title_action": "save_title",
-            "save_privacy_action": "save_privacy",
-            "load_fragments": "load_fragments"
-         }
-      };
-      /* ]]> */
-   </script>
-
-   <script type="module" src="footer/footer.js"></script>
-   <script type='text/javascript' src='js/vhparallax.min.js?ver=3.19.8' id='jquery.vhparallax-js'></script>
-   <script type='text/javascript' src='js/skrollr.min.js?ver=6.5.0' id='vc_jquery_skrollr_js-js'></script>
-
-   <!-- shortcodes starts-->
-   <script type='text/javascript' src='js/shortcodes/jquery.tipTip.minified.js' id='dt-sc-tiptip-js'></script>
-   <script type='text/javascript' src='js/shortcodes/shortcodes.js?ver=6.0.3' id='dt-sc-script-js'></script>
-   <!-- shortcodes ends // -->
-   <script type='text/javascript' src='js/shortcodes/jquery.animateNumber.min.js' id='dt-sc-animatenum-js'></script>
-
-   <!-- used for navigation animation and their functions -->
-   <script type='text/javascript' src='js/jquery/jquery.visualNav.min.js' id='jquery-visualNav-js'></script>
-
-   <!-- jquery set -->
-   <script type='text/javascript' src='js/script.js?ver=6.0.3' id='dt-fbpixel-script-js'></script>
-   <script type='text/javascript' src='js/js.cookie.min.js' id='js-cookie-js'></script>
-   <script type='text/javascript' src='js/jquery/jquery.debouncedresize.js' id='jquery-debouncedresize-js'></script>
-   <script type='text/javascript' src='js/jquery/jquery.simple-sidebar.js' id='jquery-simple-sidebar-js'></script>
-   <script type='text/javascript' src='js/jquery/jquery.classie.js' id='jquery-classie-js'></script>
-   <script type='text/javascript' src='js/jquery/jquery.placeholder.js' id='jquery-placeholder-js'></script>
-   <script type='text/javascript' src='js/pace.min.js' id='pace-js'></script>
    <script type='text/javascript' src='js/custom.js' id='smrithi-jqcustom-js'></script>
    <script type='text/javascript' src='js/jquery.cookie.min.js' id='jquery-cookie-js'></script>
-   <!-- <script type='text/javascript' src='js/js_composer_front.min.js?ver=6.5.0' id='wpb_composer_front_js-js'></script> -->
+   <script type='text/javascript' src='js/js_composer_front.min.js?ver=6.5.0' id='wpb_composer_front_js-js'></script>
    <script type='text/javascript' src='js/vc-waypoints.min.js' id='vc_waypoints-js'></script>
 
    <!-- Whatp chat plugin  -->

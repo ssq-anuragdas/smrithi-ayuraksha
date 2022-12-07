@@ -16,7 +16,10 @@
 }
 
 
-
+/* Header Background color when sticky */
+div#main-header-wrapper {
+    background-color: #fff !important;
+}
 
 /***** Home(index.html) page *****/
 
@@ -577,7 +580,8 @@ a#footer__social-icon-youtube {
 
     /* About-Us page */
     div.dt-sc-title>h2.smrithi-doc-name {
-        font-size: x-large !important;
+        font-size: 20px !important;
+        text-align: center;
     }
 
     h5#doctor-sign-name {
@@ -975,16 +979,16 @@ div.vc_row.wpb_row.vc_row-fluid.university-contact-info.contact-address {
 
 div.wpb_column.vc_column_container.vc_col-sm-12.map-inner__wrap {
     margin-top: 50px !important;
-    width: calc(100% + 10%);
-    left: -5%;
+    width: calc(100% + 82px);
+    left: -40px;
     margin-bottom: 5px !important;
 }
 
 @media screen and (max-width: 768px) {
     div.wpb_column.vc_column_container.vc_col-sm-12.map-inner__wrap {
         margin-top: 20px !important;
-        width: calc(100% + 20%) !important;
-        left: -10% !important;
+        width: calc(100% + 60px) !important;
+        left: -30px !important;
     }
 }
 
@@ -1620,3 +1624,7 @@ div.gallery-images__wrapper div.images-cards img {
 }
 
 /***** End Gallery Page styles *****/
+
+.wpb_single_image.wpb_content_element.vc_align_left.skin-highlight.about-us__dr-bg {
+    background-color: rgba(239, 239, 239, 0.934) !important;
+}

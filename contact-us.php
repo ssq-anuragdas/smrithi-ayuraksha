@@ -13,49 +13,13 @@
    <meta name="description" content="Are you looking for the best Ayurvedic Treatment in Calicut? Dr. Smirthi provides treatments for Bedsores, Fissures, & Diabetic wounds in Kozhikode, Call Now." />
    <meta name="Keywords" content="Ayurvedic wound care specialist near me, treatment for diabetic wound infection, diabetic wound care treatments in Calicut. Ayurveda doctor for wound heal." />
 
-
-   <link rel="stylesheet" href="css/common.css?ver=1.5">
-   <link rel='stylesheet' href='css/font-awesome.css?ver=1.0' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/bg-banner-sec.min.css?ver=6.0.4' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/custom-home.min.css?ver=2.2' type='text/css' media='all' />
-
-   <link rel='stylesheet' href='css/font-awesome.css?ver=4.7.0' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/shortcodes/contact-info.min.css?ver=3.4' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/base.min.css?ver=2.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/grid.min.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/widget.min.css?ver=2.2' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/layout.min.css?ver=2.6' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/stroke-gap-icons-style.min.css?ver=1.0' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/style.min.css?ver=6.0.3' type='text/css' media='all' />
-   <link rel='stylesheet' href='css/contact-new.min.css?ver=2.3' type='text/css' media='all' />
-
+   <link rel="stylesheet" href="min-css/contact.min.css?ver=1.0.1">
 
    <!-- script -->
    <script type='text/javascript' src='js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
    <script type='text/javascript' src='js/jquery/jquery-migrate.min.js?ver=3' id='jquery-migrate-js'></script>
    <script type='text/javascript' src='js/jquery/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
    <script type='text/javascript' src='js/jquery/jquery-ui.min.js?ver=3' id='jquery_ui-js'></script>
-
-
-   <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="32x32" />
-   <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="192x192" />
-   <link rel="apple-touch-icon" href="img/Dr.smrithi-logo.png" />
-
-
-   <style type="text/css">
-      .wrapper {
-         box-shadow: 0 0 15px 0 #0000002b
-      }
-
-      #wa-widget-send-button {
-         bottom: 0;
-      }
-
-      .px-0 {
-         padding-left: 0 !important;
-         padding-right: 0 !important;
-      }
-   </style>
 
    <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="32x32" />
    <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="192x192" />
@@ -187,7 +151,7 @@
                         <div class="checkbox-wrapper">
                            <h3>Select Required Service</h3>
                            <div class="checkbox-container">
-                              <ul class="checkbox-ul">
+                              <ul class="checkbox-ul" style="list-style: none;">
                                  <li class="checkbox">
                                     <input type="checkbox" name="treatment" id="treatment" value="Diabetic Wound Treatment">
                                     <label>Diabetic Wound Treatment</label>
@@ -265,7 +229,7 @@
                                     <div class="dt-sc-contact-info type7 animated fadeInUp" style="opacity:1;-webkit-animation-delay:1.1s;-webkit-animation-duration:1s;-webkit-animation-iteration-count:1; -moz-animation-delay:1.1s;-moz-animation-duration:1s;-moz-animation-iteration-count:1; animation-delay:1.1s;animation-duration:1s;animation-iteration-count:1;test">
                                        <span class="icon icon-pointer"> </span>
                                        <h6>Our Location</h6>
-                                       Dr Smrithi's Ayur Raksha Clinic,
+                                       Dr Smrithi's Ayuraksha Clinic,
                                        Kunnathara, <br />
                                        Atholi - Ulliyeri Main Road, Calicut, Kerala <br />
                                        Pin: 673515
@@ -344,7 +308,6 @@
 
    <script type="module" src="footer/footer.js"></script>
 
-   <link href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/11.0.14/css/intlTelInput.css?ver=1.0" rel="stylesheet" />
    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
 
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
@@ -468,9 +431,6 @@
    </script>
 
 
-   <link rel='stylesheet' id='vc_animate-css-css' href='css/animate.min.css?ver=1.0' type='text/css' media='all' />
-
-
    <script type="module" src="footer/footer.js"></script>
 
    <!-- shortcodes starts-->
@@ -480,8 +440,8 @@
    <!-- shortcodes ends // -->
 
    <!-- jquery set -->
-   <script type='text/javascript' src='js/script.js?ver=6.0.3' id='dt-fbpixel-script-js'></script>
-   <script type='text/javascript' src='js/js.cookie.min.js?ver=1.3' id='js-cookie-js'></script>
+   <script type='text/javascript' src='js/script.min.js?ver=6.0.3' id='dt-fbpixel-script-js'></script>
+   <script type='text/javascript' src='js/js.cookie.min.js?ver=1.5' id='js-cookie-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.ui.totop.min.js' id='jquery-ui-totop-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.easing.js' id='jquery-easing-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.sticky.js' id='jquery-sticky-js'></script>
@@ -497,7 +457,7 @@
    <script type='text/javascript' src='js/pace.min.js' id='pace-js'></script>
    <script type='text/javascript'>
       /* <![CDATA[ */
-      var dttheme_urls = {
+      var drsmrithi_urls = {
          "theme_base_url": "",
          "framework_base_url": "",
          "ajaxurl": "",
@@ -510,8 +470,8 @@
       };
       /* ]]> */
    </script>
-   <script type='text/javascript' src='js/custom.js' id='smrithi-jqcustom-js'></script>
-   <script type='text/javascript' src='js/jquery.cookie.min.js' id='jquery-cookie-js'></script>
+   <script type='text/javascript' src='js/custom.min.js' id='smrithi-jqcustom-js'></script>
+   <script type='text/javascript' src='js/jquery.cookie.min.js?ver=1.0.1' id='jquery-cookie-js'></script>
    <script type='text/javascript' src='js/js_composer_front.min.js?ver=6.5.0' id='wpb_composer_front_js-js'></script>
    <script type='text/javascript' src='js/vc-waypoints.min.js' id='vc_waypoints-js'></script>
 
@@ -538,7 +498,7 @@
             "brandSubTitle": "Typically replies within a day",
             "brandImg": "img/Dr.smrithi-logo.png",
             "welcomeText": "Hi there!\nHow can I help you?",
-            "messageText": "Hello, I would like to know the treatment procedures at Smrithi Ayuraksha",
+            "messageText": "Hello, I would like to know more about Dr. Smrithi’s Ayuraksha treatment procedures.",
             "backgroundColor": "rgba(62,16,67)",
             "ctaText": "Start Chat",
             "borderRadius": "25",

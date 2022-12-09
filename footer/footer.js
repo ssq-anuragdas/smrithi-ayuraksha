@@ -22,7 +22,7 @@ class Footer extends HTMLElement {
                </div>
             </aside>
          </div>
-         <div class='column dt-sc-one-fourth '>
+         <div class='column dt-sc-one-fourth pages-links'>
             <aside id="text-4" class="widget widget_text">
                <h3 class="widgettitle">Treatments</h3>
                <div class="textwidget">
@@ -37,7 +37,7 @@ class Footer extends HTMLElement {
                                 </ul> -->
                      </li>
                      <li><a href="panchakarma.html">Panchakarma</a></li>
-                     <li><a href="treatment.html">Vanitha Clinic </a></li>
+                     <li><a href="vanitha-clinic.html">Vanitha Clinic </a></li>
                   </ul>
                </div>
             </aside>

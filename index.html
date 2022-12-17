@@ -20,7 +20,6 @@
    <link rel='stylesheet' href='css/rs6.min.css?ver=6.3.4' type='text/css' media='all' />
 
    <!-- script -->
-   <script type="text/javascript" src="js/lazy/lazyload.js?ver=5.3.3" id="load-lazy-js"></script>
    <script type='text/javascript' src='js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
    <script type='text/javascript' src='js/jquery/jquery-migrate.min.js?ver=4' id='jquery-migrate-js'></script>
    <script type='text/javascript' src='js/jquery/core.min.js?ver=1.13.3' id='jquery-ui-core-js'></script>
@@ -79,9 +78,9 @@
       };
    </script>
 
-   <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="32x32" />
-   <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="192x192" />
-   <link rel="apple-touch-icon" href="img/Dr.smrithi-logo.png" />
+   <link rel="icon" href="img/Dr.smrithi-logo-min.png" sizes="32x32" />
+   <link rel="icon" href="img/Dr.smrithi-logo-min.png" sizes="192x192" />
+   <link rel="apple-touch-icon" href="img/Dr.smrithi-logo-min.png" />
 </head>
 
 <body
@@ -113,7 +112,7 @@
                      <div class="main-header">
                         <div id="logo">
                            <a href="index.html" title="Dr. Smrithi Ayuraksha clinic">
-                              <img class="normal_logo" src="img/smrithi-title-logo.png"
+                              <img class="normal_logo" src="img/smrithi-title-logo-min.png"
                                  alt="Dr. Smrithi Ayuraksha clinic logo" title="Dr. Smrithi Ayuraksha clinic logo" />
                            </a>
                         </div>
@@ -290,7 +289,7 @@
                                     data-frame_0="y:-100%;o:1;tp:600;" data-frame_0_mask="u:t;"
                                     data-frame_1="tp:600;st:500;sp:1500;sR:500;" data-frame_1_mask="u:t;"
                                     data-frame_999="o:0;tp:600;st:w;sR:7000;" style="z-index:8;">
-                                    <img src="img/Dr.smrithi-logo.png" width="100" height="auto" alt="slider-logo"
+                                    <img src="img/Dr.smrithi-logo-min.png" width="100" height="auto" alt="slider-logo"
                                        data-no-retina>
                                  </rs-layer>
 
@@ -372,7 +371,7 @@
                                     data-xy="x:c;y:269px;" data-text="l:22;a:inherit;" data-dim="w:72px;h:auto;"
                                     data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:500;sp:1500;sR:500;"
                                     data-frame_999="o:0;tp:600;st:w;sR:7000;" style="z-index:10;filter: contrast(2);">
-                                    <img src="img/Dr.smrithi-logo.png" width="72" height="auto" alt="slider-logo"
+                                    <img src="img/Dr.smrithi-logo-min.png" width="72" height="auto" alt="slider-logo"
                                        data-no-retina>
                                  </rs-layer>
 
@@ -778,7 +777,7 @@
                                        <div class="right10 wpb_column vc_column_container vc_col-sm-12">
                                           <div class="vc_column-inner ">
                                              <div class="wpb_wrapper">
-                                                <img src="img/traditional-ayurveda.png" alt="ayurveda-image"
+                                                <img src="img/traditional-ayurveda.webp" alt="ayurveda-image"
                                                    width="100%" height="auto" />
                                              </div>
                                           </div>
@@ -1489,15 +1488,19 @@
                <div class="close">✖</div>
                <h6>Wound Care Specialist</h6>
                <div class="content">
-                  <div class="responsive-video">
-                     <iframe id="video" width="560" height="315"
-                        src="https://www.youtube.com/embed/W66IYDJ-6W8?enablejsapi=1&version=3&playerapiid=ytplayer"
-                        frameborder="0" allowfullscreen="true" allowscriptaccess="always">
-                     </iframe>
+                  <div class="responsive-video" style="padding-top: 0 !important;">
+                     <!-- <iframe id="video" width="560" height="315" src="video/wound-video.mp4" frameborder="0"
+                        allowfullscreen="true" allowscriptaccess="always">
+                     </iframe> -->
+                     <video id="video" width="100%" height="auto" controls>
+                        <source src="video/wound-video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                     </video>
                   </div>
                </div>
             </div>
          </div>
+
 
       </div>
       <!-- **Inner Wrapper - End** -->
@@ -1513,7 +1516,8 @@
    <script type='text/javascript' src="js/shortcodes/jquery.tabs.min.js?ver=1.0.1" id='dt-sc-tabs-js'></script>
    <script type='text/javascript' src='js/shortcodes/jquery.tipTip.minified.js?ver=1.0.1' id='dt-sc-tiptip-js'></script>
    <script type='text/javascript' src='js/shortcodes/slick.min.js?ver=1.0.1' id='dt-sc-slick-js'></script>
-   <script type='text/javascript' src='js/shortcodes/jquery.toggle.click.js?ver=1.0.1' id='dt-sc-toggle-click-js'></script>
+   <script type='text/javascript' src='js/shortcodes/jquery.toggle.click.js?ver=1.0.1'
+      id='dt-sc-toggle-click-js'></script>
    <script type='text/javascript' src='js/shortcodes/shortcodes.min.js?ver=6.0.4' id='dt-sc-script-js'></script>
    <!-- <script type='text/javascript' src='js/jquery.prettyPhoto.min.js' id='dt-sc-script-js'></script> -->
    <!-- shortcodes ends // -->
@@ -1526,7 +1530,6 @@
    <script type='text/javascript' src='js/jquery/jquery.fitvids.js?ver=1.0.1' id='jquery-fitvids-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.sticky.js?ver=1.0.1' id='jquery-sticky-js'></script>
 
-   <script src="js/jquery/modal.js?ver=1.0.1"></script>
    <script>
       // Open Modal
       jQuery('.modal-open').click(function () {
@@ -1539,9 +1542,12 @@
       });
 
       // Function for stop the video after the modal get closed
-      jQuery('.modal .close').click(function () {
-         jQuery('#video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');
+      jQuery(function () {
+         jQuery('.modal .close').click(function () {
+            jQuery('.modal').find('#video').trigger('pause');
+         });
       });
+
    </script>
 
    <script type='text/javascript' src='js/pace.min.js?ver=1.0.1' id='pace-js'></script>
@@ -1577,7 +1583,7 @@
          "brandSetting": {
             "brandName": "Dr. Smrithi Ayurraksha Clinic",
             "brandSubTitle": "Typically replies within a day",
-            "brandImg": "img/Dr.smrithi-logo.png",
+            "brandImg": "img/Dr.smrithi-logo-min.png",
             "welcomeText": "Hi there!\nHow can I help you?",
             "messageText": "Hello, I would like to know more about Dr. Smrithi’s Ayuraksha treatment procedures.",
             "backgroundColor": "rgba(62,16,67)",

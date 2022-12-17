@@ -21,9 +21,9 @@
    <script type='text/javascript' src='js/jquery/core.min.js?ver=1.13.3' id='jquery-ui-core-js'></script>
    <script type='text/javascript' src='js/jquery/jquery-ui.min.js?ver=4' id='jquery_ui-js'></script>
 
-   <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="32x32" />
-   <link rel="icon" href="img/Dr.smrithi-logo.png" sizes="192x192" />
-   <link rel="apple-touch-icon" href="img/Dr.smrithi-logo.png" />
+   <link rel="icon" href="img/Dr.smrithi-logo-min.png" sizes="32x32" />
+   <link rel="icon" href="img/Dr.smrithi-logo-min.png" sizes="192x192" />
+   <link rel="apple-touch-icon" href="img/Dr.smrithi-logo-min.png" />
 
 </head>
 
@@ -52,7 +52,7 @@
                      <div class="main-header">
                         <div id="logo">
                            <a href="index.html" title="Dr. Smrithi Ayuraksha clinic">
-                              <img class="normal_logo" src="img/smrithi-title-logo.png" alt="Dr. Smrithi Ayuraksha clinic logo" title="Dr. Smrithi Ayuraksha clinic logo" />
+                              <img class="normal_logo" src="img/smrithi-title-logo-min.png" alt="Dr. Smrithi Ayuraksha clinic logo" title="Dr. Smrithi Ayuraksha clinic logo" />
                            </a>
                         </div>
                         <div id="menu-wrapper" class="menu-wrapper menu-default">
@@ -496,7 +496,7 @@
          "brandSetting": {
             "brandName": "Dr. Smrithi Ayurraksha Clinic",
             "brandSubTitle": "Typically replies within a day",
-            "brandImg": "img/Dr.smrithi-logo.png",
+            "brandImg": "img/Dr.smrithi-logo-min.png",
             "welcomeText": "Hi there!\nHow can I help you?",
             "messageText": "Hello, I would like to know more about Dr. Smrithi’s Ayuraksha treatment procedures.",
             "backgroundColor": "rgba(62,16,67)",

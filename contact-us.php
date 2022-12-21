@@ -13,7 +13,7 @@
    <meta name="description" content="Are you looking for the best Ayurvedic Treatment in Calicut? Dr. Smirthi provides treatments for Bedsores, Fissures, & Diabetic wounds in Kozhikode, Call Now." />
    <meta name="Keywords" content="Ayurvedic wound care specialist near me, treatment for diabetic wound infection, diabetic wound care treatments in Calicut. Ayurveda doctor for wound heal." />
 
-   <link rel="stylesheet" href="min-css/contact.min.css?ver=1.0.2">
+   <link rel="stylesheet" href="min-css/contact.min.css?ver=1.0.3">
 
    <!-- script -->
    <script type='text/javascript' src='js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>

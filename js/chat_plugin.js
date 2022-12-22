@@ -3,7 +3,7 @@ function CreateWhatsappChatWidget(option = {
         autoShow: true,
         backgroundColor: "#004575",
         borderRadius: "25",
-        brandImg: "../img/Dr.smrithi-logo-min.png",
+        brandImg: "../img/Dr.smrithi-logo-min.webp",
         brandImgData: null,
         brandName: "Dr.Smrithi Ayuraksha Clinic",
         brandSubTitle: "Typically replies within a day",
@@ -37,7 +37,7 @@ function CreateWhatsappChatWidget(option = {
         initWidget();
     } else {
         var script = document.createElement("SCRIPT");
-        script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js';
+        script.src = 'jquery/jquery.min.js?ver=3.6.4'
         script.type = 'text/javascript';
         script.onload = function () {
             initWidget();

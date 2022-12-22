@@ -13,17 +13,17 @@
    <meta name="description" content="Are you looking for the best Ayurvedic Treatment in Calicut? Dr. Smirthi provides treatments for Bedsores, Fissures, & Diabetic wounds in Kozhikode, Call Now." />
    <meta name="Keywords" content="Ayurvedic wound care specialist near me, treatment for diabetic wound infection, diabetic wound care treatments in Calicut. Ayurveda doctor for wound heal." />
 
-   <link rel="stylesheet" href="min-css/contact.min.css?ver=1.0.3">
+   <link rel="stylesheet" href="min-css/contact.min.css?ver=1.0.5" media="all">
 
    <!-- script -->
-   <script type='text/javascript' src='js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+   <script type='text/javascript' src='js/jquery/jquery.min.js?ver=3.6.4' id='jquery-core-js'></script>
    <script type='text/javascript' src='js/jquery/jquery-migrate.min.js?ver=4' id='jquery-migrate-js'></script>
    <script type='text/javascript' src='js/jquery/core.min.js?ver=1.13.3' id='jquery-ui-core-js'></script>
    <script type='text/javascript' src='js/jquery/jquery-ui.min.js?ver=4' id='jquery_ui-js'></script>
 
-   <link rel="icon" href="img/Dr.smrithi-logo-min.png" sizes="32x32" />
-   <link rel="icon" href="img/Dr.smrithi-logo-min.png" sizes="192x192" />
-   <link rel="apple-touch-icon" href="img/Dr.smrithi-logo-min.png" />
+   <link rel="icon" href="img/Dr.smrithi-logo-min.webp" sizes="32x32" />
+   <link rel="icon" href="img/Dr.smrithi-logo-min.webp" sizes="192x192" />
+   <link rel="apple-touch-icon" href="img/Dr.smrithi-logo-min.webp" />
 
 </head>
 
@@ -50,9 +50,9 @@
                   <div class="container container-xs">
                      <!-- **Main Header** -->
                      <div class="main-header">
-                        <div id="logo">
+                        <div id="logo" style="display:flex;">
                            <a href="index.html" title="Dr. Smrithi Ayuraksha clinic">
-                              <img class="normal_logo" src="img/smrithi-title-logo-min.png" alt="Dr. Smrithi Ayuraksha clinic logo" title="Dr. Smrithi Ayuraksha clinic logo" />
+                              <img class="normal_logo" src="img/smrithi-title-logo-min.png" alt="Dr. Smrithi Ayuraksha clinic logo" title="Dr. Smrithi Ayuraksha clinic logo" width="100%" height="auto" />
                            </a>
                         </div>
                         <div id="menu-wrapper" class="menu-wrapper menu-default">
@@ -307,9 +307,7 @@
    <!-- **Wrapper - End** -->
 
    <script type="module" src="footer/footer.js"></script>
-
    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
-
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
    <script type="text/javascript" src="js/input_tel_utils.js"></script>
    <script type="text/javascript" src="js/intlTelInput.js"></script>
@@ -356,7 +354,6 @@
          }
       });
    </script>
-   <!-- <script type="module" src="header/header.js?ver=1"></script> -->
    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
    <script type="text/javascript">
@@ -432,49 +429,22 @@
 
 
    <script type="module" src="footer/footer.js"></script>
-
-   <!-- shortcodes starts-->
-   <script type='text/javascript' src="js/shortcodes/jquery.tabs.min.js?ver=1.0.1" id='dt-sc-tabs-js'></script>
    <script type='text/javascript' src='js/shortcodes/jquery.tipTip.minified.js?ver=1.0.1' id='dt-sc-tiptip-js'></script>
    <script type='text/javascript' src='js/shortcodes/jquery.toggle.click.js?ver=1.0.1' id='dt-sc-toggle-click-js'></script>
-   <!-- shortcodes ends // -->
-
-   <!-- jquery set -->
-   <script type='text/javascript' src='js/script.min.js?ver=6.0.4' id='dt-fbpixel-script-js'></script>
-   <script type='text/javascript' src='js/js.cookie.min.js?ver=1.6.0' id='js-cookie-js'></script>
+   <script type='text/javascript' src='js/script.min.js?ver=6.0.5' id='dt-fbpixel-script-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.ui.totop.min.js?ver=1.0.1' id='jquery-ui-totop-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.easing.js' id='jquery-easing-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.sticky.js?ver=1.0.1' id='jquery-sticky-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.classie.js' id='jquery-classie-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.placeholder.js' id='jquery-placeholder-js'></script>
    <script type='text/javascript' src='js/jquery/jquery.visualNav.min.js' id='jquery-visualNav-js'></script>
-
-   <!-- Header Style js -->
    <script type='text/javascript' src='js/jquery/jquery.fitvids.js?ver=1.0.1' id='jquery-fitvids-js'></script>
-
-
-
    <script type='text/javascript' src='js/pace.min.js?ver=1.0.1' id='pace-js'></script>
-   <script type='text/javascript'>
-      /* <![CDATA[ */
-      var drsmrithi_urls = {
-         "theme_base_url": "",
-         "framework_base_url": "",
-         "ajaxurl": "",
-         "url": "",
-         "stickynav": "enable",
-         "stickyele": ".main-header-wrapper",
-         "isRTL": "",
-         "loadingbar": "enable",
-         "advOptions": "Show Advanced Options"
-      };
-      /* ]]> */
-   </script>
-   <script type='text/javascript' src='js/custom.min.js?ver=1.0.1' id='smrithi-jqcustom-js'></script>
-   <script type='text/javascript' src='js/jquery.cookie.min.js?ver=1.0.3' id='jquery-cookie-js'></script>
+   <script type='text/javascript'>var drsmrithi_urls = {"theme_base_url": "","framework_base_url": "","ajaxurl": "","url": "","stickynav": "enable","stickyele": ".main-header-wrapper","isRTL": "","loadingbar": "enable","advOptions": "Show Advanced Options"};</script>
+   <script type='text/javascript' src='js/custom.min.js?ver=1.0.3' id='smrithi-jqcustom-js'></script>
+   <script type='text/javascript' src='js/jquery.cookie.min.js?ver=1.1.0' id='jquery-cookie-js'></script>
    <script type='text/javascript' src='js/js_composer_front.min.js?ver=6.5.1' id='wpb_composer_front_js-js'></script>
-   <script type='text/javascript' src='js/vc-waypoints.min.js?ver=1.0.1' id='vc_waypoints-js'></script>
-
+    
    <!-- Whatp chat plugin  -->
    <script type='text/javascript'>
       var url = 'js/chat_plugin.js';
@@ -496,7 +466,7 @@
          "brandSetting": {
             "brandName": "Dr. Smrithi Ayurraksha Clinic",
             "brandSubTitle": "Typically replies within a day",
-            "brandImg": "img/Dr.smrithi-logo-min.png",
+            "brandImg": "img/Dr.smrithi-logo-min.webp",
             "welcomeText": "Hi there!\nHow can I help you?",
             "messageText": "Hello, I would like to know more about Dr. Smrithi’s Ayuraksha treatment procedures.",
             "backgroundColor": "rgba(62,16,67)",

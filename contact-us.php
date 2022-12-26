@@ -78,23 +78,21 @@
                                  </li>
                               </ul>
                            </nav>
-                           <div class="menu-icons-wrapper">
+                           <!-- <div class="menu-icons-wrapper">
                               <div class="search">
                                  <a href="javascript:void(0)" id="overlay-search-type2" class="dt-search-icon type2">
                                     <span class="fa fa-search"> </span> </a>
                                  <div class="overlay overlay-search">
                                     <div class="overlay-close"></div>
-                                    <!-- **Searchform** -->
                                     <form method="get" id="searchform" action="">
                                        <input id="s" name="s" type="text" value="Enter Keyword" class="text_input" onblur="if(this.value==''){this.value='Enter Keyword';}" onfocus="if(this.value =='Enter Keyword') {this.value=''; }" />
                                        <a href="javascript:void(0)" class="dt-search-icon"> <span class="fa fa-close">
                                           </span> </a>
                                        <input name="submit" type="submit" value="Go" />
                                     </form>
-                                    <!-- **Searchform - End** -->
                                  </div>
                               </div>
-                           </div>
+                           </div> -->
                         </div>
                      </div>
                   </div>
@@ -306,7 +304,7 @@
    </div>
    <!-- **Wrapper - End** -->
 
-   <script type="module" src="footer/footer.js"></script>
+   <script type="module" src="footer/footer.js?ver=1.1"></script>
    <script type="text/javascript" src="js/jquery-3.6.1.min.js"></script>
    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"></script>
    <script type="text/javascript" src="js/input_tel_utils.js"></script>
@@ -428,7 +426,7 @@
    </script>
 
 
-   <script type="module" src="footer/footer.js"></script>
+   <script type="module" src="footer/footer.js?ver=1.1"></script>
    <script type='text/javascript' src='js/shortcodes/jquery.tipTip.minified.js?ver=1.0.1' id='dt-sc-tiptip-js'></script>
    <script type='text/javascript' src='js/shortcodes/jquery.toggle.click.js?ver=1.0.1' id='dt-sc-toggle-click-js'></script>
    <script type='text/javascript' src='js/script.min.js?ver=6.0.5' id='dt-fbpixel-script-js'></script>

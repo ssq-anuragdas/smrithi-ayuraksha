@@ -11,7 +11,7 @@ class Footer extends HTMLElement {
                   <div class="vc_empty_space" style="height: 8px"><span class="vc_empty_space_inner"></span>
                   </div>
                  <!-- <img src="img/Dr.smrithi-logo-min.webp" width="18%" title="" alt="Logo"> -->
-                  <img src="img/smrithi-title-logo-min.png" width="60%" height="auto" title="Dr. Smrithi ayuraksha" alt="Logo">
+                  <img src="img/smrithi-title-logo-min.png" width="175" height="38" class="logo-smrithi-footer" title="Dr. Smrithi ayuraksha" alt="Logo" style="max-width: 60%;"/>
                   <p style="margin-top: 10px; font-size: 16px !important; line-height: 1.8;">
                       Dr. Smrithi’s Ayurkasha Clinic is one of the best Ayurvedic treatment centers in Calicut, 
                       Kerala that offers genuine, authentic, and best Ayurvedic treatment for General wounds, 
